@@ -1,0 +1,1648 @@
+"organismofinterest","date_qrt","onset","n_inc","n_adm","inc"
+"Acinetobacter Sp.","2007 Q1","Community-onset",110,127336,0.863856254319281
+"Acinetobacter Sp.","2007 Q1","Hospital-onset",106,127336,0.832443299616762
+"Acinetobacter Sp.","2007 Q1","Post discharge",34,127336,0.267010114971414
+"Acinetobacter Sp.","2007 Q2","Community-onset",139,127771,1.0878837920968
+"Acinetobacter Sp.","2007 Q2","Hospital-onset",141,127771,1.10353679629963
+"Acinetobacter Sp.","2007 Q2","Post discharge",52,127771,0.406978109273622
+"Acinetobacter Sp.","2007 Q3","Community-onset",157,127765,1.22881853402732
+"Acinetobacter Sp.","2007 Q3","Hospital-onset",168,127765,1.31491410010566
+"Acinetobacter Sp.","2007 Q3","Post discharge",63,127765,0.493092787539624
+"Acinetobacter Sp.","2007 Q4","Community-onset",141,125063,1.12743177438571
+"Acinetobacter Sp.","2007 Q4","Hospital-onset",143,125063,1.14342371444792
+"Acinetobacter Sp.","2007 Q4","Post discharge",68,125063,0.543725962115094
+"Acinetobacter Sp.","2008 Q1","Community-onset",139,131960,1.05334949984844
+"Acinetobacter Sp.","2008 Q1","Hospital-onset",137,131960,1.03819339193695
+"Acinetobacter Sp.","2008 Q1","Post discharge",49,131960,0.371324643831464
+"Acinetobacter Sp.","2008 Q2","Community-onset",150,132154,1.13503942370265
+"Acinetobacter Sp.","2008 Q2","Hospital-onset",129,132154,0.976133904384279
+"Acinetobacter Sp.","2008 Q2","Post discharge",67,132154,0.506984275920517
+"Acinetobacter Sp.","2008 Q3","Community-onset",179,131853,1.35757244810509
+"Acinetobacter Sp.","2008 Q3","Hospital-onset",166,131853,1.258977801036
+"Acinetobacter Sp.","2008 Q3","Post discharge",75,131853,0.568815271552411
+"Acinetobacter Sp.","2008 Q4","Community-onset",160,127920,1.25078173858662
+"Acinetobacter Sp.","2008 Q4","Hospital-onset",158,127920,1.23514696685428
+"Acinetobacter Sp.","2008 Q4","Post discharge",59,127920,0.461225766103815
+"Acinetobacter Sp.","2009 Q1","Community-onset",152,134338,1.13147434084176
+"Acinetobacter Sp.","2009 Q1","Hospital-onset",138,134338,1.02725959892212
+"Acinetobacter Sp.","2009 Q1","Post discharge",51,134338,0.379639416992958
+"Acinetobacter Sp.","2009 Q2","Community-onset",155,138175,1.12176587660575
+"Acinetobacter Sp.","2009 Q2","Hospital-onset",130,138175,0.940835896508051
+"Acinetobacter Sp.","2009 Q2","Post discharge",53,138175,0.383571557807129
+"Acinetobacter Sp.","2009 Q3","Community-onset",212,138183,1.53419740489062
+"Acinetobacter Sp.","2009 Q3","Hospital-onset",146,138183,1.05656991091524
+"Acinetobacter Sp.","2009 Q3","Post discharge",74,138183,0.535521735669366
+"Acinetobacter Sp.","2009 Q4","Community-onset",193,132778,1.4535540526292
+"Acinetobacter Sp.","2009 Q4","Hospital-onset",157,132778,1.18242479928904
+"Acinetobacter Sp.","2009 Q4","Post discharge",60,132778,0.45188208890027
+"Acinetobacter Sp.","2010 Q1","Community-onset",138,138694,0.994996178637865
+"Acinetobacter Sp.","2010 Q1","Hospital-onset",105,138694,0.757062309833158
+"Acinetobacter Sp.","2010 Q1","Post discharge",51,138694,0.36771597906182
+"Acinetobacter Sp.","2010 Q2","Community-onset",170,141169,1.20423039052483
+"Acinetobacter Sp.","2010 Q2","Hospital-onset",100,141169,0.708370817955783
+"Acinetobacter Sp.","2010 Q2","Post discharge",63,141169,0.446273615312144
+"Acinetobacter Sp.","2010 Q3","Community-onset",200,140257,1.42595378483783
+"Acinetobacter Sp.","2010 Q3","Hospital-onset",139,140257,0.991037880462294
+"Acinetobacter Sp.","2010 Q3","Post discharge",90,140257,0.641679203177025
+"Acinetobacter Sp.","2010 Q4","Community-onset",165,134637,1.22551750261815
+"Acinetobacter Sp.","2010 Q4","Hospital-onset",109,134637,0.809584289608354
+"Acinetobacter Sp.","2010 Q4","Post discharge",56,134637,0.415933213009797
+"Acinetobacter Sp.","2011 Q1","Community-onset",106,139539,0.75964425716108
+"Acinetobacter Sp.","2011 Q1","Hospital-onset",117,139539,0.838475264979683
+"Acinetobacter Sp.","2011 Q1","Post discharge",43,139539,0.308157576018174
+"Acinetobacter Sp.","2011 Q2","Community-onset",159,141372,1.12469230116289
+"Acinetobacter Sp.","2011 Q2","Hospital-onset",97,141372,0.686133039074216
+"Acinetobacter Sp.","2011 Q2","Post discharge",42,141372,0.29708853238265
+"Acinetobacter Sp.","2011 Q3","Community-onset",186,139364,1.33463448236273
+"Acinetobacter Sp.","2011 Q3","Hospital-onset",112,139364,0.803650871100141
+"Acinetobacter Sp.","2011 Q3","Post discharge",56,139364,0.40182543555007
+"Acinetobacter Sp.","2011 Q4","Community-onset",161,135771,1.18582024143595
+"Acinetobacter Sp.","2011 Q4","Hospital-onset",96,135771,0.707072938992863
+"Acinetobacter Sp.","2011 Q4","Post discharge",53,135771,0.390363185068976
+"Acinetobacter Sp.","2012 Q1","Community-onset",146,140774,1.03712333243355
+"Acinetobacter Sp.","2012 Q1","Hospital-onset",102,140774,0.724565615809738
+"Acinetobacter Sp.","2012 Q1","Post discharge",39,140774,0.277039794280194
+"Acinetobacter Sp.","2012 Q2","Community-onset",147,140781,1.04417499520532
+"Acinetobacter Sp.","2012 Q2","Hospital-onset",101,140781,0.717426357249913
+"Acinetobacter Sp.","2012 Q2","Post discharge",51,140781,0.362264794254907
+"Acinetobacter Sp.","2012 Q3","Community-onset",174,138247,1.25861682351154
+"Acinetobacter Sp.","2012 Q3","Hospital-onset",120,138247,0.868011602421752
+"Acinetobacter Sp.","2012 Q3","Post discharge",77,138247,0.556974111553958
+"Acinetobacter Sp.","2012 Q4","Community-onset",135,133753,1.00932315536848
+"Acinetobacter Sp.","2012 Q4","Hospital-onset",98,133753,0.732693846119339
+"Acinetobacter Sp.","2012 Q4","Post discharge",52,133753,0.388776326512303
+"Acinetobacter Sp.","2013 Q1","Community-onset",107,136643,0.783062432762747
+"Acinetobacter Sp.","2013 Q1","Hospital-onset",68,136643,0.497647153531465
+"Acinetobacter Sp.","2013 Q1","Post discharge",38,136643,0.278096938738172
+"Acinetobacter Sp.","2013 Q2","Community-onset",127,138223,0.918805119263798
+"Acinetobacter Sp.","2013 Q2","Hospital-onset",60,138223,0.434081158707306
+"Acinetobacter Sp.","2013 Q2","Post discharge",52,138223,0.376203670879665
+"Acinetobacter Sp.","2013 Q3","Community-onset",190,137496,1.38185838133473
+"Acinetobacter Sp.","2013 Q3","Hospital-onset",76,137496,0.552743352533892
+"Acinetobacter Sp.","2013 Q3","Post discharge",79,137496,0.574562169081282
+"Acinetobacter Sp.","2013 Q4","Community-onset",155,134299,1.15414113284537
+"Acinetobacter Sp.","2013 Q4","Hospital-onset",81,134299,0.603131817809515
+"Acinetobacter Sp.","2013 Q4","Post discharge",55,134299,0.409533950364485
+"Acinetobacter Sp.","2014 Q1","Community-onset",115,136466,0.842700745973356
+"Acinetobacter Sp.","2014 Q1","Hospital-onset",52,136466,0.381047293831431
+"Acinetobacter Sp.","2014 Q1","Post discharge",41,136466,0.300441135520936
+"Acinetobacter Sp.","2014 Q2","Community-onset",123,141215,0.871012286230216
+"Acinetobacter Sp.","2014 Q2","Hospital-onset",69,141215,0.488616648373048
+"Acinetobacter Sp.","2014 Q2","Post discharge",42,141215,0.297418829444464
+"Acinetobacter Sp.","2014 Q3","Community-onset",155,139658,1.10985407209039
+"Acinetobacter Sp.","2014 Q3","Hospital-onset",71,139658,0.508384768505922
+"Acinetobacter Sp.","2014 Q3","Post discharge",52,139658,0.372338140314196
+"Acinetobacter Sp.","2014 Q4","Community-onset",157,134458,1.16765086495411
+"Acinetobacter Sp.","2014 Q4","Hospital-onset",55,134458,0.409049666066727
+"Acinetobacter Sp.","2014 Q4","Post discharge",42,134458,0.312365199541864
+"Acinetobacter Sp.","2015 Q1","Community-onset",129,135886,0.949325169627482
+"Acinetobacter Sp.","2015 Q1","Hospital-onset",52,135886,0.382673711787822
+"Acinetobacter Sp.","2015 Q1","Post discharge",36,135886,0.264927954314646
+"Acinetobacter Sp.","2015 Q2","Community-onset",117,138705,0.843516816264735
+"Acinetobacter Sp.","2015 Q2","Hospital-onset",53,138705,0.382105908222487
+"Acinetobacter Sp.","2015 Q2","Post discharge",44,138705,0.317219999279045
+"Acinetobacter Sp.","2015 Q3","Community-onset",133,137203,0.969366559040254
+"Acinetobacter Sp.","2015 Q3","Hospital-onset",71,137203,0.517481396179384
+"Acinetobacter Sp.","2015 Q3","Post discharge",59,137203,0.430019751754699
+"Acinetobacter Sp.","2015 Q4","Community-onset",145,132219,1.09666538092105
+"Acinetobacter Sp.","2015 Q4","Hospital-onset",67,132219,0.50673503808076
+"Acinetobacter Sp.","2015 Q4","Post discharge",34,132219,0.257149123802177
+"Acinetobacter Sp.","2016 Q1","Community-onset",121,138117,0.876068840186219
+"Acinetobacter Sp.","2016 Q1","Hospital-onset",47,138117,0.340291202386383
+"Acinetobacter Sp.","2016 Q1","Post discharge",44,138117,0.318570487340443
+"Acinetobacter Sp.","2016 Q2","Community-onset",123,137059,0.897423737222656
+"Acinetobacter Sp.","2016 Q2","Hospital-onset",46,137059,0.335621885465384
+"Acinetobacter Sp.","2016 Q2","Post discharge",36,137059,0.262660606016387
+"Acinetobacter Sp.","2016 Q3","Community-onset",154,135157,1.13941564254904
+"Acinetobacter Sp.","2016 Q3","Hospital-onset",55,135157,0.406934158053227
+"Acinetobacter Sp.","2016 Q3","Post discharge",54,135157,0.399535355179532
+"Acinetobacter Sp.","2016 Q4","Community-onset",149,130683,1.14016360199873
+"Acinetobacter Sp.","2016 Q4","Hospital-onset",51,130683,0.390257340281444
+"Acinetobacter Sp.","2016 Q4","Post discharge",49,130683,0.374953130858643
+"Acinetobacter Sp.","2017 Q1","Community-onset",114,136477,0.835305582625644
+"Acinetobacter Sp.","2017 Q1","Hospital-onset",39,136477,0.285762436161405
+"Acinetobacter Sp.","2017 Q1","Post discharge",32,136477,0.234471742491409
+"Acinetobacter Sp.","2017 Q2","Community-onset",135,136124,0.991742822720461
+"Acinetobacter Sp.","2017 Q2","Hospital-onset",45,136124,0.33058094090682
+"Acinetobacter Sp.","2017 Q2","Post discharge",37,136124,0.271810995856719
+"Acinetobacter Sp.","2017 Q3","Community-onset",159,133818,1.18818096220239
+"Acinetobacter Sp.","2017 Q3","Hospital-onset",42,133818,0.313859122091198
+"Acinetobacter Sp.","2017 Q3","Post discharge",57,133818,0.425951665695198
+"Acinetobacter Sp.","2017 Q4","Community-onset",124,132108,0.938625972689012
+"Acinetobacter Sp.","2017 Q4","Hospital-onset",42,132108,0.317921700426923
+"Acinetobacter Sp.","2017 Q4","Post discharge",35,132108,0.26493475035577
+"Acinetobacter Sp.","2018 Q1","Community-onset",108,136697,0.790068545761794
+"Acinetobacter Sp.","2018 Q1","Hospital-onset",35,136697,0.256040732422804
+"Acinetobacter Sp.","2018 Q1","Post discharge",34,136697,0.248725282925009
+"Acinetobacter Sp.","2018 Q2","Community-onset",107,136870,0.781763717396069
+"Acinetobacter Sp.","2018 Q2","Hospital-onset",37,136870,0.270329509753781
+"Acinetobacter Sp.","2018 Q2","Post discharge",38,136870,0.277635712720099
+"Acinetobacter Sp.","2018 Q3","Community-onset",162,133799,1.21077138095203
+"Acinetobacter Sp.","2018 Q3","Hospital-onset",48,133799,0.358747075837637
+"Acinetobacter Sp.","2018 Q3","Post discharge",54,133799,0.403590460317342
+"Acinetobacter Sp.","2018 Q4","Community-onset",136,131059,1.03770057760245
+"Acinetobacter Sp.","2018 Q4","Hospital-onset",28,131059,0.213644236565211
+"Acinetobacter Sp.","2018 Q4","Post discharge",40,131059,0.305206052236016
+"Acinetobacter Sp.","2019 Q1","Community-onset",89,134984,0.659337402951461
+"Acinetobacter Sp.","2019 Q1","Hospital-onset",36,134984,0.266698275351153
+"Acinetobacter Sp.","2019 Q1","Post discharge",22,134984,0.16298227938126
+"Acinetobacter Sp.","2019 Q2","Community-onset",125,136761,0.914003261163636
+"Acinetobacter Sp.","2019 Q2","Hospital-onset",33,136761,0.2412968609472
+"Acinetobacter Sp.","2019 Q2","Post discharge",35,136761,0.255920913125818
+"Acinetobacter Sp.","2019 Q3","Community-onset",112,133801,0.837063998026921
+"Acinetobacter Sp.","2019 Q3","Hospital-onset",30,133801,0.224213570900068
+"Acinetobacter Sp.","2019 Q3","Post discharge",42,133801,0.313898999260095
+"Acinetobacter Sp.","2019 Q4","Community-onset",108,129551,0.833648524519301
+"Acinetobacter Sp.","2019 Q4","Hospital-onset",38,129551,0.29332077714568
+"Acinetobacter Sp.","2019 Q4","Post discharge",35,129551,0.270163873686811
+"Acinetobacter Sp.","2020 Q1","Community-onset",88,124192,0.708580262818861
+"Acinetobacter Sp.","2020 Q1","Hospital-onset",30,124192,0.241561453233703
+"Acinetobacter Sp.","2020 Q1","Post discharge",26,124192,0.209353259469209
+"Acinetobacter Sp.","2020 Q2","Community-onset",83,93235,0.890223628465705
+"Acinetobacter Sp.","2020 Q2","Hospital-onset",22,93235,0.235962889472837
+"Acinetobacter Sp.","2020 Q2","Post discharge",18,93235,0.193060545932322
+"Acinetobacter Sp.","2020 Q3","Community-onset",113,113339,0.997008973080758
+"Acinetobacter Sp.","2020 Q3","Hospital-onset",37,113339,0.326454265522018
+"Acinetobacter Sp.","2020 Q3","Post discharge",31,113339,0.273515735977907
+"Acinetobacter Sp.","2020 Q4","Community-onset",108,113705,0.949826304911833
+"Acinetobacter Sp.","2020 Q4","Hospital-onset",57,113705,0.501297216481245
+"Acinetobacter Sp.","2020 Q4","Post discharge",16,113705,0.140715008135086
+"Acinetobacter Sp.","2021 Q1","Community-onset",87,112708,0.771906164602335
+"Acinetobacter Sp.","2021 Q1","Hospital-onset",21,112708,0.186322177662633
+"Acinetobacter Sp.","2021 Q1","Post discharge",13,112708,0.11534230045782
+"Acinetobacter Sp.","2021 Q2","Community-onset",90,122643,0.733837234901299
+"Acinetobacter Sp.","2021 Q2","Hospital-onset",25,122643,0.203843676361472
+"Acinetobacter Sp.","2021 Q2","Post discharge",28,122643,0.228304917524849
+"Acinetobacter Sp.","2021 Q3","Community-onset",128,121660,1.05211244451751
+"Acinetobacter Sp.","2021 Q3","Hospital-onset",46,121660,0.378102909748479
+"Acinetobacter Sp.","2021 Q3","Post discharge",41,121660,0.337004767384514
+"Acinetobacter Sp.","2021 Q4","Community-onset",112,114060,0.9819393301771
+"Acinetobacter Sp.","2021 Q4","Hospital-onset",36,114060,0.315623356128354
+"Acinetobacter Sp.","2021 Q4","Post discharge",35,114060,0.306856040680344
+"Acinetobacter Sp.","2022 Q1","Community-onset",73,110418,0.661124092086435
+"Acinetobacter Sp.","2022 Q1","Hospital-onset",25,110418,0.226412360303574
+"Acinetobacter Sp.","2022 Q1","Post discharge",18,110418,0.163016899418573
+"Enterobacter cloacae","2007 Q1","Community-onset",283,127336,2.22246654520324
+"Enterobacter cloacae","2007 Q1","Hospital-onset",200,127336,1.57064773512597
+"Enterobacter cloacae","2007 Q1","Post discharge",65,127336,0.510460513915939
+"Enterobacter cloacae","2007 Q2","Community-onset",309,127771,2.41838914933749
+"Enterobacter cloacae","2007 Q2","Hospital-onset",251,127771,1.96445202745537
+"Enterobacter cloacae","2007 Q2","Post discharge",148,127771,1.15832231100954
+"Enterobacter cloacae","2007 Q3","Community-onset",423,127765,3.31076585919461
+"Enterobacter cloacae","2007 Q3","Hospital-onset",341,127765,2.66896254842876
+"Enterobacter cloacae","2007 Q3","Post discharge",135,127765,1.05662740187062
+"Enterobacter cloacae","2007 Q4","Community-onset",334,125063,2.67065399038884
+"Enterobacter cloacae","2007 Q4","Hospital-onset",265,125063,2.11893205824265
+"Enterobacter cloacae","2007 Q4","Post discharge",98,125063,0.783605063048224
+"Enterobacter cloacae","2008 Q1","Community-onset",270,131960,2.04607456805092
+"Enterobacter cloacae","2008 Q1","Hospital-onset",269,131960,2.03849651409518
+"Enterobacter cloacae","2008 Q1","Post discharge",79,131960,0.598666262503789
+"Enterobacter cloacae","2008 Q2","Community-onset",344,132154,2.60302374502474
+"Enterobacter cloacae","2008 Q2","Hospital-onset",255,132154,1.9295670202945
+"Enterobacter cloacae","2008 Q2","Post discharge",118,132154,0.892897679979418
+"Enterobacter cloacae","2008 Q3","Community-onset",403,131853,3.05643405914162
+"Enterobacter cloacae","2008 Q3","Hospital-onset",332,131853,2.517955602072
+"Enterobacter cloacae","2008 Q3","Post discharge",129,131853,0.978362267070146
+"Enterobacter cloacae","2008 Q4","Community-onset",349,127920,2.72826766729206
+"Enterobacter cloacae","2008 Q4","Hospital-onset",279,127920,2.18105065666041
+"Enterobacter cloacae","2008 Q4","Post discharge",111,127920,0.867729831144465
+"Enterobacter cloacae","2009 Q1","Community-onset",266,134338,1.98008009647308
+"Enterobacter cloacae","2009 Q1","Hospital-onset",254,134338,1.89075317482767
+"Enterobacter cloacae","2009 Q1","Post discharge",114,134338,0.848605755631318
+"Enterobacter cloacae","2009 Q2","Community-onset",361,138175,2.61262891261082
+"Enterobacter cloacae","2009 Q2","Hospital-onset",290,138175,2.09878776913335
+"Enterobacter cloacae","2009 Q2","Post discharge",147,138175,1.06386828297449
+"Enterobacter cloacae","2009 Q3","Community-onset",398,138183,2.88023852427578
+"Enterobacter cloacae","2009 Q3","Hospital-onset",311,138183,2.25063864585369
+"Enterobacter cloacae","2009 Q3","Post discharge",134,138183,0.969728548374257
+"Enterobacter cloacae","2009 Q4","Community-onset",348,132778,2.62091611562156
+"Enterobacter cloacae","2009 Q4","Hospital-onset",254,132778,1.91296750967781
+"Enterobacter cloacae","2009 Q4","Post discharge",122,132778,0.918826914097215
+"Enterobacter cloacae","2010 Q1","Community-onset",314,138694,2.26397681226297
+"Enterobacter cloacae","2010 Q1","Hospital-onset",245,138694,1.76647872294404
+"Enterobacter cloacae","2010 Q1","Post discharge",112,138694,0.807533130488702
+"Enterobacter cloacae","2010 Q2","Community-onset",359,141169,2.54305123646126
+"Enterobacter cloacae","2010 Q2","Hospital-onset",254,141169,1.79926187760769
+"Enterobacter cloacae","2010 Q2","Post discharge",124,141169,0.878379814265172
+"Enterobacter cloacae","2010 Q3","Community-onset",470,140257,3.35099139436891
+"Enterobacter cloacae","2010 Q3","Hospital-onset",303,140257,2.16031998402932
+"Enterobacter cloacae","2010 Q3","Post discharge",155,140257,1.10511418324932
+"Enterobacter cloacae","2010 Q4","Community-onset",338,134637,2.51045403566627
+"Enterobacter cloacae","2010 Q4","Hospital-onset",262,134637,1.94597324658155
+"Enterobacter cloacae","2010 Q4","Post discharge",134,134637,0.995268759702014
+"Enterobacter cloacae","2011 Q1","Community-onset",350,139539,2.50825933968281
+"Enterobacter cloacae","2011 Q1","Hospital-onset",223,139539,1.59811952214076
+"Enterobacter cloacae","2011 Q1","Post discharge",115,139539,0.82414235446721
+"Enterobacter cloacae","2011 Q2","Community-onset",368,141372,2.60306142659084
+"Enterobacter cloacae","2011 Q2","Hospital-onset",229,141372,1.61983985513397
+"Enterobacter cloacae","2011 Q2","Post discharge",144,141372,1.01858925388337
+"Enterobacter cloacae","2011 Q3","Community-onset",410,139364,2.94193622456301
+"Enterobacter cloacae","2011 Q3","Hospital-onset",275,139364,1.9732499067191
+"Enterobacter cloacae","2011 Q3","Post discharge",133,139364,0.954335409431417
+"Enterobacter cloacae","2011 Q4","Community-onset",360,135771,2.65152352122324
+"Enterobacter cloacae","2011 Q4","Hospital-onset",214,135771,1.57618342650492
+"Enterobacter cloacae","2011 Q4","Post discharge",117,135771,0.861745144397552
+"Enterobacter cloacae","2012 Q1","Community-onset",332,140774,2.35839004361601
+"Enterobacter cloacae","2012 Q1","Hospital-onset",196,140774,1.39230255586969
+"Enterobacter cloacae","2012 Q1","Post discharge",129,140774,0.916362396465256
+"Enterobacter cloacae","2012 Q2","Community-onset",370,140781,2.62819556616305
+"Enterobacter cloacae","2012 Q2","Hospital-onset",252,140781,1.79001427749483
+"Enterobacter cloacae","2012 Q2","Post discharge",119,140781,0.845284519928115
+"Enterobacter cloacae","2012 Q3","Community-onset",454,138247,3.2839772291623
+"Enterobacter cloacae","2012 Q3","Hospital-onset",262,138247,1.89515866528749
+"Enterobacter cloacae","2012 Q3","Post discharge",139,138247,1.0054467728052
+"Enterobacter cloacae","2012 Q4","Community-onset",379,133753,2.83358130284928
+"Enterobacter cloacae","2012 Q4","Hospital-onset",227,133753,1.69715819458255
+"Enterobacter cloacae","2012 Q4","Post discharge",118,133753,0.882223202470225
+"Enterobacter cloacae","2013 Q1","Community-onset",307,136643,2.2467305313847
+"Enterobacter cloacae","2013 Q1","Hospital-onset",180,136643,1.31730128875976
+"Enterobacter cloacae","2013 Q1","Post discharge",95,136643,0.695242346845429
+"Enterobacter cloacae","2013 Q2","Community-onset",335,138223,2.42361980278246
+"Enterobacter cloacae","2013 Q2","Hospital-onset",202,138223,1.46140656764793
+"Enterobacter cloacae","2013 Q2","Post discharge",127,138223,0.918805119263798
+"Enterobacter cloacae","2013 Q3","Community-onset",437,137496,3.17827427706988
+"Enterobacter cloacae","2013 Q3","Hospital-onset",224,137496,1.62913830220516
+"Enterobacter cloacae","2013 Q3","Post discharge",140,137496,1.01821143887822
+"Enterobacter cloacae","2013 Q4","Community-onset",362,134299,2.69547800058079
+"Enterobacter cloacae","2013 Q4","Hospital-onset",192,134299,1.42964579036329
+"Enterobacter cloacae","2013 Q4","Post discharge",137,134299,1.02011183999881
+"Enterobacter cloacae","2014 Q1","Community-onset",312,136466,2.28628376298858
+"Enterobacter cloacae","2014 Q1","Hospital-onset",173,136466,1.26771503524687
+"Enterobacter cloacae","2014 Q1","Post discharge",121,136466,0.886667741415444
+"Enterobacter cloacae","2014 Q2","Community-onset",379,141215,2.68385086570124
+"Enterobacter cloacae","2014 Q2","Hospital-onset",190,141215,1.34546613320115
+"Enterobacter cloacae","2014 Q2","Post discharge",151,141215,1.06929150585986
+"Enterobacter cloacae","2014 Q3","Community-onset",416,139658,2.97870512251357
+"Enterobacter cloacae","2014 Q3","Hospital-onset",205,139658,1.4678715147002
+"Enterobacter cloacae","2014 Q3","Post discharge",160,139658,1.14565581635137
+"Enterobacter cloacae","2014 Q4","Community-onset",348,134458,2.58816879620402
+"Enterobacter cloacae","2014 Q4","Hospital-onset",207,134458,1.53951419774205
+"Enterobacter cloacae","2014 Q4","Post discharge",132,134458,0.981719198560145
+"Enterobacter cloacae","2015 Q1","Community-onset",318,135886,2.34019692977937
+"Enterobacter cloacae","2015 Q1","Hospital-onset",181,135886,1.3319988814153
+"Enterobacter cloacae","2015 Q1","Post discharge",110,135886,0.809502082628085
+"Enterobacter cloacae","2015 Q2","Community-onset",321,138705,2.3142640856494
+"Enterobacter cloacae","2015 Q2","Hospital-onset",161,138705,1.16073681554378
+"Enterobacter cloacae","2015 Q2","Post discharge",112,138705,0.807469089073934
+"Enterobacter cloacae","2015 Q3","Community-onset",379,137203,2.76233026974629
+"Enterobacter cloacae","2015 Q3","Hospital-onset",198,137203,1.4431171330073
+"Enterobacter cloacae","2015 Q3","Post discharge",144,137203,1.04953973309622
+"Enterobacter cloacae","2015 Q4","Community-onset",376,132219,2.84376678087113
+"Enterobacter cloacae","2015 Q4","Hospital-onset",172,132219,1.30087203805807
+"Enterobacter cloacae","2015 Q4","Post discharge",131,132219,0.99078044759074
+"Enterobacter cloacae","2016 Q1","Community-onset",334,138117,2.41823960844791
+"Enterobacter cloacae","2016 Q1","Hospital-onset",175,138117,1.26704171101313
+"Enterobacter cloacae","2016 Q1","Post discharge",114,138117,0.825387171745694
+"Enterobacter cloacae","2016 Q2","Community-onset",401,137059,2.92574730590476
+"Enterobacter cloacae","2016 Q2","Hospital-onset",163,137059,1.18926885501864
+"Enterobacter cloacae","2016 Q2","Post discharge",123,137059,0.897423737222656
+"Enterobacter cloacae","2016 Q3","Community-onset",449,135157,3.32206249028907
+"Enterobacter cloacae","2016 Q3","Hospital-onset",189,135157,1.39837374312836
+"Enterobacter cloacae","2016 Q3","Post discharge",149,135157,1.10242162818056
+"Enterobacter cloacae","2016 Q4","Community-onset",386,130683,2.95371241860074
+"Enterobacter cloacae","2016 Q4","Hospital-onset",163,130683,1.24729306795834
+"Enterobacter cloacae","2016 Q4","Post discharge",149,130683,1.14016360199873
+"Enterobacter cloacae","2017 Q1","Community-onset",376,136477,2.75504297427405
+"Enterobacter cloacae","2017 Q1","Hospital-onset",150,136477,1.09908629292848
+"Enterobacter cloacae","2017 Q1","Post discharge",138,136477,1.0111593894942
+"Enterobacter cloacae","2017 Q2","Community-onset",376,136124,2.76218741735476
+"Enterobacter cloacae","2017 Q2","Hospital-onset",182,136124,1.33701624988981
+"Enterobacter cloacae","2017 Q2","Post discharge",146,136124,1.07255149716435
+"Enterobacter cloacae","2017 Q3","Community-onset",428,133818,3.19837391083412
+"Enterobacter cloacae","2017 Q3","Hospital-onset",170,133818,1.27038216084533
+"Enterobacter cloacae","2017 Q3","Post discharge",158,133818,1.18070812596213
+"Enterobacter cloacae","2017 Q4","Community-onset",414,132108,3.13379961849396
+"Enterobacter cloacae","2017 Q4","Hospital-onset",159,132108,1.20356072304478
+"Enterobacter cloacae","2017 Q4","Post discharge",137,132108,1.03703030853544
+"Enterobacter cloacae","2018 Q1","Community-onset",375,136697,2.7432935616729
+"Enterobacter cloacae","2018 Q1","Hospital-onset",137,136697,1.00221658119783
+"Enterobacter cloacae","2018 Q1","Post discharge",133,136697,0.972954783206654
+"Enterobacter cloacae","2018 Q2","Community-onset",390,136870,2.84941915686418
+"Enterobacter cloacae","2018 Q2","Hospital-onset",141,136870,1.0301746182509
+"Enterobacter cloacae","2018 Q2","Post discharge",131,136870,0.957112588587711
+"Enterobacter cloacae","2018 Q3","Community-onset",427,133799,3.19135419547231
+"Enterobacter cloacae","2018 Q3","Hospital-onset",158,133799,1.18087579129889
+"Enterobacter cloacae","2018 Q3","Post discharge",151,133799,1.1285585094059
+"Enterobacter cloacae","2018 Q4","Community-onset",419,131059,3.19703339717227
+"Enterobacter cloacae","2018 Q4","Hospital-onset",159,131059,1.21319405763816
+"Enterobacter cloacae","2018 Q4","Post discharge",132,131059,1.00717997237885
+"Enterobacter cloacae","2019 Q1","Community-onset",416,134984,3.0818467373911
+"Enterobacter cloacae","2019 Q1","Hospital-onset",176,134984,1.30385823505008
+"Enterobacter cloacae","2019 Q1","Post discharge",129,134984,0.955668820008297
+"Enterobacter cloacae","2019 Q2","Community-onset",444,136761,3.24653958365323
+"Enterobacter cloacae","2019 Q2","Hospital-onset",133,136761,0.972499469878109
+"Enterobacter cloacae","2019 Q2","Post discharge",125,136761,0.914003261163636
+"Enterobacter cloacae","2019 Q3","Community-onset",493,133801,3.68457634845778
+"Enterobacter cloacae","2019 Q3","Hospital-onset",175,133801,1.30791249691706
+"Enterobacter cloacae","2019 Q3","Post discharge",175,133801,1.30791249691706
+"Enterobacter cloacae","2019 Q4","Community-onset",373,129551,2.87917499671944
+"Enterobacter cloacae","2019 Q4","Hospital-onset",150,129551,1.15784517294347
+"Enterobacter cloacae","2019 Q4","Post discharge",130,129551,1.00346581655101
+"Enterobacter cloacae","2020 Q1","Community-onset",372,124192,2.99536202009791
+"Enterobacter cloacae","2020 Q1","Hospital-onset",127,124192,1.02261015202267
+"Enterobacter cloacae","2020 Q1","Post discharge",99,124192,0.797152795671219
+"Enterobacter cloacae","2020 Q2","Community-onset",385,93235,4.12935056577466
+"Enterobacter cloacae","2020 Q2","Hospital-onset",108,93235,1.15836327559393
+"Enterobacter cloacae","2020 Q2","Post discharge",80,93235,0.858046870810318
+"Enterobacter cloacae","2020 Q3","Community-onset",409,113339,3.6086430972569
+"Enterobacter cloacae","2020 Q3","Hospital-onset",186,113339,1.64109441586744
+"Enterobacter cloacae","2020 Q3","Post discharge",132,113339,1.16464764997044
+"Enterobacter cloacae","2020 Q4","Community-onset",365,113705,3.21006112308166
+"Enterobacter cloacae","2020 Q4","Hospital-onset",190,113705,1.67099072160415
+"Enterobacter cloacae","2020 Q4","Post discharge",117,113705,1.02897849698782
+"Enterobacter cloacae","2021 Q1","Community-onset",395,112708,3.50463143698761
+"Enterobacter cloacae","2021 Q1","Hospital-onset",156,112708,1.38410760549384
+"Enterobacter cloacae","2021 Q1","Post discharge",98,112708,0.869503495758952
+"Enterobacter cloacae","2021 Q2","Community-onset",445,122643,3.6284174392342
+"Enterobacter cloacae","2021 Q2","Hospital-onset",153,122643,1.24752329933221
+"Enterobacter cloacae","2021 Q2","Post discharge",143,122643,1.16598582878762
+"Enterobacter cloacae","2021 Q3","Community-onset",456,121660,3.74815058359362
+"Enterobacter cloacae","2021 Q3","Hospital-onset",187,121660,1.5370705244123
+"Enterobacter cloacae","2021 Q3","Post discharge",153,121660,1.25760315633733
+"Enterobacter cloacae","2021 Q4","Community-onset",387,114060,3.3929510783798
+"Enterobacter cloacae","2021 Q4","Hospital-onset",187,114060,1.63948798877784
+"Enterobacter cloacae","2021 Q4","Post discharge",121,114060,1.06084516920919
+"Enterobacter cloacae","2022 Q1","Community-onset",329,110418,2.97958666159503
+"Enterobacter cloacae","2022 Q1","Hospital-onset",134,110418,1.21357025122715
+"Enterobacter cloacae","2022 Q1","Post discharge",94,110418,0.851310474741437
+"Enterococcus faecalis","2007 Q1","Community-onset",953,127336,7.48413645787523
+"Enterococcus faecalis","2007 Q1","Hospital-onset",500,127336,3.92661933781491
+"Enterococcus faecalis","2007 Q1","Post discharge",246,127336,1.93189671420494
+"Enterococcus faecalis","2007 Q2","Community-onset",927,127771,7.25516744801246
+"Enterococcus faecalis","2007 Q2","Hospital-onset",667,127771,5.22027690164435
+"Enterococcus faecalis","2007 Q2","Post discharge",356,127771,2.78623474810403
+"Enterococcus faecalis","2007 Q3","Community-onset",985,127765,7.7094665988338
+"Enterococcus faecalis","2007 Q3","Hospital-onset",694,127765,5.43184753257934
+"Enterococcus faecalis","2007 Q3","Post discharge",343,127765,2.68461628771573
+"Enterococcus faecalis","2007 Q4","Community-onset",1028,125063,8.21985719197524
+"Enterococcus faecalis","2007 Q4","Hospital-onset",665,125063,5.31732007068438
+"Enterococcus faecalis","2007 Q4","Post discharge",357,125063,2.85456130110424
+"Enterococcus faecalis","2008 Q1","Community-onset",1099,131960,8.32828129736284
+"Enterococcus faecalis","2008 Q1","Hospital-onset",669,131960,5.06971809639285
+"Enterococcus faecalis","2008 Q1","Post discharge",389,131960,2.94786298878448
+"Enterococcus faecalis","2008 Q2","Community-onset",1105,132154,8.36145708794285
+"Enterococcus faecalis","2008 Q2","Hospital-onset",652,132154,4.93363802836085
+"Enterococcus faecalis","2008 Q2","Post discharge",397,132154,3.00407100806635
+"Enterococcus faecalis","2008 Q3","Community-onset",1138,131853,8.63082372035524
+"Enterococcus faecalis","2008 Q3","Hospital-onset",703,131853,5.33169514535126
+"Enterococcus faecalis","2008 Q3","Post discharge",391,131853,2.96542361569323
+"Enterococcus faecalis","2008 Q4","Community-onset",1147,127920,8.96654158849281
+"Enterococcus faecalis","2008 Q4","Hospital-onset",650,127920,5.08130081300813
+"Enterococcus faecalis","2008 Q4","Post discharge",422,127920,3.2989368355222
+"Enterococcus faecalis","2009 Q1","Community-onset",1155,134338,8.59771620836993
+"Enterococcus faecalis","2009 Q1","Hospital-onset",669,134338,4.97997588173116
+"Enterococcus faecalis","2009 Q1","Post discharge",444,134338,3.30509610087987
+"Enterococcus faecalis","2009 Q2","Community-onset",1228,138175,8.88728062239913
+"Enterococcus faecalis","2009 Q2","Hospital-onset",629,138175,4.55219829925819
+"Enterococcus faecalis","2009 Q2","Post discharge",445,138175,3.2205536457391
+"Enterococcus faecalis","2009 Q3","Community-onset",1261,138183,9.12557984701447
+"Enterococcus faecalis","2009 Q3","Hospital-onset",660,138183,4.7762749397538
+"Enterococcus faecalis","2009 Q3","Post discharge",418,138183,3.02497412851074
+"Enterococcus faecalis","2009 Q4","Community-onset",1180,132778,8.88701441503864
+"Enterococcus faecalis","2009 Q4","Hospital-onset",702,132778,5.28702044013315
+"Enterococcus faecalis","2009 Q4","Post discharge",446,132778,3.35899019415867
+"Enterococcus faecalis","2010 Q1","Community-onset",1307,138694,9.42362322811369
+"Enterococcus faecalis","2010 Q1","Hospital-onset",658,138694,4.74425714162112
+"Enterococcus faecalis","2010 Q1","Post discharge",418,138694,3.01382900485962
+"Enterococcus faecalis","2010 Q2","Community-onset",1310,141169,9.27965771522076
+"Enterococcus faecalis","2010 Q2","Hospital-onset",643,141169,4.55482435945569
+"Enterococcus faecalis","2010 Q2","Post discharge",443,141169,3.13808272354412
+"Enterococcus faecalis","2010 Q3","Community-onset",1305,140257,9.30434844606686
+"Enterococcus faecalis","2010 Q3","Hospital-onset",630,140257,4.49175442223918
+"Enterococcus faecalis","2010 Q3","Post discharge",452,140257,3.2226555537335
+"Enterococcus faecalis","2010 Q4","Community-onset",1239,134637,9.20252233784175
+"Enterococcus faecalis","2010 Q4","Hospital-onset",657,134637,4.87978787406136
+"Enterococcus faecalis","2010 Q4","Post discharge",401,134637,2.97837890030229
+"Enterococcus faecalis","2011 Q1","Community-onset",1216,139539,8.71440959158372
+"Enterococcus faecalis","2011 Q1","Hospital-onset",609,139539,4.36437125104809
+"Enterococcus faecalis","2011 Q1","Post discharge",411,139539,2.94541311031325
+"Enterococcus faecalis","2011 Q2","Community-onset",1261,141372,8.9197295079648
+"Enterococcus faecalis","2011 Q2","Hospital-onset",585,141372,4.1380188439012
+"Enterococcus faecalis","2011 Q2","Post discharge",417,141372,2.9496647143706
+"Enterococcus faecalis","2011 Q3","Community-onset",1364,139364,9.78731953732671
+"Enterococcus faecalis","2011 Q3","Hospital-onset",588,139364,4.21916707327574
+"Enterococcus faecalis","2011 Q3","Post discharge",404,139364,2.89888349932551
+"Enterococcus faecalis","2011 Q4","Community-onset",1297,135771,9.55285001951816
+"Enterococcus faecalis","2011 Q4","Hospital-onset",587,135771,4.32345640821678
+"Enterococcus faecalis","2011 Q4","Post discharge",420,135771,3.09344410809378
+"Enterococcus faecalis","2012 Q1","Community-onset",1325,140774,9.41224942105787
+"Enterococcus faecalis","2012 Q1","Hospital-onset",603,140774,4.28346143463992
+"Enterococcus faecalis","2012 Q1","Post discharge",433,140774,3.07585207495702
+"Enterococcus faecalis","2012 Q2","Community-onset",1326,140781,9.41888465062757
+"Enterococcus faecalis","2012 Q2","Hospital-onset",592,140781,4.20511290586088
+"Enterococcus faecalis","2012 Q2","Post discharge",434,140781,3.08280236679666
+"Enterococcus faecalis","2012 Q3","Community-onset",1288,138247,9.31665786599348
+"Enterococcus faecalis","2012 Q3","Hospital-onset",630,138247,4.5570609127142
+"Enterococcus faecalis","2012 Q3","Post discharge",490,138247,3.54438070988882
+"Enterococcus faecalis","2012 Q4","Community-onset",1314,133753,9.82407871225318
+"Enterococcus faecalis","2012 Q4","Hospital-onset",556,133753,4.15691610655462
+"Enterococcus faecalis","2012 Q4","Post discharge",413,133753,3.08778120864579
+"Enterococcus faecalis","2013 Q1","Community-onset",1259,136643,9.21379068082522
+"Enterococcus faecalis","2013 Q1","Hospital-onset",553,136643,4.04704229268971
+"Enterococcus faecalis","2013 Q1","Post discharge",402,136643,2.94197287823013
+"Enterococcus faecalis","2013 Q2","Community-onset",1248,138223,9.02888810111197
+"Enterococcus faecalis","2013 Q2","Hospital-onset",550,138223,3.97907728815031
+"Enterococcus faecalis","2013 Q2","Post discharge",422,138223,3.05303748290805
+"Enterococcus faecalis","2013 Q3","Community-onset",1317,137496,9.57846046430442
+"Enterococcus faecalis","2013 Q3","Hospital-onset",477,137496,3.46919183103508
+"Enterococcus faecalis","2013 Q3","Post discharge",415,137496,3.01826962238902
+"Enterococcus faecalis","2013 Q4","Community-onset",1220,134299,9.08420762626676
+"Enterococcus faecalis","2013 Q4","Hospital-onset",519,134299,3.86451127707578
+"Enterococcus faecalis","2013 Q4","Post discharge",433,134299,3.22414910014222
+"Enterococcus faecalis","2014 Q1","Community-onset",1230,136466,9.01323406562807
+"Enterococcus faecalis","2014 Q1","Hospital-onset",528,136466,3.86909559890376
+"Enterococcus faecalis","2014 Q1","Post discharge",407,136466,2.98242785748831
+"Enterococcus faecalis","2014 Q2","Community-onset",1358,141215,9.61654215203767
+"Enterococcus faecalis","2014 Q2","Hospital-onset",524,141215,3.71065396735474
+"Enterococcus faecalis","2014 Q2","Post discharge",461,141215,3.26452572318805
+"Enterococcus faecalis","2014 Q3","Community-onset",1314,139658,9.40869839178565
+"Enterococcus faecalis","2014 Q3","Hospital-onset",489,139658,3.50141058872388
+"Enterococcus faecalis","2014 Q3","Post discharge",456,139658,3.26511907660141
+"Enterococcus faecalis","2014 Q4","Community-onset",1265,134458,9.40814231953472
+"Enterococcus faecalis","2014 Q4","Hospital-onset",486,134458,3.61451159469872
+"Enterococcus faecalis","2014 Q4","Post discharge",437,134458,3.25008552856654
+"Enterococcus faecalis","2015 Q1","Community-onset",1203,135886,8.85300914001442
+"Enterococcus faecalis","2015 Q1","Hospital-onset",538,135886,3.95920109503554
+"Enterococcus faecalis","2015 Q1","Post discharge",432,135886,3.17913545177575
+"Enterococcus faecalis","2015 Q2","Community-onset",1264,138705,9.1128654338344
+"Enterococcus faecalis","2015 Q2","Hospital-onset",457,138705,3.29476226523918
+"Enterococcus faecalis","2015 Q2","Post discharge",467,138705,3.36685771962078
+"Enterococcus faecalis","2015 Q3","Community-onset",1296,137203,9.44585759786594
+"Enterococcus faecalis","2015 Q3","Hospital-onset",491,137203,3.57863895104334
+"Enterococcus faecalis","2015 Q3","Post discharge",436,137203,3.17777308076354
+"Enterococcus faecalis","2015 Q4","Community-onset",1280,132219,9.68090819019959
+"Enterococcus faecalis","2015 Q4","Hospital-onset",482,132219,3.64546699037203
+"Enterococcus faecalis","2015 Q4","Post discharge",439,132219,3.32024898085752
+"Enterococcus faecalis","2016 Q1","Community-onset",1259,138117,9.11546008094586
+"Enterococcus faecalis","2016 Q1","Hospital-onset",450,138117,3.2581072568909
+"Enterococcus faecalis","2016 Q1","Post discharge",410,138117,2.96849772294504
+"Enterococcus faecalis","2016 Q2","Community-onset",1335,137059,9.74033080644102
+"Enterococcus faecalis","2016 Q2","Hospital-onset",458,137059,3.34162659876404
+"Enterococcus faecalis","2016 Q2","Post discharge",409,137059,2.98411632946395
+"Enterococcus faecalis","2016 Q3","Community-onset",1315,135157,9.72942577890897
+"Enterococcus faecalis","2016 Q3","Hospital-onset",462,135157,3.41824692764711
+"Enterococcus faecalis","2016 Q3","Post discharge",454,135157,3.35905650465755
+"Enterococcus faecalis","2016 Q4","Community-onset",1235,130683,9.45034931858008
+"Enterococcus faecalis","2016 Q4","Hospital-onset",433,130683,3.31336134003658
+"Enterococcus faecalis","2016 Q4","Post discharge",452,130683,3.45875132955319
+"Enterococcus faecalis","2017 Q1","Community-onset",1277,136477,9.35688797379778
+"Enterococcus faecalis","2017 Q1","Hospital-onset",418,136477,3.06278713629403
+"Enterococcus faecalis","2017 Q1","Post discharge",436,136477,3.19467749144545
+"Enterococcus faecalis","2017 Q2","Community-onset",1279,136124,9.39584496488496
+"Enterococcus faecalis","2017 Q2","Hospital-onset",373,136124,2.74014868796098
+"Enterococcus faecalis","2017 Q2","Post discharge",469,136124,3.44538802856219
+"Enterococcus faecalis","2017 Q3","Community-onset",1250,133818,9.34104530033329
+"Enterococcus faecalis","2017 Q3","Hospital-onset",435,133818,3.25068376451598
+"Enterococcus faecalis","2017 Q3","Post discharge",445,133818,3.32541212691865
+"Enterococcus faecalis","2017 Q4","Community-onset",1296,132108,9.81015532745935
+"Enterococcus faecalis","2017 Q4","Hospital-onset",401,132108,3.03539528264753
+"Enterococcus faecalis","2017 Q4","Post discharge",399,132108,3.02025615405577
+"Enterococcus faecalis","2018 Q1","Community-onset",1309,136697,9.57592339261286
+"Enterococcus faecalis","2018 Q1","Hospital-onset",376,136697,2.75060901117069
+"Enterococcus faecalis","2018 Q1","Post discharge",444,136697,3.24805957702071
+"Enterococcus faecalis","2018 Q2","Community-onset",1361,136870,9.94374223715935
+"Enterococcus faecalis","2018 Q2","Hospital-onset",369,136870,2.69598889457149
+"Enterococcus faecalis","2018 Q2","Post discharge",405,136870,2.95901220135895
+"Enterococcus faecalis","2018 Q3","Community-onset",1314,133799,9.82070120105531
+"Enterococcus faecalis","2018 Q3","Hospital-onset",397,133799,2.96713727307379
+"Enterococcus faecalis","2018 Q3","Post discharge",464,133799,3.46788839976383
+"Enterococcus faecalis","2018 Q4","Community-onset",1293,131059,9.86578563852921
+"Enterococcus faecalis","2018 Q4","Hospital-onset",399,131059,3.04443037105426
+"Enterococcus faecalis","2018 Q4","Post discharge",440,131059,3.35726657459617
+"Enterococcus faecalis","2019 Q1","Community-onset",1314,134984,9.73448705031707
+"Enterococcus faecalis","2019 Q1","Hospital-onset",370,134984,2.74106560777574
+"Enterococcus faecalis","2019 Q1","Post discharge",427,134984,3.16333787708173
+"Enterococcus faecalis","2019 Q2","Community-onset",1303,136761,9.52756999436974
+"Enterococcus faecalis","2019 Q2","Hospital-onset",399,136761,2.91749840963433
+"Enterococcus faecalis","2019 Q2","Post discharge",486,136761,3.55364467940422
+"Enterococcus faecalis","2019 Q3","Community-onset",1318,133801,9.85044954820965
+"Enterococcus faecalis","2019 Q3","Hospital-onset",419,133801,3.13151620690428
+"Enterococcus faecalis","2019 Q3","Post discharge",452,133801,3.37815113489436
+"Enterococcus faecalis","2019 Q4","Community-onset",1323,129551,10.2121944253614
+"Enterococcus faecalis","2019 Q4","Hospital-onset",417,129551,3.21880958078286
+"Enterococcus faecalis","2019 Q4","Post discharge",435,129551,3.35775100153607
+"Enterococcus faecalis","2020 Q1","Community-onset",1227,124192,9.87986343725844
+"Enterococcus faecalis","2020 Q1","Hospital-onset",420,124192,3.38186034527184
+"Enterococcus faecalis","2020 Q1","Post discharge",436,124192,3.51069312032981
+"Enterococcus faecalis","2020 Q2","Community-onset",1247,93235,13.3748055987558
+"Enterococcus faecalis","2020 Q2","Hospital-onset",419,93235,4.49402048586904
+"Enterococcus faecalis","2020 Q2","Post discharge",262,93235,2.81010350190379
+"Enterococcus faecalis","2020 Q3","Community-onset",1352,113339,11.9288153239397
+"Enterococcus faecalis","2020 Q3","Hospital-onset",507,113339,4.47330574647738
+"Enterococcus faecalis","2020 Q3","Post discharge",337,113339,2.97338074272757
+"Enterococcus faecalis","2020 Q4","Community-onset",1237,113705,10.8790290664439
+"Enterococcus faecalis","2020 Q4","Hospital-onset",563,113705,4.95140934875335
+"Enterococcus faecalis","2020 Q4","Post discharge",346,113705,3.04296205092124
+"Enterococcus faecalis","2021 Q1","Community-onset",1309,112708,11.6140824076374
+"Enterococcus faecalis","2021 Q1","Hospital-onset",617,112708,5.47432302942116
+"Enterococcus faecalis","2021 Q1","Post discharge",338,112708,2.99889981190333
+"Enterococcus faecalis","2021 Q2","Community-onset",1347,122643,10.9830972823561
+"Enterococcus faecalis","2021 Q2","Hospital-onset",525,122643,4.28071720359091
+"Enterococcus faecalis","2021 Q2","Post discharge",417,122643,3.40011252170935
+"Enterococcus faecalis","2021 Q3","Community-onset",1310,121660,10.7677132993589
+"Enterococcus faecalis","2021 Q3","Hospital-onset",513,121660,4.21666940654282
+"Enterococcus faecalis","2021 Q3","Post discharge",433,121660,3.55909912871938
+"Enterococcus faecalis","2021 Q4","Community-onset",1258,114060,11.0292828335964
+"Enterococcus faecalis","2021 Q4","Hospital-onset",491,114060,4.30475188497282
+"Enterococcus faecalis","2021 Q4","Post discharge",378,114060,3.31404523934771
+"Enterococcus faecalis","2022 Q1","Community-onset",1224,110418,11.085149160463
+"Enterococcus faecalis","2022 Q1","Hospital-onset",531,110418,4.80899853284791
+"Enterococcus faecalis","2022 Q1","Post discharge",362,110418,3.27845097719575
+"Enterococcus faecium","2007 Q1","Community-onset",261,127336,2.04969529433939
+"Enterococcus faecium","2007 Q1","Hospital-onset",458,127336,3.59678331343846
+"Enterococcus faecium","2007 Q1","Post discharge",95,127336,0.746057674184834
+"Enterococcus faecium","2007 Q2","Community-onset",259,127771,2.0270640442667
+"Enterococcus faecium","2007 Q2","Hospital-onset",460,127771,3.60019096665127
+"Enterococcus faecium","2007 Q2","Post discharge",148,127771,1.15832231100954
+"Enterococcus faecium","2007 Q3","Community-onset",221,127765,1.72973819121043
+"Enterococcus faecium","2007 Q3","Hospital-onset",422,127765,3.30293898955113
+"Enterococcus faecium","2007 Q3","Post discharge",101,127765,0.790513833992095
+"Enterococcus faecium","2007 Q4","Community-onset",247,125063,1.97500459768277
+"Enterococcus faecium","2007 Q4","Hospital-onset",494,125063,3.95000919536554
+"Enterococcus faecium","2007 Q4","Post discharge",119,125063,0.951520433701414
+"Enterococcus faecium","2008 Q1","Community-onset",246,131960,1.86420127311306
+"Enterococcus faecium","2008 Q1","Hospital-onset",560,131960,4.24371021521673
+"Enterococcus faecium","2008 Q1","Post discharge",145,131960,1.0988178235829
+"Enterococcus faecium","2008 Q2","Community-onset",288,132154,2.17927569350909
+"Enterococcus faecium","2008 Q2","Hospital-onset",509,132154,3.85156711109766
+"Enterococcus faecium","2008 Q2","Post discharge",134,132154,1.01396855184103
+"Enterococcus faecium","2008 Q3","Community-onset",243,131853,1.84296147982981
+"Enterococcus faecium","2008 Q3","Hospital-onset",452,131853,3.42806003655586
+"Enterococcus faecium","2008 Q3","Post discharge",118,131853,0.894936027242459
+"Enterococcus faecium","2008 Q4","Community-onset",294,127920,2.29831144465291
+"Enterococcus faecium","2008 Q4","Hospital-onset",483,127920,3.77579737335835
+"Enterococcus faecium","2008 Q4","Post discharge",117,127920,0.914634146341463
+"Enterococcus faecium","2009 Q1","Community-onset",315,134338,2.3448316931918
+"Enterococcus faecium","2009 Q1","Hospital-onset",538,134338,4.00482365376885
+"Enterococcus faecium","2009 Q1","Post discharge",165,134338,1.22824517262428
+"Enterococcus faecium","2009 Q2","Community-onset",330,138175,2.38827573728967
+"Enterococcus faecium","2009 Q2","Hospital-onset",468,138175,3.38700922742898
+"Enterococcus faecium","2009 Q2","Post discharge",140,138175,1.01320788854713
+"Enterococcus faecium","2009 Q3","Community-onset",290,138183,2.09866626140697
+"Enterococcus faecium","2009 Q3","Hospital-onset",405,138183,2.93089598575802
+"Enterococcus faecium","2009 Q3","Post discharge",157,138183,1.13617449324447
+"Enterococcus faecium","2009 Q4","Community-onset",261,132778,1.96568708671617
+"Enterococcus faecium","2009 Q4","Hospital-onset",467,132778,3.51714892527377
+"Enterococcus faecium","2009 Q4","Post discharge",140,132778,1.0543915407673
+"Enterococcus faecium","2010 Q1","Community-onset",303,138694,2.1846655226614
+"Enterococcus faecium","2010 Q1","Hospital-onset",477,138694,3.43922592181349
+"Enterococcus faecium","2010 Q1","Post discharge",150,138694,1.08151758547594
+"Enterococcus faecium","2010 Q2","Community-onset",338,141169,2.39429336469055
+"Enterococcus faecium","2010 Q2","Hospital-onset",419,141169,2.96807372723473
+"Enterococcus faecium","2010 Q2","Post discharge",157,141169,1.11214218419058
+"Enterococcus faecium","2010 Q3","Community-onset",276,140257,1.96781622307621
+"Enterococcus faecium","2010 Q3","Hospital-onset",399,140257,2.84477780075148
+"Enterococcus faecium","2010 Q3","Post discharge",123,140257,0.876961577675268
+"Enterococcus faecium","2010 Q4","Community-onset",281,134637,2.08709344385273
+"Enterococcus faecium","2010 Q4","Hospital-onset",411,134637,3.05265268833976
+"Enterococcus faecium","2010 Q4","Post discharge",138,134637,1.024978274917
+"Enterococcus faecium","2011 Q1","Community-onset",310,139539,2.22160112943335
+"Enterococcus faecium","2011 Q1","Hospital-onset",500,139539,3.5832276281183
+"Enterococcus faecium","2011 Q1","Post discharge",162,139539,1.16096575151033
+"Enterococcus faecium","2011 Q2","Community-onset",345,141372,2.44037008742891
+"Enterococcus faecium","2011 Q2","Hospital-onset",416,141372,2.9425911778853
+"Enterococcus faecium","2011 Q2","Post discharge",141,141372,0.997368644427468
+"Enterococcus faecium","2011 Q3","Community-onset",314,139364,2.25309262076289
+"Enterococcus faecium","2011 Q3","Hospital-onset",407,139364,2.92040986194426
+"Enterococcus faecium","2011 Q3","Post discharge",131,139364,0.939984501018915
+"Enterococcus faecium","2011 Q4","Community-onset",309,135771,2.27589102238328
+"Enterococcus faecium","2011 Q4","Hospital-onset",411,135771,3.02715602006319
+"Enterococcus faecium","2011 Q4","Post discharge",129,135771,0.95012926177166
+"Enterococcus faecium","2012 Q1","Community-onset",301,140774,2.1381789250856
+"Enterococcus faecium","2012 Q1","Hospital-onset",449,140774,3.18950942645659
+"Enterococcus faecium","2012 Q1","Post discharge",135,140774,0.958983903277594
+"Enterococcus faecium","2012 Q2","Community-onset",336,140781,2.38668570332644
+"Enterococcus faecium","2012 Q2","Hospital-onset",405,140781,2.87680866025955
+"Enterococcus faecium","2012 Q2","Post discharge",140,140781,0.994452376386018
+"Enterococcus faecium","2012 Q3","Community-onset",268,138247,1.93855924540858
+"Enterococcus faecium","2012 Q3","Hospital-onset",368,138247,2.66190224742671
+"Enterococcus faecium","2012 Q3","Post discharge",111,138247,0.802910732240121
+"Enterococcus faecium","2012 Q4","Community-onset",275,133753,2.05602864982468
+"Enterococcus faecium","2012 Q4","Hospital-onset",383,133753,2.86348717411946
+"Enterococcus faecium","2012 Q4","Post discharge",124,133753,0.927082009375491
+"Enterococcus faecium","2013 Q1","Community-onset",302,136643,2.21013882891915
+"Enterococcus faecium","2013 Q1","Hospital-onset",390,136643,2.85415279231281
+"Enterococcus faecium","2013 Q1","Post discharge",138,136643,1.00993098804915
+"Enterococcus faecium","2013 Q2","Community-onset",294,138223,2.1269976776658
+"Enterococcus faecium","2013 Q2","Hospital-onset",340,138223,2.45979323267474
+"Enterococcus faecium","2013 Q2","Post discharge",141,138223,1.02009072296217
+"Enterococcus faecium","2013 Q3","Community-onset",235,137496,1.70914062954559
+"Enterococcus faecium","2013 Q3","Hospital-onset",286,137496,2.08006051085122
+"Enterococcus faecium","2013 Q3","Post discharge",107,137496,0.778204456856927
+"Enterococcus faecium","2013 Q4","Community-onset",220,134299,1.63813580145794
+"Enterococcus faecium","2013 Q4","Hospital-onset",273,134299,2.03277760817281
+"Enterococcus faecium","2013 Q4","Post discharge",100,134299,0.744607182480882
+"Enterococcus faecium","2014 Q1","Community-onset",255,136466,1.86859730628875
+"Enterococcus faecium","2014 Q1","Hospital-onset",293,136466,2.14705494408864
+"Enterococcus faecium","2014 Q1","Post discharge",115,136466,0.842700745973356
+"Enterococcus faecium","2014 Q2","Community-onset",259,141215,1.8340827815742
+"Enterococcus faecium","2014 Q2","Hospital-onset",247,141215,1.74910597316149
+"Enterococcus faecium","2014 Q2","Post discharge",118,141215,0.835605282724923
+"Enterococcus faecium","2014 Q3","Community-onset",217,139658,1.55379570092655
+"Enterococcus faecium","2014 Q3","Hospital-onset",237,139658,1.69700267797047
+"Enterococcus faecium","2014 Q3","Post discharge",99,139658,0.708874536367412
+"Enterococcus faecium","2014 Q4","Community-onset",233,134458,1.73288313079177
+"Enterococcus faecium","2014 Q4","Hospital-onset",249,134458,1.85187939728391
+"Enterococcus faecium","2014 Q4","Post discharge",87,134458,0.647042199051005
+"Enterococcus faecium","2015 Q1","Community-onset",258,135886,1.89865033925496
+"Enterococcus faecium","2015 Q1","Hospital-onset",251,135886,1.84713657036045
+"Enterococcus faecium","2015 Q1","Post discharge",107,135886,0.787424753101865
+"Enterococcus faecium","2015 Q2","Community-onset",263,138705,1.89611045023611
+"Enterococcus faecium","2015 Q2","Hospital-onset",231,138705,1.66540499621499
+"Enterococcus faecium","2015 Q2","Post discharge",99,138705,0.713744998377852
+"Enterococcus faecium","2015 Q3","Community-onset",227,137203,1.65448277370028
+"Enterococcus faecium","2015 Q3","Hospital-onset",206,137203,1.50142489595709
+"Enterococcus faecium","2015 Q3","Post discharge",90,137203,0.655962333185134
+"Enterococcus faecium","2015 Q4","Community-onset",189,132219,1.42944659995916
+"Enterococcus faecium","2015 Q4","Hospital-onset",173,132219,1.30843524758166
+"Enterococcus faecium","2015 Q4","Post discharge",86,132219,0.650436019029035
+"Enterococcus faecium","2016 Q1","Community-onset",215,138117,1.55665124495898
+"Enterococcus faecium","2016 Q1","Hospital-onset",199,138117,1.44080743138064
+"Enterococcus faecium","2016 Q1","Post discharge",75,138117,0.543017876148483
+"Enterococcus faecium","2016 Q2","Community-onset",187,137059,1.36437592569623
+"Enterococcus faecium","2016 Q2","Hospital-onset",185,137059,1.34978366980643
+"Enterococcus faecium","2016 Q2","Post discharge",95,137059,0.693132154765466
+"Enterococcus faecium","2016 Q3","Community-onset",223,135157,1.64993304083399
+"Enterococcus faecium","2016 Q3","Hospital-onset",154,135157,1.13941564254904
+"Enterococcus faecium","2016 Q3","Post discharge",76,135157,0.562309018400823
+"Enterococcus faecium","2016 Q4","Community-onset",199,130683,1.52276883756877
+"Enterococcus faecium","2016 Q4","Hospital-onset",160,130683,1.22433675382414
+"Enterococcus faecium","2016 Q4","Post discharge",80,130683,0.61216837691207
+"Enterococcus faecium","2017 Q1","Community-onset",202,136477,1.48010287447702
+"Enterococcus faecium","2017 Q1","Hospital-onset",172,136477,1.26028561589132
+"Enterococcus faecium","2017 Q1","Post discharge",90,136477,0.659451775757087
+"Enterococcus faecium","2017 Q2","Community-onset",185,136124,1.35905497928359
+"Enterococcus faecium","2017 Q2","Hospital-onset",179,136124,1.31497752049602
+"Enterococcus faecium","2017 Q2","Post discharge",90,136124,0.661161881813641
+"Enterococcus faecium","2017 Q3","Community-onset",179,133818,1.33763768700773
+"Enterococcus faecium","2017 Q3","Hospital-onset",140,133818,1.04619707363733
+"Enterococcus faecium","2017 Q3","Post discharge",67,133818,0.500680028097864
+"Enterococcus faecium","2017 Q4","Community-onset",193,132108,1.46092590910467
+"Enterococcus faecium","2017 Q4","Hospital-onset",171,132108,1.29439549459533
+"Enterococcus faecium","2017 Q4","Post discharge",78,132108,0.590426015078572
+"Enterococcus faecium","2018 Q1","Community-onset",181,136697,1.32409635910079
+"Enterococcus faecium","2018 Q1","Hospital-onset",163,136697,1.19241826814049
+"Enterococcus faecium","2018 Q1","Post discharge",82,136697,0.59986685881914
+"Enterococcus faecium","2018 Q2","Community-onset",181,136870,1.32242273690363
+"Enterococcus faecium","2018 Q2","Hospital-onset",135,136870,0.986337400452985
+"Enterococcus faecium","2018 Q2","Post discharge",73,136870,0.533352816541244
+"Enterococcus faecium","2018 Q3","Community-onset",167,133799,1.24814086801845
+"Enterococcus faecium","2018 Q3","Hospital-onset",138,133799,1.03139784303321
+"Enterococcus faecium","2018 Q3","Post discharge",73,133799,0.54559451116974
+"Enterococcus faecium","2018 Q4","Community-onset",187,131059,1.42683829420337
+"Enterococcus faecium","2018 Q4","Hospital-onset",115,131059,0.877467400178546
+"Enterococcus faecium","2018 Q4","Post discharge",53,131059,0.404398019212721
+"Enterococcus faecium","2019 Q1","Community-onset",181,134984,1.34089966218218
+"Enterococcus faecium","2019 Q1","Hospital-onset",140,134984,1.03715995969893
+"Enterococcus faecium","2019 Q1","Post discharge",66,134984,0.48894683814378
+"Enterococcus faecium","2019 Q2","Community-onset",160,136761,1.16992417428945
+"Enterococcus faecium","2019 Q2","Hospital-onset",109,136761,0.79701084373469
+"Enterococcus faecium","2019 Q2","Post discharge",75,136761,0.548401956698181
+"Enterococcus faecium","2019 Q3","Community-onset",130,133801,0.971592140566961
+"Enterococcus faecium","2019 Q3","Hospital-onset",139,133801,1.03885621183698
+"Enterococcus faecium","2019 Q3","Post discharge",57,133801,0.426005784710129
+"Enterococcus faecium","2019 Q4","Community-onset",156,129551,1.20415897986121
+"Enterococcus faecium","2019 Q4","Hospital-onset",114,129551,0.87996233143704
+"Enterococcus faecium","2019 Q4","Post discharge",44,129551,0.339634584063419
+"Enterococcus faecium","2020 Q1","Community-onset",166,124192,1.33664004122649
+"Enterococcus faecium","2020 Q1","Hospital-onset",144,124192,1.15949497552177
+"Enterococcus faecium","2020 Q1","Post discharge",57,124192,0.458966761144035
+"Enterococcus faecium","2020 Q2","Community-onset",116,93235,1.24416796267496
+"Enterococcus faecium","2020 Q2","Hospital-onset",132,93235,1.41577733683702
+"Enterococcus faecium","2020 Q2","Post discharge",44,93235,0.471925778945675
+"Enterococcus faecium","2020 Q3","Community-onset",121,113339,1.06759367913957
+"Enterococcus faecium","2020 Q3","Hospital-onset",121,113339,1.06759367913957
+"Enterococcus faecium","2020 Q3","Post discharge",39,113339,0.344100442036722
+"Enterococcus faecium","2020 Q4","Community-onset",133,113705,1.16969350512291
+"Enterococcus faecium","2020 Q4","Hospital-onset",129,113705,1.13451475308913
+"Enterococcus faecium","2020 Q4","Post discharge",45,113705,0.395760960379931
+"Enterococcus faecium","2021 Q1","Community-onset",163,112708,1.44621499804805
+"Enterococcus faecium","2021 Q1","Hospital-onset",154,112708,1.36636263619264
+"Enterococcus faecium","2021 Q1","Post discharge",48,112708,0.425879263228875
+"Enterococcus faecium","2021 Q2","Community-onset",163,122643,1.3290607698768
+"Enterococcus faecium","2021 Q2","Hospital-onset",165,122643,1.34536826398571
+"Enterococcus faecium","2021 Q2","Post discharge",69,122643,0.562608546757662
+"Enterococcus faecium","2021 Q3","Community-onset",162,121660,1.33157981259247
+"Enterococcus faecium","2021 Q3","Hospital-onset",140,121660,1.15074798619102
+"Enterococcus faecium","2021 Q3","Post discharge",52,121660,0.427420680585238
+"Enterococcus faecium","2021 Q4","Community-onset",140,114060,1.22742416272137
+"Enterococcus faecium","2021 Q4","Hospital-onset",138,114060,1.20988953182536
+"Enterococcus faecium","2021 Q4","Post discharge",53,114060,0.46466771874452
+"Enterococcus faecium","2022 Q1","Community-onset",147,110418,1.33130467858501
+"Enterococcus faecium","2022 Q1","Hospital-onset",186,110418,1.68450796065859
+"Enterococcus faecium","2022 Q1","Post discharge",59,110418,0.534333170316434
+"Escherichia coli","2007 Q1","Community-onset",2035,127336,15.9813407049067
+"Escherichia coli","2007 Q1","Hospital-onset",723,127336,5.67789156248037
+"Escherichia coli","2007 Q1","Post discharge",402,127336,3.15700194760319
+"Escherichia coli","2007 Q2","Community-onset",2117,127771,16.5687049486973
+"Escherichia coli","2007 Q2","Hospital-onset",874,127771,6.84036283663742
+"Escherichia coli","2007 Q2","Post discharge",542,127771,4.24196413896737
+"Escherichia coli","2007 Q3","Community-onset",2266,127765,17.7356866121395
+"Escherichia coli","2007 Q3","Hospital-onset",943,127765,7.38073807380738
+"Escherichia coli","2007 Q3","Post discharge",600,127765,4.69612178609165
+"Escherichia coli","2007 Q4","Community-onset",2160,125063,17.2712952671853
+"Escherichia coli","2007 Q4","Hospital-onset",838,125063,6.70062288606542
+"Escherichia coli","2007 Q4","Post discharge",542,125063,4.33381575685854
+"Escherichia coli","2008 Q1","Community-onset",2064,131960,15.641103364656
+"Escherichia coli","2008 Q1","Hospital-onset",916,131960,6.94149742346166
+"Escherichia coli","2008 Q1","Post discharge",593,131960,4.49378599575629
+"Escherichia coli","2008 Q2","Community-onset",2300,132154,17.4039378301073
+"Escherichia coli","2008 Q2","Hospital-onset",908,132154,6.87077197814671
+"Escherichia coli","2008 Q2","Post discharge",594,132154,4.49475611786249
+"Escherichia coli","2008 Q3","Community-onset",2360,131853,17.8987205448492
+"Escherichia coli","2008 Q3","Hospital-onset",909,131853,6.89404109121522
+"Escherichia coli","2008 Q3","Post discharge",604,131853,4.58085898690208
+"Escherichia coli","2008 Q4","Community-onset",2300,127920,17.9799874921826
+"Escherichia coli","2008 Q4","Hospital-onset",866,127920,6.76985616010006
+"Escherichia coli","2008 Q4","Post discharge",600,127920,4.69043151969981
+"Escherichia coli","2009 Q1","Community-onset",2226,134338,16.5701439652221
+"Escherichia coli","2009 Q1","Hospital-onset",909,134338,6.76651431463919
+"Escherichia coli","2009 Q1","Post discharge",602,134338,4.48123390254433
+"Escherichia coli","2009 Q2","Community-onset",2376,138175,17.1955853084856
+"Escherichia coli","2009 Q2","Hospital-onset",875,138175,6.33254930341958
+"Escherichia coli","2009 Q2","Post discharge",631,138175,4.566672697666
+"Escherichia coli","2009 Q3","Community-onset",2632,138183,19.0472055173212
+"Escherichia coli","2009 Q3","Hospital-onset",898,138183,6.49862863014987
+"Escherichia coli","2009 Q3","Post discharge",689,138183,4.9861415658945
+"Escherichia coli","2009 Q4","Community-onset",2358,132778,17.7589660937806
+"Escherichia coli","2009 Q4","Hospital-onset",899,132778,6.77069996535571
+"Escherichia coli","2009 Q4","Post discharge",570,132778,4.29287984455256
+"Escherichia coli","2010 Q1","Community-onset",2354,138694,16.9726159747357
+"Escherichia coli","2010 Q1","Hospital-onset",834,138694,6.01323777524623
+"Escherichia coli","2010 Q1","Post discharge",610,138694,4.39817151426882
+"Escherichia coli","2010 Q2","Community-onset",2467,141169,17.4755080789692
+"Escherichia coli","2010 Q2","Hospital-onset",872,141169,6.17699353257443
+"Escherichia coli","2010 Q2","Post discharge",626,141169,4.4344013204032
+"Escherichia coli","2010 Q3","Community-onset",2550,140257,18.1809107566824
+"Escherichia coli","2010 Q3","Hospital-onset",888,140257,6.33123480467998
+"Escherichia coli","2010 Q3","Post discharge",600,140257,4.2778613545135
+"Escherichia coli","2010 Q4","Community-onset",2417,134637,17.951974568655
+"Escherichia coli","2010 Q4","Hospital-onset",846,134637,6.28356246796943
+"Escherichia coli","2010 Q4","Post discharge",576,134637,4.27817019095791
+"Escherichia coli","2011 Q1","Community-onset",2265,139539,16.2320211553759
+"Escherichia coli","2011 Q1","Hospital-onset",903,139539,6.47130909638166
+"Escherichia coli","2011 Q1","Post discharge",549,139539,3.9343839356739
+"Escherichia coli","2011 Q2","Community-onset",2511,141372,17.7616501145913
+"Escherichia coli","2011 Q2","Hospital-onset",827,141372,5.84981467334408
+"Escherichia coli","2011 Q2","Post discharge",615,141372,4.35022493846023
+"Escherichia coli","2011 Q3","Community-onset",2671,139364,19.1656381848971
+"Escherichia coli","2011 Q3","Hospital-onset",818,139364,5.86952154071353
+"Escherichia coli","2011 Q3","Post discharge",648,139364,4.64969432565081
+"Escherichia coli","2011 Q4","Community-onset",2494,135771,18.3691657275854
+"Escherichia coli","2011 Q4","Hospital-onset",856,135771,6.30473370601969
+"Escherichia coli","2011 Q4","Post discharge",647,135771,4.76537699508732
+"Escherichia coli","2012 Q1","Community-onset",2409,140774,17.1125349851535
+"Escherichia coli","2012 Q1","Hospital-onset",844,140774,5.99542529160214
+"Escherichia coli","2012 Q1","Post discharge",572,140774,4.06325031610951
+"Escherichia coli","2012 Q2","Community-onset",2421,140781,17.1969228802182
+"Escherichia coli","2012 Q2","Hospital-onset",783,140781,5.5618300765018
+"Escherichia coli","2012 Q2","Post discharge",683,140781,4.85150695051179
+"Escherichia coli","2012 Q3","Community-onset",2595,138247,18.7707509023704
+"Escherichia coli","2012 Q3","Hospital-onset",809,138247,5.85184488632665
+"Escherichia coli","2012 Q3","Post discharge",624,138247,4.51366033259311
+"Escherichia coli","2012 Q4","Community-onset",2470,133753,18.4668755093344
+"Escherichia coli","2012 Q4","Hospital-onset",738,133753,5.51763324934768
+"Escherichia coli","2012 Q4","Post discharge",618,133753,4.62045711124236
+"Escherichia coli","2013 Q1","Community-onset",2251,136643,16.4735844499901
+"Escherichia coli","2013 Q1","Hospital-onset",757,136643,5.53998375328411
+"Escherichia coli","2013 Q1","Post discharge",626,136643,4.58128114868672
+"Escherichia coli","2013 Q2","Community-onset",2354,138223,17.0304507932833
+"Escherichia coli","2013 Q2","Hospital-onset",732,138223,5.29579013622914
+"Escherichia coli","2013 Q2","Post discharge",645,138223,4.66637245610354
+"Escherichia coli","2013 Q3","Community-onset",2516,137496,18.2987141444115
+"Escherichia coli","2013 Q3","Hospital-onset",793,137496,5.76744050736021
+"Escherichia coli","2013 Q3","Post discharge",654,137496,4.75650200733112
+"Escherichia coli","2013 Q4","Community-onset",2484,134299,18.4960424128251
+"Escherichia coli","2013 Q4","Hospital-onset",717,134299,5.33883349838793
+"Escherichia coli","2013 Q4","Post discharge",622,134299,4.63145667503109
+"Escherichia coli","2014 Q1","Community-onset",2267,136466,16.6121964445356
+"Escherichia coli","2014 Q1","Hospital-onset",679,136466,4.97559831752964
+"Escherichia coli","2014 Q1","Post discharge",617,136466,4.5212726979614
+"Escherichia coli","2014 Q2","Community-onset",2447,141215,17.3281875154906
+"Escherichia coli","2014 Q2","Hospital-onset",690,141215,4.88616648373048
+"Escherichia coli","2014 Q2","Post discharge",634,141215,4.4896080444712
+"Escherichia coli","2014 Q3","Community-onset",2523,139658,18.0655601540907
+"Escherichia coli","2014 Q3","Hospital-onset",689,139658,4.9334803591631
+"Escherichia coli","2014 Q3","Post discharge",711,139658,5.09100803391141
+"Escherichia coli","2014 Q4","Community-onset",2383,134458,17.7230064406729
+"Escherichia coli","2014 Q4","Hospital-onset",684,134458,5.08709039253893
+"Escherichia coli","2014 Q4","Post discharge",567,134458,4.21693019381517
+"Escherichia coli","2015 Q1","Community-onset",2287,135886,16.8302842088221
+"Escherichia coli","2015 Q1","Hospital-onset",654,135886,4.81285783671607
+"Escherichia coli","2015 Q1","Post discharge",593,135886,4.36395213634959
+"Escherichia coli","2015 Q2","Community-onset",2356,138705,16.9856890523053
+"Escherichia coli","2015 Q2","Hospital-onset",630,138705,4.54201362604088
+"Escherichia coli","2015 Q2","Post discharge",638,138705,4.59968998954616
+"Escherichia coli","2015 Q3","Community-onset",2515,137203,18.3305029773401
+"Escherichia coli","2015 Q3","Hospital-onset",602,137203,4.38765916197168
+"Escherichia coli","2015 Q3","Post discharge",634,137203,4.62089021377084
+"Escherichia coli","2015 Q4","Community-onset",2321,132219,17.5542093042604
+"Escherichia coli","2015 Q4","Hospital-onset",586,132219,4.43204078082575
+"Escherichia coli","2015 Q4","Post discharge",601,132219,4.54548892367965
+"Escherichia coli","2016 Q1","Community-onset",2361,138117,17.0942027411542
+"Escherichia coli","2016 Q1","Hospital-onset",590,138117,4.2717406257014
+"Escherichia coli","2016 Q1","Post discharge",557,138117,4.03281276019607
+"Escherichia coli","2016 Q2","Community-onset",2455,137059,17.9119941047286
+"Escherichia coli","2016 Q2","Hospital-onset",590,137059,4.30471548749079
+"Escherichia coli","2016 Q2","Post discharge",590,137059,4.30471548749079
+"Escherichia coli","2016 Q3","Community-onset",2478,135157,18.3342335210163
+"Escherichia coli","2016 Q3","Hospital-onset",554,135157,4.09893679202705
+"Escherichia coli","2016 Q3","Post discharge",645,135157,4.7722278535333
+"Escherichia coli","2016 Q4","Community-onset",2327,130683,17.8064476634298
+"Escherichia coli","2016 Q4","Hospital-onset",605,130683,4.62952335039753
+"Escherichia coli","2016 Q4","Post discharge",599,130683,4.58361072212912
+"Escherichia coli","2017 Q1","Community-onset",2290,136477,16.7793840720414
+"Escherichia coli","2017 Q1","Hospital-onset",623,136477,4.56487173662962
+"Escherichia coli","2017 Q1","Post discharge",596,136477,4.36703620390249
+"Escherichia coli","2017 Q2","Community-onset",2408,136124,17.6897534600805
+"Escherichia coli","2017 Q2","Hospital-onset",511,136124,3.75393024007523
+"Escherichia coli","2017 Q2","Post discharge",599,136124,4.40039963562634
+"Escherichia coli","2017 Q3","Community-onset",2530,133818,18.9062756878746
+"Escherichia coli","2017 Q3","Hospital-onset",560,133818,4.18478829454931
+"Escherichia coli","2017 Q3","Post discharge",619,133818,4.62568563272504
+"Escherichia coli","2017 Q4","Community-onset",2445,132108,18.5075847034245
+"Escherichia coli","2017 Q4","Hospital-onset",542,132108,4.10270384836649
+"Escherichia coli","2017 Q4","Post discharge",614,132108,4.64771247766978
+"Escherichia coli","2018 Q1","Community-onset",2313,136697,16.9206346883984
+"Escherichia coli","2018 Q1","Hospital-onset",514,136697,3.76014104186632
+"Escherichia coli","2018 Q1","Post discharge",596,136697,4.36000790068546
+"Escherichia coli","2018 Q2","Community-onset",2512,136870,18.3531818513918
+"Escherichia coli","2018 Q2","Hospital-onset",490,136870,3.58003945349602
+"Escherichia coli","2018 Q2","Post discharge",632,136870,4.61752027471323
+"Escherichia coli","2018 Q3","Community-onset",2593,133799,19.3798159926457
+"Escherichia coli","2018 Q3","Hospital-onset",461,133799,3.44546670752397
+"Escherichia coli","2018 Q3","Post discharge",553,133799,4.13306526954611
+"Escherichia coli","2018 Q4","Community-onset",2527,131059,19.2813923500103
+"Escherichia coli","2018 Q4","Hospital-onset",449,131059,3.42593793634928
+"Escherichia coli","2018 Q4","Post discharge",550,131059,4.19658321824522
+"Escherichia coli","2019 Q1","Community-onset",2367,134984,17.5354116043383
+"Escherichia coli","2019 Q1","Hospital-onset",477,134984,3.53375214840277
+"Escherichia coli","2019 Q1","Post discharge",585,134984,4.33384697445623
+"Escherichia coli","2019 Q2","Community-onset",2505,136761,18.3166253537193
+"Escherichia coli","2019 Q2","Hospital-onset",458,136761,3.34890794890356
+"Escherichia coli","2019 Q2","Post discharge",582,136761,4.25559918397789
+"Escherichia coli","2019 Q3","Community-onset",2642,133801,19.7457418105993
+"Escherichia coli","2019 Q3","Hospital-onset",481,133801,3.59489092009776
+"Escherichia coli","2019 Q3","Post discharge",595,133801,4.44690248951802
+"Escherichia coli","2019 Q4","Community-onset",2373,129551,18.3171106359658
+"Escherichia coli","2019 Q4","Hospital-onset",468,129551,3.61247693958364
+"Escherichia coli","2019 Q4","Post discharge",520,129551,4.01386326620404
+"Escherichia coli","2020 Q1","Community-onset",2137,124192,17.2072275186808
+"Escherichia coli","2020 Q1","Hospital-onset",459,124192,3.69589023447565
+"Escherichia coli","2020 Q1","Post discharge",495,124192,3.98576397835609
+"Escherichia coli","2020 Q2","Community-onset",2117,93235,22.706065318818
+"Escherichia coli","2020 Q2","Hospital-onset",445,93235,4.77288571888239
+"Escherichia coli","2020 Q2","Post discharge",324,93235,3.47508982678179
+"Escherichia coli","2020 Q3","Community-onset",2365,113339,20.8666037286371
+"Escherichia coli","2020 Q3","Hospital-onset",563,113339,4.96739868888908
+"Escherichia coli","2020 Q3","Post discharge",437,113339,3.85568956846275
+"Escherichia coli","2020 Q4","Community-onset",2310,113705,20.3157292995031
+"Escherichia coli","2020 Q4","Hospital-onset",609,113705,5.35596499714173
+"Escherichia coli","2020 Q4","Post discharge",435,113705,3.82568928367266
+"Escherichia coli","2021 Q1","Community-onset",2272,112708,20.1582851261667
+"Escherichia coli","2021 Q1","Hospital-onset",662,112708,5.87358483869823
+"Escherichia coli","2021 Q1","Post discharge",408,112708,3.61997373744543
+"Escherichia coli","2021 Q2","Community-onset",2376,122643,19.3733030013943
+"Escherichia coli","2021 Q2","Hospital-onset",549,122643,4.47640713289792
+"Escherichia coli","2021 Q2","Post discharge",527,122643,4.29702469769983
+"Escherichia coli","2021 Q3","Community-onset",2278,121660,18.7243136610225
+"Escherichia coli","2021 Q3","Hospital-onset",581,121660,4.77560414269275
+"Escherichia coli","2021 Q3","Post discharge",524,121660,4.30708531974355
+"Escherichia coli","2021 Q4","Community-onset",2089,114060,18.3149219708925
+"Escherichia coli","2021 Q4","Hospital-onset",570,114060,4.9973698053656
+"Escherichia coli","2021 Q4","Post discharge",483,114060,4.23461336138874
+"Escherichia coli","2022 Q1","Community-onset",1994,110418,18.058649857813
+"Escherichia coli","2022 Q1","Hospital-onset",581,110418,5.26182325345505
+"Escherichia coli","2022 Q1","Post discharge",387,110418,3.50486333749932
+"Klebsiella pneumoniae","2007 Q1","Community-onset",975,127336,7.65690770873908
+"Klebsiella pneumoniae","2007 Q1","Hospital-onset",548,127336,4.30357479424515
+"Klebsiella pneumoniae","2007 Q1","Post discharge",229,127336,1.79839165671923
+"Klebsiella pneumoniae","2007 Q2","Community-onset",1081,127771,8.4604487716305
+"Klebsiella pneumoniae","2007 Q2","Hospital-onset",693,127771,5.42376595628116
+"Klebsiella pneumoniae","2007 Q2","Post discharge",335,127771,2.6218782039743
+"Klebsiella pneumoniae","2007 Q3","Community-onset",1227,127765,9.60356905255743
+"Klebsiella pneumoniae","2007 Q3","Hospital-onset",883,127765,6.91112589519822
+"Klebsiella pneumoniae","2007 Q3","Post discharge",330,127765,2.58286698235041
+"Klebsiella pneumoniae","2007 Q4","Community-onset",1149,125063,9.18736956573887
+"Klebsiella pneumoniae","2007 Q4","Hospital-onset",736,125063,5.88503394289278
+"Klebsiella pneumoniae","2007 Q4","Post discharge",370,125063,2.9585089115086
+"Klebsiella pneumoniae","2008 Q1","Community-onset",1033,131960,7.82812973628372
+"Klebsiella pneumoniae","2008 Q1","Hospital-onset",716,131960,5.42588663231282
+"Klebsiella pneumoniae","2008 Q1","Post discharge",303,131960,2.29615034859048
+"Klebsiella pneumoniae","2008 Q2","Community-onset",1158,132154,8.76250435098446
+"Klebsiella pneumoniae","2008 Q2","Hospital-onset",767,132154,5.80383491986622
+"Klebsiella pneumoniae","2008 Q2","Post discharge",335,132154,2.53492137960258
+"Klebsiella pneumoniae","2008 Q3","Community-onset",1268,131853,9.61677019104609
+"Klebsiella pneumoniae","2008 Q3","Hospital-onset",878,131853,6.65893077897355
+"Klebsiella pneumoniae","2008 Q3","Post discharge",371,131853,2.81373954327926
+"Klebsiella pneumoniae","2008 Q4","Community-onset",1174,127920,9.1776110068793
+"Klebsiella pneumoniae","2008 Q4","Hospital-onset",753,127920,5.88649155722326
+"Klebsiella pneumoniae","2008 Q4","Post discharge",363,127920,2.83771106941839
+"Klebsiella pneumoniae","2009 Q1","Community-onset",1179,134338,8.77637005166074
+"Klebsiella pneumoniae","2009 Q1","Hospital-onset",696,134338,5.18096145543331
+"Klebsiella pneumoniae","2009 Q1","Post discharge",329,134338,2.44904643511144
+"Klebsiella pneumoniae","2009 Q2","Community-onset",1193,138175,8.63397865026235
+"Klebsiella pneumoniae","2009 Q2","Hospital-onset",752,138175,5.44237380133888
+"Klebsiella pneumoniae","2009 Q2","Post discharge",369,138175,2.67052650624208
+"Klebsiella pneumoniae","2009 Q3","Community-onset",1377,138183,9.96504635157726
+"Klebsiella pneumoniae","2009 Q3","Hospital-onset",790,138183,5.71705636728107
+"Klebsiella pneumoniae","2009 Q3","Post discharge",419,138183,3.03221090872249
+"Klebsiella pneumoniae","2009 Q4","Community-onset",1280,132778,9.64015122987242
+"Klebsiella pneumoniae","2009 Q4","Hospital-onset",797,132778,6.00250041422525
+"Klebsiella pneumoniae","2009 Q4","Post discharge",366,132778,2.75648074229164
+"Klebsiella pneumoniae","2010 Q1","Community-onset",1105,138694,7.96717954633942
+"Klebsiella pneumoniae","2010 Q1","Hospital-onset",676,138694,4.87403925187824
+"Klebsiella pneumoniae","2010 Q1","Post discharge",322,138694,2.32165775015502
+"Klebsiella pneumoniae","2010 Q2","Community-onset",1263,141169,8.94672343078155
+"Klebsiella pneumoniae","2010 Q2","Hospital-onset",674,141169,4.77441931302198
+"Klebsiella pneumoniae","2010 Q2","Post discharge",359,141169,2.54305123646126
+"Klebsiella pneumoniae","2010 Q3","Community-onset",1367,140257,9.74639411936659
+"Klebsiella pneumoniae","2010 Q3","Hospital-onset",797,140257,5.68242583257877
+"Klebsiella pneumoniae","2010 Q3","Post discharge",460,140257,3.27969370512702
+"Klebsiella pneumoniae","2010 Q4","Community-onset",1288,134637,9.56646389922532
+"Klebsiella pneumoniae","2010 Q4","Hospital-onset",761,134637,5.65223526965099
+"Klebsiella pneumoniae","2010 Q4","Post discharge",349,134637,2.59215520250748
+"Klebsiella pneumoniae","2011 Q1","Community-onset",1170,139539,8.38475264979683
+"Klebsiella pneumoniae","2011 Q1","Hospital-onset",657,139539,4.70836110334745
+"Klebsiella pneumoniae","2011 Q1","Post discharge",338,139539,2.42226187660797
+"Klebsiella pneumoniae","2011 Q2","Community-onset",1331,141372,9.41487706193588
+"Klebsiella pneumoniae","2011 Q2","Hospital-onset",654,141372,4.62609286138698
+"Klebsiella pneumoniae","2011 Q2","Post discharge",396,141372,2.80112044817927
+"Klebsiella pneumoniae","2011 Q3","Community-onset",1434,139364,10.2896013317643
+"Klebsiella pneumoniae","2011 Q3","Hospital-onset",821,139364,5.89104790333228
+"Klebsiella pneumoniae","2011 Q3","Post discharge",447,139364,3.20742803019431
+"Klebsiella pneumoniae","2011 Q4","Community-onset",1331,135771,9.80327168541146
+"Klebsiella pneumoniae","2011 Q4","Hospital-onset",678,135771,4.99370263163709
+"Klebsiella pneumoniae","2011 Q4","Post discharge",379,135771,2.79146504039891
+"Klebsiella pneumoniae","2012 Q1","Community-onset",1182,140774,8.39643684203049
+"Klebsiella pneumoniae","2012 Q1","Hospital-onset",641,140774,4.55339764445139
+"Klebsiella pneumoniae","2012 Q1","Post discharge",333,140774,2.36549362808473
+"Klebsiella pneumoniae","2012 Q2","Community-onset",1287,140781,9.14185863149147
+"Klebsiella pneumoniae","2012 Q2","Hospital-onset",671,140781,4.76626817539299
+"Klebsiella pneumoniae","2012 Q2","Post discharge",369,140781,2.62109233490315
+"Klebsiella pneumoniae","2012 Q3","Community-onset",1355,138247,9.80129767734562
+"Klebsiella pneumoniae","2012 Q3","Hospital-onset",734,138247,5.30933763481305
+"Klebsiella pneumoniae","2012 Q3","Post discharge",461,138247,3.33461123930357
+"Klebsiella pneumoniae","2012 Q4","Community-onset",1278,133753,9.55492587082159
+"Klebsiella pneumoniae","2012 Q4","Hospital-onset",682,133753,5.0989510515652
+"Klebsiella pneumoniae","2012 Q4","Post discharge",359,133753,2.6840519464984
+"Klebsiella pneumoniae","2013 Q1","Community-onset",1166,136643,8.53318501496601
+"Klebsiella pneumoniae","2013 Q1","Hospital-onset",553,136643,4.04704229268971
+"Klebsiella pneumoniae","2013 Q1","Post discharge",282,136643,2.06377201905696
+"Klebsiella pneumoniae","2013 Q2","Community-onset",1225,138223,8.8624903236075
+"Klebsiella pneumoniae","2013 Q2","Hospital-onset",581,138223,4.20335255348242
+"Klebsiella pneumoniae","2013 Q2","Post discharge",405,138223,2.93004782127432
+"Klebsiella pneumoniae","2013 Q3","Community-onset",1443,137496,10.4948507592948
+"Klebsiella pneumoniae","2013 Q3","Hospital-onset",724,137496,5.26560772677023
+"Klebsiella pneumoniae","2013 Q3","Post discharge",428,137496,3.11281782742771
+"Klebsiella pneumoniae","2013 Q4","Community-onset",1350,134299,10.0521969634919
+"Klebsiella pneumoniae","2013 Q4","Hospital-onset",606,134299,4.51231952583415
+"Klebsiella pneumoniae","2013 Q4","Post discharge",377,134299,2.80716907795293
+"Klebsiella pneumoniae","2014 Q1","Community-onset",1244,136466,9.11582372165961
+"Klebsiella pneumoniae","2014 Q1","Hospital-onset",537,136466,3.93504609206689
+"Klebsiella pneumoniae","2014 Q1","Post discharge",355,136466,2.60138056365688
+"Klebsiella pneumoniae","2014 Q2","Community-onset",1300,141215,9.20582091137627
+"Klebsiella pneumoniae","2014 Q2","Hospital-onset",561,141215,3.97266579329391
+"Klebsiella pneumoniae","2014 Q2","Post discharge",412,141215,2.91753708883617
+"Klebsiella pneumoniae","2014 Q3","Community-onset",1479,139658,10.590155952398
+"Klebsiella pneumoniae","2014 Q3","Hospital-onset",631,139658,4.51818012573573
+"Klebsiella pneumoniae","2014 Q3","Post discharge",433,139658,3.1004310530009
+"Klebsiella pneumoniae","2014 Q4","Community-onset",1307,134458,9.72050751907659
+"Klebsiella pneumoniae","2014 Q4","Hospital-onset",642,134458,4.77472519299707
+"Klebsiella pneumoniae","2014 Q4","Post discharge",355,134458,2.64022966279433
+"Klebsiella pneumoniae","2015 Q1","Community-onset",1145,135886,8.42618076917416
+"Klebsiella pneumoniae","2015 Q1","Hospital-onset",492,135886,3.62068204230016
+"Klebsiella pneumoniae","2015 Q1","Post discharge",328,135886,2.41378802820011
+"Klebsiella pneumoniae","2015 Q2","Community-onset",1201,138705,8.65866407123031
+"Klebsiella pneumoniae","2015 Q2","Hospital-onset",486,138705,3.50383908294582
+"Klebsiella pneumoniae","2015 Q2","Post discharge",370,138705,2.66753181211925
+"Klebsiella pneumoniae","2015 Q3","Community-onset",1463,137203,10.6630321494428
+"Klebsiella pneumoniae","2015 Q3","Hospital-onset",549,137203,4.00137023242932
+"Klebsiella pneumoniae","2015 Q3","Post discharge",450,137203,3.27981166592567
+"Klebsiella pneumoniae","2015 Q4","Community-onset",1340,132219,10.1347007616152
+"Klebsiella pneumoniae","2015 Q4","Hospital-onset",549,132219,4.15220202845279
+"Klebsiella pneumoniae","2015 Q4","Post discharge",393,132219,2.97234134277222
+"Klebsiella pneumoniae","2016 Q1","Community-onset",1213,138117,8.78240911690813
+"Klebsiella pneumoniae","2016 Q1","Hospital-onset",481,138117,3.48255464569894
+"Klebsiella pneumoniae","2016 Q1","Post discharge",343,138117,2.48340175358573
+"Klebsiella pneumoniae","2016 Q2","Community-onset",1369,137059,9.98839915656761
+"Klebsiella pneumoniae","2016 Q2","Hospital-onset",528,137059,3.85235555490701
+"Klebsiella pneumoniae","2016 Q2","Post discharge",399,137059,2.91115505001496
+"Klebsiella pneumoniae","2016 Q3","Community-onset",1540,135157,11.3941564254904
+"Klebsiella pneumoniae","2016 Q3","Hospital-onset",557,135157,4.12113320064813
+"Klebsiella pneumoniae","2016 Q3","Post discharge",411,135157,3.04090798108866
+"Klebsiella pneumoniae","2016 Q4","Community-onset",1396,130683,10.6823381771156
+"Klebsiella pneumoniae","2016 Q4","Hospital-onset",552,130683,4.22396180069328
+"Klebsiella pneumoniae","2016 Q4","Post discharge",393,130683,3.00727715158054
+"Klebsiella pneumoniae","2017 Q1","Community-onset",1315,136477,9.63532316800633
+"Klebsiella pneumoniae","2017 Q1","Hospital-onset",447,136477,3.27527715292687
+"Klebsiella pneumoniae","2017 Q1","Post discharge",346,136477,2.53522571568836
+"Klebsiella pneumoniae","2017 Q2","Community-onset",1373,136124,10.0863918192236
+"Klebsiella pneumoniae","2017 Q2","Hospital-onset",444,136124,3.26173195028063
+"Klebsiella pneumoniae","2017 Q2","Post discharge",386,136124,2.83564984866739
+"Klebsiella pneumoniae","2017 Q3","Community-onset",1429,133818,10.678682987341
+"Klebsiella pneumoniae","2017 Q3","Hospital-onset",491,133818,3.66916259397092
+"Klebsiella pneumoniae","2017 Q3","Post discharge",489,133818,3.65421692149038
+"Klebsiella pneumoniae","2017 Q4","Community-onset",1376,132108,10.4157204711297
+"Klebsiella pneumoniae","2017 Q4","Hospital-onset",443,132108,3.35331698307445
+"Klebsiella pneumoniae","2017 Q4","Post discharge",403,132108,3.05053441123929
+"Klebsiella pneumoniae","2018 Q1","Community-onset",1264,136697,9.24672816521211
+"Klebsiella pneumoniae","2018 Q1","Hospital-onset",420,136697,3.07248878907364
+"Klebsiella pneumoniae","2018 Q1","Post discharge",357,136697,2.6116154707126
+"Klebsiella pneumoniae","2018 Q2","Community-onset",1349,136870,9.85606780156353
+"Klebsiella pneumoniae","2018 Q2","Hospital-onset",379,136870,2.76905092423468
+"Klebsiella pneumoniae","2018 Q2","Post discharge",387,136870,2.82750054796522
+"Klebsiella pneumoniae","2018 Q3","Community-onset",1491,133799,11.1435810432066
+"Klebsiella pneumoniae","2018 Q3","Hospital-onset",429,133799,3.20630199029888
+"Klebsiella pneumoniae","2018 Q3","Post discharge",473,133799,3.53515347648338
+"Klebsiella pneumoniae","2018 Q4","Community-onset",1405,131059,10.7203625847901
+"Klebsiella pneumoniae","2018 Q4","Hospital-onset",414,131059,3.15888264064276
+"Klebsiella pneumoniae","2018 Q4","Post discharge",409,131059,3.12073188411326
+"Klebsiella pneumoniae","2019 Q1","Community-onset",1367,134984,10.1271261779174
+"Klebsiella pneumoniae","2019 Q1","Hospital-onset",352,134984,2.60771647010016
+"Klebsiella pneumoniae","2019 Q1","Post discharge",366,134984,2.71143246607005
+"Klebsiella pneumoniae","2019 Q2","Community-onset",1446,136761,10.5731897251409
+"Klebsiella pneumoniae","2019 Q2","Hospital-onset",403,136761,2.94674651399156
+"Klebsiella pneumoniae","2019 Q2","Post discharge",389,136761,2.84437814874123
+"Klebsiella pneumoniae","2019 Q3","Community-onset",1583,133801,11.8310027578269
+"Klebsiella pneumoniae","2019 Q3","Hospital-onset",436,133801,3.25857056374765
+"Klebsiella pneumoniae","2019 Q3","Post discharge",437,133801,3.26604434944432
+"Klebsiella pneumoniae","2019 Q4","Community-onset",1467,129551,11.3237257913872
+"Klebsiella pneumoniae","2019 Q4","Hospital-onset",404,129551,3.11846299912776
+"Klebsiella pneumoniae","2019 Q4","Post discharge",367,129551,2.8328611898017
+"Klebsiella pneumoniae","2020 Q1","Community-onset",1289,124192,10.3790904406081
+"Klebsiella pneumoniae","2020 Q1","Hospital-onset",394,124192,3.17250708580263
+"Klebsiella pneumoniae","2020 Q1","Post discharge",329,124192,2.64912393712961
+"Klebsiella pneumoniae","2020 Q2","Community-onset",1239,93235,13.2890009116748
+"Klebsiella pneumoniae","2020 Q2","Hospital-onset",368,93235,3.94701560572746
+"Klebsiella pneumoniae","2020 Q2","Post discharge",267,93235,2.86373143132944
+"Klebsiella pneumoniae","2020 Q3","Community-onset",1488,113339,13.1287553269395
+"Klebsiella pneumoniae","2020 Q3","Hospital-onset",499,113339,4.40272104041857
+"Klebsiella pneumoniae","2020 Q3","Post discharge",282,113339,2.48811088857322
+"Klebsiella pneumoniae","2020 Q4","Community-onset",1428,113705,12.5588144760565
+"Klebsiella pneumoniae","2020 Q4","Hospital-onset",538,113705,4.73154214854228
+"Klebsiella pneumoniae","2020 Q4","Post discharge",268,113705,2.3569763862627
+"Klebsiella pneumoniae","2021 Q1","Community-onset",1275,112708,11.312417929517
+"Klebsiella pneumoniae","2021 Q1","Hospital-onset",545,112708,4.83550413457785
+"Klebsiella pneumoniae","2021 Q1","Post discharge",257,112708,2.2802285552046
+"Klebsiella pneumoniae","2021 Q2","Community-onset",1364,122643,11.1217109822819
+"Klebsiella pneumoniae","2021 Q2","Hospital-onset",457,122643,3.72626240388771
+"Klebsiella pneumoniae","2021 Q2","Post discharge",330,122643,2.69073652797143
+"Klebsiella pneumoniae","2021 Q3","Community-onset",1492,121660,12.2636856814072
+"Klebsiella pneumoniae","2021 Q3","Hospital-onset",529,121660,4.34818346210751
+"Klebsiella pneumoniae","2021 Q3","Post discharge",401,121660,3.29607101759
+"Klebsiella pneumoniae","2021 Q4","Community-onset",1380,114060,12.0988953182536
+"Klebsiella pneumoniae","2021 Q4","Hospital-onset",511,114060,4.48009819393302
+"Klebsiella pneumoniae","2021 Q4","Post discharge",312,114060,2.73540241977906
+"Klebsiella pneumoniae","2022 Q1","Community-onset",1246,110418,11.2843920375301
+"Klebsiella pneumoniae","2022 Q1","Hospital-onset",440,110418,3.9848575413429
+"Klebsiella pneumoniae","2022 Q1","Post discharge",283,110418,2.56298791863645
+"Pseudomonas aeruginosa","2007 Q1","Community-onset",1078,127336,8.46579129232896
+"Pseudomonas aeruginosa","2007 Q1","Hospital-onset",678,127336,5.32449582207702
+"Pseudomonas aeruginosa","2007 Q1","Post discharge",252,127336,1.97901614625872
+"Pseudomonas aeruginosa","2007 Q2","Community-onset",1091,127771,8.53871379264465
+"Pseudomonas aeruginosa","2007 Q2","Hospital-onset",847,127771,6.62904727989919
+"Pseudomonas aeruginosa","2007 Q2","Post discharge",373,127771,2.9192852838281
+"Pseudomonas aeruginosa","2007 Q3","Community-onset",1147,127765,8.97741948107854
+"Pseudomonas aeruginosa","2007 Q3","Hospital-onset",939,127765,7.34943059523344
+"Pseudomonas aeruginosa","2007 Q3","Post discharge",404,127765,3.16205533596838
+"Pseudomonas aeruginosa","2007 Q4","Community-onset",1167,125063,9.33129702629875
+"Pseudomonas aeruginosa","2007 Q4","Hospital-onset",860,125063,6.87653422674972
+"Pseudomonas aeruginosa","2007 Q4","Post discharge",391,125063,3.12642428216179
+"Pseudomonas aeruginosa","2008 Q1","Community-onset",1056,131960,8.00242497726584
+"Pseudomonas aeruginosa","2008 Q1","Hospital-onset",815,131960,6.17611397393149
+"Pseudomonas aeruginosa","2008 Q1","Post discharge",382,131960,2.89481661109427
+"Pseudomonas aeruginosa","2008 Q2","Community-onset",1150,132154,8.70196891505365
+"Pseudomonas aeruginosa","2008 Q2","Hospital-onset",805,132154,6.09137824053755
+"Pseudomonas aeruginosa","2008 Q2","Post discharge",376,132154,2.84516548874798
+"Pseudomonas aeruginosa","2008 Q3","Community-onset",1185,131853,8.98728129052809
+"Pseudomonas aeruginosa","2008 Q3","Hospital-onset",906,131853,6.87128848035312
+"Pseudomonas aeruginosa","2008 Q3","Post discharge",432,131853,3.27637596414189
+"Pseudomonas aeruginosa","2008 Q4","Community-onset",1180,127920,9.2245153220763
+"Pseudomonas aeruginosa","2008 Q4","Hospital-onset",833,127920,6.51188242651657
+"Pseudomonas aeruginosa","2008 Q4","Post discharge",364,127920,2.84552845528455
+"Pseudomonas aeruginosa","2009 Q1","Community-onset",1088,134338,8.0989742291831
+"Pseudomonas aeruginosa","2009 Q1","Hospital-onset",776,134338,5.77647426640266
+"Pseudomonas aeruginosa","2009 Q1","Post discharge",368,134338,2.73935893045899
+"Pseudomonas aeruginosa","2009 Q2","Community-onset",1176,138175,8.51094626379591
+"Pseudomonas aeruginosa","2009 Q2","Hospital-onset",823,138175,5.95621494481636
+"Pseudomonas aeruginosa","2009 Q2","Post discharge",370,138175,2.67776370544599
+"Pseudomonas aeruginosa","2009 Q3","Community-onset",1316,138183,9.52360275866062
+"Pseudomonas aeruginosa","2009 Q3","Hospital-onset",826,138183,5.977580454904
+"Pseudomonas aeruginosa","2009 Q3","Post discharge",437,138183,3.16247295253396
+"Pseudomonas aeruginosa","2009 Q4","Community-onset",1280,132778,9.64015122987242
+"Pseudomonas aeruginosa","2009 Q4","Hospital-onset",784,132778,5.90459262829686
+"Pseudomonas aeruginosa","2009 Q4","Post discharge",422,132778,3.17823735859856
+"Pseudomonas aeruginosa","2010 Q1","Community-onset",1153,138694,8.31326517369172
+"Pseudomonas aeruginosa","2010 Q1","Hospital-onset",816,138694,5.88345566498911
+"Pseudomonas aeruginosa","2010 Q1","Post discharge",380,138694,2.73984454987238
+"Pseudomonas aeruginosa","2010 Q2","Community-onset",1204,141169,8.52878464818763
+"Pseudomonas aeruginosa","2010 Q2","Hospital-onset",754,141169,5.34111596738661
+"Pseudomonas aeruginosa","2010 Q2","Post discharge",386,141169,2.73431135730932
+"Pseudomonas aeruginosa","2010 Q3","Community-onset",1354,140257,9.65370712335213
+"Pseudomonas aeruginosa","2010 Q3","Hospital-onset",836,140257,5.96048682062214
+"Pseudomonas aeruginosa","2010 Q3","Post discharge",417,140257,2.97311364138688
+"Pseudomonas aeruginosa","2010 Q4","Community-onset",1238,134637,9.19509495903801
+"Pseudomonas aeruginosa","2010 Q4","Hospital-onset",748,134637,5.55567934520229
+"Pseudomonas aeruginosa","2010 Q4","Post discharge",364,134637,2.70356588456368
+"Pseudomonas aeruginosa","2011 Q1","Community-onset",1130,139539,8.09809443954737
+"Pseudomonas aeruginosa","2011 Q1","Hospital-onset",699,139539,5.00935222410939
+"Pseudomonas aeruginosa","2011 Q1","Post discharge",352,139539,2.52259225019529
+"Pseudomonas aeruginosa","2011 Q2","Community-onset",1200,141372,8.48824378236143
+"Pseudomonas aeruginosa","2011 Q2","Hospital-onset",692,141372,4.89488724782842
+"Pseudomonas aeruginosa","2011 Q2","Post discharge",424,141372,2.9991794697677
+"Pseudomonas aeruginosa","2011 Q3","Community-onset",1328,139364,9.52900318590167
+"Pseudomonas aeruginosa","2011 Q3","Hospital-onset",797,139364,5.71883700238225
+"Pseudomonas aeruginosa","2011 Q3","Post discharge",425,139364,3.04956803765678
+"Pseudomonas aeruginosa","2011 Q4","Community-onset",1281,135771,9.43500452968602
+"Pseudomonas aeruginosa","2011 Q4","Hospital-onset",743,135771,5.47244993408018
+"Pseudomonas aeruginosa","2011 Q4","Post discharge",431,135771,3.17446288235337
+"Pseudomonas aeruginosa","2012 Q1","Community-onset",1210,140774,8.59533720715473
+"Pseudomonas aeruginosa","2012 Q1","Hospital-onset",708,140774,5.02933780385583
+"Pseudomonas aeruginosa","2012 Q1","Post discharge",355,140774,2.52177248639664
+"Pseudomonas aeruginosa","2012 Q2","Community-onset",1254,140781,8.90745199991476
+"Pseudomonas aeruginosa","2012 Q2","Hospital-onset",667,140781,4.73785525035339
+"Pseudomonas aeruginosa","2012 Q2","Post discharge",410,140781,2.91232481655905
+"Pseudomonas aeruginosa","2012 Q3","Community-onset",1315,138247,9.51196047653837
+"Pseudomonas aeruginosa","2012 Q3","Hospital-onset",751,138247,5.43230594515613
+"Pseudomonas aeruginosa","2012 Q3","Post discharge",411,138247,2.9729397382945
+"Pseudomonas aeruginosa","2012 Q4","Community-onset",1180,133753,8.82223202470225
+"Pseudomonas aeruginosa","2012 Q4","Hospital-onset",691,133753,5.1662392619231
+"Pseudomonas aeruginosa","2012 Q4","Post discharge",364,133753,2.72143428558612
+"Pseudomonas aeruginosa","2013 Q1","Community-onset",1091,136643,7.98430947798277
+"Pseudomonas aeruginosa","2013 Q1","Hospital-onset",662,136643,4.84474140643868
+"Pseudomonas aeruginosa","2013 Q1","Post discharge",364,136643,2.66387593949196
+"Pseudomonas aeruginosa","2013 Q2","Community-onset",1149,138223,8.31265418924492
+"Pseudomonas aeruginosa","2013 Q2","Hospital-onset",585,138223,4.23229129739624
+"Pseudomonas aeruginosa","2013 Q2","Post discharge",371,138223,2.68406849800684
+"Pseudomonas aeruginosa","2013 Q3","Community-onset",1314,137496,9.55664164775703
+"Pseudomonas aeruginosa","2013 Q3","Hospital-onset",597,137496,4.3419444929307
+"Pseudomonas aeruginosa","2013 Q3","Post discharge",390,137496,2.83644615116076
+"Pseudomonas aeruginosa","2013 Q4","Community-onset",1168,134299,8.6970118913767
+"Pseudomonas aeruginosa","2013 Q4","Hospital-onset",556,134299,4.1400159345937
+"Pseudomonas aeruginosa","2013 Q4","Post discharge",380,134299,2.82950729342735
+"Pseudomonas aeruginosa","2014 Q1","Community-onset",1097,136466,8.03863233332845
+"Pseudomonas aeruginosa","2014 Q1","Hospital-onset",518,136466,3.79581727316694
+"Pseudomonas aeruginosa","2014 Q1","Post discharge",285,136466,2.08843228349919
+"Pseudomonas aeruginosa","2014 Q2","Community-onset",1122,141215,7.94533158658783
+"Pseudomonas aeruginosa","2014 Q2","Hospital-onset",536,141215,3.79563077576745
+"Pseudomonas aeruginosa","2014 Q2","Post discharge",366,141215,2.59179265658747
+"Pseudomonas aeruginosa","2014 Q3","Community-onset",1178,139658,8.43489094788698
+"Pseudomonas aeruginosa","2014 Q3","Hospital-onset",606,139658,4.33917140443082
+"Pseudomonas aeruginosa","2014 Q3","Post discharge",403,139658,2.88562058743502
+"Pseudomonas aeruginosa","2014 Q4","Community-onset",1159,134458,8.61979205402431
+"Pseudomonas aeruginosa","2014 Q4","Hospital-onset",536,134458,3.98637492748665
+"Pseudomonas aeruginosa","2014 Q4","Post discharge",339,134458,2.52123339630219
+"Pseudomonas aeruginosa","2015 Q1","Community-onset",988,135886,7.27080052396862
+"Pseudomonas aeruginosa","2015 Q1","Hospital-onset",546,135886,4.01807397377213
+"Pseudomonas aeruginosa","2015 Q1","Post discharge",333,135886,2.45058357741048
+"Pseudomonas aeruginosa","2015 Q2","Community-onset",994,138705,7.16628816553116
+"Pseudomonas aeruginosa","2015 Q2","Hospital-onset",513,138705,3.69849680977614
+"Pseudomonas aeruginosa","2015 Q2","Post discharge",327,138705,2.35752135827836
+"Pseudomonas aeruginosa","2015 Q3","Community-onset",1172,137203,8.5420872721442
+"Pseudomonas aeruginosa","2015 Q3","Hospital-onset",493,137203,3.59321589178079
+"Pseudomonas aeruginosa","2015 Q3","Post discharge",349,137203,2.54367615868458
+"Pseudomonas aeruginosa","2015 Q4","Community-onset",1104,132219,8.34978331404715
+"Pseudomonas aeruginosa","2015 Q4","Hospital-onset",476,132219,3.60008773323047
+"Pseudomonas aeruginosa","2015 Q4","Post discharge",371,132219,2.80595073325316
+"Pseudomonas aeruginosa","2016 Q1","Community-onset",1003,138117,7.26195906369238
+"Pseudomonas aeruginosa","2016 Q1","Hospital-onset",462,138117,3.34499011707465
+"Pseudomonas aeruginosa","2016 Q1","Post discharge",351,138117,2.5413236603749
+"Pseudomonas aeruginosa","2016 Q2","Community-onset",1113,137059,8.1205904026733
+"Pseudomonas aeruginosa","2016 Q2","Hospital-onset",453,137059,3.30514595903954
+"Pseudomonas aeruginosa","2016 Q2","Post discharge",365,137059,2.66308669988837
+"Pseudomonas aeruginosa","2016 Q3","Community-onset",1133,135157,8.38284365589648
+"Pseudomonas aeruginosa","2016 Q3","Hospital-onset",570,135157,4.21731763800617
+"Pseudomonas aeruginosa","2016 Q3","Post discharge",395,135157,2.92252713510954
+"Pseudomonas aeruginosa","2016 Q4","Community-onset",1239,130683,9.48095773742568
+"Pseudomonas aeruginosa","2016 Q4","Hospital-onset",457,130683,3.4970118531102
+"Pseudomonas aeruginosa","2016 Q4","Post discharge",348,130683,2.6629324395675
+"Pseudomonas aeruginosa","2017 Q1","Community-onset",1139,136477,8.34572858430358
+"Pseudomonas aeruginosa","2017 Q1","Hospital-onset",397,136477,2.90891505528404
+"Pseudomonas aeruginosa","2017 Q1","Post discharge",357,136477,2.61582537716978
+"Pseudomonas aeruginosa","2017 Q2","Community-onset",1143,136124,8.39675589903323
+"Pseudomonas aeruginosa","2017 Q2","Hospital-onset",417,136124,3.06338338573653
+"Pseudomonas aeruginosa","2017 Q2","Post discharge",341,136124,2.50506890776057
+"Pseudomonas aeruginosa","2017 Q3","Community-onset",1189,133818,8.88520228967702
+"Pseudomonas aeruginosa","2017 Q3","Hospital-onset",478,133818,3.57201572284745
+"Pseudomonas aeruginosa","2017 Q3","Post discharge",395,133818,2.95177031490532
+"Pseudomonas aeruginosa","2017 Q4","Community-onset",1157,132108,8.75798589033215
+"Pseudomonas aeruginosa","2017 Q4","Hospital-onset",448,132108,3.39116480455385
+"Pseudomonas aeruginosa","2017 Q4","Post discharge",385,132108,2.91428225391346
+"Pseudomonas aeruginosa","2018 Q1","Community-onset",1121,136697,8.20061888702751
+"Pseudomonas aeruginosa","2018 Q1","Hospital-onset",429,136697,3.13832783455379
+"Pseudomonas aeruginosa","2018 Q1","Post discharge",341,136697,2.49456827874789
+"Pseudomonas aeruginosa","2018 Q2","Community-onset",1129,136870,8.24870314897348
+"Pseudomonas aeruginosa","2018 Q2","Hospital-onset",394,136870,2.87864396872945
+"Pseudomonas aeruginosa","2018 Q2","Post discharge",378,136870,2.76174472126836
+"Pseudomonas aeruginosa","2018 Q3","Community-onset",1272,133799,9.50679750969738
+"Pseudomonas aeruginosa","2018 Q3","Hospital-onset",465,133799,3.47536229717711
+"Pseudomonas aeruginosa","2018 Q3","Post discharge",388,133799,2.89987219635423
+"Pseudomonas aeruginosa","2018 Q4","Community-onset",1225,131059,9.34693534972799
+"Pseudomonas aeruginosa","2018 Q4","Hospital-onset",398,131059,3.03680021974836
+"Pseudomonas aeruginosa","2018 Q4","Post discharge",325,131059,2.47979917441763
+"Pseudomonas aeruginosa","2019 Q1","Community-onset",1172,134984,8.68251051976531
+"Pseudomonas aeruginosa","2019 Q1","Hospital-onset",387,134984,2.86700646002489
+"Pseudomonas aeruginosa","2019 Q1","Post discharge",342,134984,2.53363361583595
+"Pseudomonas aeruginosa","2019 Q2","Community-onset",1208,136761,8.83292751588538
+"Pseudomonas aeruginosa","2019 Q2","Hospital-onset",382,136761,2.79319396611607
+"Pseudomonas aeruginosa","2019 Q2","Post discharge",356,136761,2.60308128779403
+"Pseudomonas aeruginosa","2019 Q3","Community-onset",1383,133801,10.3362456184931
+"Pseudomonas aeruginosa","2019 Q3","Hospital-onset",438,133801,3.27351813514099
+"Pseudomonas aeruginosa","2019 Q3","Post discharge",385,133801,2.87740749321754
+"Pseudomonas aeruginosa","2019 Q4","Community-onset",1256,129551,9.69502358144669
+"Pseudomonas aeruginosa","2019 Q4","Hospital-onset",403,129551,3.11074403130813
+"Pseudomonas aeruginosa","2019 Q4","Post discharge",348,129551,2.68620080122886
+"Pseudomonas aeruginosa","2020 Q1","Community-onset",1160,124192,9.34037619170317
+"Pseudomonas aeruginosa","2020 Q1","Hospital-onset",378,124192,3.04367431074465
+"Pseudomonas aeruginosa","2020 Q1","Post discharge",327,124192,2.63301984024736
+"Pseudomonas aeruginosa","2020 Q2","Community-onset",1096,93235,11.7552421301014
+"Pseudomonas aeruginosa","2020 Q2","Hospital-onset",407,93235,4.36531345524749
+"Pseudomonas aeruginosa","2020 Q2","Post discharge",222,93235,2.38108006649863
+"Pseudomonas aeruginosa","2020 Q3","Community-onset",1273,113339,11.2317913516089
+"Pseudomonas aeruginosa","2020 Q3","Hospital-onset",531,113339,4.68505986465383
+"Pseudomonas aeruginosa","2020 Q3","Post discharge",307,113339,2.70868809500701
+"Pseudomonas aeruginosa","2020 Q4","Community-onset",1146,113705,10.0787124576756
+"Pseudomonas aeruginosa","2020 Q4","Hospital-onset",579,113705,5.09212435688844
+"Pseudomonas aeruginosa","2020 Q4","Post discharge",309,113705,2.71755859460886
+"Pseudomonas aeruginosa","2021 Q1","Community-onset",1039,112708,9.21851155197501
+"Pseudomonas aeruginosa","2021 Q1","Hospital-onset",582,112708,5.1637860666501
+"Pseudomonas aeruginosa","2021 Q1","Post discharge",256,112708,2.271356070554
+"Pseudomonas aeruginosa","2021 Q2","Community-onset",1080,122643,8.80604681881559
+"Pseudomonas aeruginosa","2021 Q2","Hospital-onset",459,122643,3.74256989799662
+"Pseudomonas aeruginosa","2021 Q2","Post discharge",320,122643,2.60919905742684
+"Pseudomonas aeruginosa","2021 Q3","Community-onset",1201,121660,9.87177379582443
+"Pseudomonas aeruginosa","2021 Q3","Hospital-onset",587,121660,4.82492191352951
+"Pseudomonas aeruginosa","2021 Q3","Post discharge",370,121660,3.04126253493342
+"Pseudomonas aeruginosa","2021 Q4","Community-onset",1164,114060,10.2051551814834
+"Pseudomonas aeruginosa","2021 Q4","Hospital-onset",604,114060,5.29545853059793
+"Pseudomonas aeruginosa","2021 Q4","Post discharge",309,114060,2.70910047343503
+"Pseudomonas aeruginosa","2022 Q1","Community-onset",1015,110418,9.19234182832509
+"Pseudomonas aeruginosa","2022 Q1","Hospital-onset",547,110418,4.95390244344219
+"Pseudomonas aeruginosa","2022 Q1","Post discharge",285,110418,2.58110090746074
+"Serratia marcescens","2007 Q1","Community-onset",191,127336,1.4999685870453
+"Serratia marcescens","2007 Q1","Hospital-onset",135,127336,1.06018722121003
+"Serratia marcescens","2007 Q1","Post discharge",48,127336,0.376955456430232
+"Serratia marcescens","2007 Q2","Community-onset",184,127771,1.44007638666051
+"Serratia marcescens","2007 Q2","Hospital-onset",163,127771,1.27571984253078
+"Serratia marcescens","2007 Q2","Post discharge",65,127771,0.508722636592028
+"Serratia marcescens","2007 Q3","Community-onset",198,127765,1.54972018941025
+"Serratia marcescens","2007 Q3","Hospital-onset",189,127765,1.47927836261887
+"Serratia marcescens","2007 Q3","Post discharge",84,127765,0.657457050052831
+"Serratia marcescens","2007 Q4","Community-onset",224,125063,1.79109728696737
+"Serratia marcescens","2007 Q4","Hospital-onset",145,125063,1.15941565451013
+"Serratia marcescens","2007 Q4","Post discharge",72,125063,0.575709842239511
+"Serratia marcescens","2008 Q1","Community-onset",195,131960,1.47772052137011
+"Serratia marcescens","2008 Q1","Hospital-onset",123,131960,0.932100636556532
+"Serratia marcescens","2008 Q1","Post discharge",50,131960,0.378902697787208
+"Serratia marcescens","2008 Q2","Community-onset",181,132154,1.36961423793453
+"Serratia marcescens","2008 Q2","Hospital-onset",158,132154,1.19557485963346
+"Serratia marcescens","2008 Q2","Post discharge",63,132154,0.476716557955113
+"Serratia marcescens","2008 Q3","Community-onset",175,131853,1.32723563362229
+"Serratia marcescens","2008 Q3","Hospital-onset",165,131853,1.2513935974153
+"Serratia marcescens","2008 Q3","Post discharge",59,131853,0.44746801362123
+"Serratia marcescens","2008 Q4","Community-onset",209,127920,1.63383364602877
+"Serratia marcescens","2008 Q4","Hospital-onset",133,127920,1.03971232020013
+"Serratia marcescens","2008 Q4","Post discharge",69,127920,0.539399624765478
+"Serratia marcescens","2009 Q1","Community-onset",191,134338,1.42178683618931
+"Serratia marcescens","2009 Q1","Hospital-onset",118,134338,0.878381396179785
+"Serratia marcescens","2009 Q1","Post discharge",48,134338,0.357307686581608
+"Serratia marcescens","2009 Q2","Community-onset",208,138175,1.50533743441288
+"Serratia marcescens","2009 Q2","Hospital-onset",123,138175,0.890175502080695
+"Serratia marcescens","2009 Q2","Post discharge",74,138175,0.535552741089198
+"Serratia marcescens","2009 Q3","Community-onset",230,138183,1.66445944870208
+"Serratia marcescens","2009 Q3","Hospital-onset",158,138183,1.14341127345621
+"Serratia marcescens","2009 Q3","Post discharge",72,138183,0.52104817524587
+"Serratia marcescens","2009 Q4","Community-onset",212,132778,1.59665004744762
+"Serratia marcescens","2009 Q4","Hospital-onset",143,132778,1.07698564521231
+"Serratia marcescens","2009 Q4","Post discharge",71,132778,0.534727138531986
+"Serratia marcescens","2010 Q1","Community-onset",200,138694,1.44202344730125
+"Serratia marcescens","2010 Q1","Hospital-onset",151,138694,1.08872770271245
+"Serratia marcescens","2010 Q1","Post discharge",52,138694,0.374926096298326
+"Serratia marcescens","2010 Q2","Community-onset",169,141169,1.19714668234527
+"Serratia marcescens","2010 Q2","Hospital-onset",126,141169,0.892547230624287
+"Serratia marcescens","2010 Q2","Post discharge",61,141169,0.432106198953028
+"Serratia marcescens","2010 Q3","Community-onset",212,140257,1.5115110119281
+"Serratia marcescens","2010 Q3","Hospital-onset",137,140257,0.976778342613916
+"Serratia marcescens","2010 Q3","Post discharge",58,140257,0.413526597602972
+"Serratia marcescens","2010 Q4","Community-onset",207,134637,1.5374674123755
+"Serratia marcescens","2010 Q4","Hospital-onset",119,134637,0.883858077645818
+"Serratia marcescens","2010 Q4","Post discharge",68,134637,0.505061758654753
+"Serratia marcescens","2011 Q1","Community-onset",191,139539,1.36879295394119
+"Serratia marcescens","2011 Q1","Hospital-onset",106,139539,0.75964425716108
+"Serratia marcescens","2011 Q1","Post discharge",61,139539,0.437153770630433
+"Serratia marcescens","2011 Q2","Community-onset",221,141372,1.56325156325156
+"Serratia marcescens","2011 Q2","Hospital-onset",110,141372,0.778089013383131
+"Serratia marcescens","2011 Q2","Post discharge",62,141372,0.438559262088674
+"Serratia marcescens","2011 Q3","Community-onset",203,139364,1.456617203869
+"Serratia marcescens","2011 Q3","Hospital-onset",137,139364,0.983037226256422
+"Serratia marcescens","2011 Q3","Post discharge",66,139364,0.473579977612583
+"Serratia marcescens","2011 Q4","Community-onset",190,135771,1.39941519175671
+"Serratia marcescens","2011 Q4","Hospital-onset",112,135771,0.824918428825007
+"Serratia marcescens","2011 Q4","Post discharge",53,135771,0.390363185068976
+"Serratia marcescens","2012 Q1","Community-onset",167,140774,1.18629860627673
+"Serratia marcescens","2012 Q1","Hospital-onset",99,140774,0.703254862403569
+"Serratia marcescens","2012 Q1","Post discharge",59,140774,0.419111483654652
+"Serratia marcescens","2012 Q2","Community-onset",198,140781,1.40643978946023
+"Serratia marcescens","2012 Q2","Hospital-onset",104,140781,0.738736051029613
+"Serratia marcescens","2012 Q2","Post discharge",50,140781,0.355161562995006
+"Serratia marcescens","2012 Q3","Community-onset",221,138247,1.59858803446006
+"Serratia marcescens","2012 Q3","Hospital-onset",127,138247,0.918645612563021
+"Serratia marcescens","2012 Q3","Post discharge",63,138247,0.45570609127142
+"Serratia marcescens","2012 Q4","Community-onset",212,133753,1.58501117731939
+"Serratia marcescens","2012 Q4","Hospital-onset",120,133753,0.897176138105313
+"Serratia marcescens","2012 Q4","Post discharge",52,133753,0.388776326512303
+"Serratia marcescens","2013 Q1","Community-onset",163,136643,1.19288950037689
+"Serratia marcescens","2013 Q1","Hospital-onset",101,136643,0.739152389804088
+"Serratia marcescens","2013 Q1","Post discharge",45,136643,0.32932532218994
+"Serratia marcescens","2013 Q2","Community-onset",193,138223,1.39629439384184
+"Serratia marcescens","2013 Q2","Hospital-onset",100,138223,0.723468597845511
+"Serratia marcescens","2013 Q2","Post discharge",64,138223,0.463019902621127
+"Serratia marcescens","2013 Q3","Community-onset",201,137496,1.46186070867516
+"Serratia marcescens","2013 Q3","Hospital-onset",125,137496,0.90911735614127
+"Serratia marcescens","2013 Q3","Post discharge",61,137496,0.44364926979694
+"Serratia marcescens","2013 Q4","Community-onset",173,134299,1.28817042569193
+"Serratia marcescens","2013 Q4","Hospital-onset",110,134299,0.81906790072897
+"Serratia marcescens","2013 Q4","Post discharge",60,134299,0.446764309488529
+"Serratia marcescens","2014 Q1","Community-onset",187,136466,1.37030469127841
+"Serratia marcescens","2014 Q1","Hospital-onset",87,136466,0.637521433910278
+"Serratia marcescens","2014 Q1","Post discharge",53,136466,0.388375126405112
+"Serratia marcescens","2014 Q2","Community-onset",177,141215,1.25340792408738
+"Serratia marcescens","2014 Q2","Hospital-onset",108,141215,0.764791275714336
+"Serratia marcescens","2014 Q2","Post discharge",55,141215,0.389477038558227
+"Serratia marcescens","2014 Q3","Community-onset",212,139658,1.51799395666557
+"Serratia marcescens","2014 Q3","Hospital-onset",98,139658,0.701714187515216
+"Serratia marcescens","2014 Q3","Post discharge",79,139658,0.56566755932349
+"Serratia marcescens","2014 Q4","Community-onset",196,134458,1.4577042645287
+"Serratia marcescens","2014 Q4","Hospital-onset",90,134458,0.669353999018281
+"Serratia marcescens","2014 Q4","Post discharge",59,134458,0.438798732689762
+"Serratia marcescens","2015 Q1","Community-onset",167,135886,1.22897134362628
+"Serratia marcescens","2015 Q1","Hospital-onset",87,135886,0.640242556260395
+"Serratia marcescens","2015 Q1","Post discharge",47,135886,0.345878162577455
+"Serratia marcescens","2015 Q2","Community-onset",198,138705,1.4274899967557
+"Serratia marcescens","2015 Q2","Hospital-onset",70,138705,0.504668180671209
+"Serratia marcescens","2015 Q2","Post discharge",58,138705,0.418153635413287
+"Serratia marcescens","2015 Q3","Community-onset",214,137203,1.55973265890688
+"Serratia marcescens","2015 Q3","Hospital-onset",86,137203,0.62680845171024
+"Serratia marcescens","2015 Q3","Post discharge",67,137203,0.488327514704489
+"Serratia marcescens","2015 Q4","Community-onset",211,132219,1.59583720947821
+"Serratia marcescens","2015 Q4","Hospital-onset",90,132219,0.680688857123409
+"Serratia marcescens","2015 Q4","Post discharge",59,132219,0.446229361892013
+"Serratia marcescens","2016 Q1","Community-onset",193,138117,1.39736600128876
+"Serratia marcescens","2016 Q1","Hospital-onset",104,138117,0.75298478825923
+"Serratia marcescens","2016 Q1","Post discharge",51,138117,0.369252155780968
+"Serratia marcescens","2016 Q2","Community-onset",216,137059,1.57596363609832
+"Serratia marcescens","2016 Q2","Hospital-onset",84,137059,0.61287474737157
+"Serratia marcescens","2016 Q2","Post discharge",47,137059,0.342918013410283
+"Serratia marcescens","2016 Q3","Community-onset",221,135157,1.6351354350866
+"Serratia marcescens","2016 Q3","Hospital-onset",95,135157,0.702886273001028
+"Serratia marcescens","2016 Q3","Post discharge",67,135157,0.495719792537567
+"Serratia marcescens","2016 Q4","Community-onset",198,130683,1.51511673285737
+"Serratia marcescens","2016 Q4","Hospital-onset",94,130683,0.719297842871682
+"Serratia marcescens","2016 Q4","Post discharge",55,130683,0.420865759127048
+"Serratia marcescens","2017 Q1","Community-onset",192,136477,1.40683045494845
+"Serratia marcescens","2017 Q1","Hospital-onset",80,136477,0.586179356228522
+"Serratia marcescens","2017 Q1","Post discharge",54,136477,0.395671065454252
+"Serratia marcescens","2017 Q2","Community-onset",213,136124,1.56474978695895
+"Serratia marcescens","2017 Q2","Hospital-onset",71,136124,0.52158326231965
+"Serratia marcescens","2017 Q2","Post discharge",61,136124,0.448120831007023
+"Serratia marcescens","2017 Q3","Community-onset",220,133818,1.64402397285866
+"Serratia marcescens","2017 Q3","Hospital-onset",97,133818,0.724865115305863
+"Serratia marcescens","2017 Q3","Post discharge",44,133818,0.328804794571732
+"Serratia marcescens","2017 Q4","Community-onset",220,132108,1.66530414509341
+"Serratia marcescens","2017 Q4","Hospital-onset",76,132108,0.575286886486814
+"Serratia marcescens","2017 Q4","Post discharge",60,132108,0.454173857752748
+"Serratia marcescens","2018 Q1","Community-onset",223,136697,1.63134523800815
+"Serratia marcescens","2018 Q1","Hospital-onset",86,136697,0.629128656810318
+"Serratia marcescens","2018 Q1","Post discharge",75,136697,0.548658712334579
+"Serratia marcescens","2018 Q2","Community-onset",190,136870,1.3881785636005
+"Serratia marcescens","2018 Q2","Hospital-onset",77,136870,0.562577628406517
+"Serratia marcescens","2018 Q2","Post discharge",74,136870,0.540659019507562
+"Serratia marcescens","2018 Q3","Community-onset",247,133799,1.84605266108117
+"Serratia marcescens","2018 Q3","Hospital-onset",76,133799,0.568016203409592
+"Serratia marcescens","2018 Q3","Post discharge",77,133799,0.575490100822876
+"Serratia marcescens","2018 Q4","Community-onset",225,131059,1.71678404382759
+"Serratia marcescens","2018 Q4","Hospital-onset",84,131059,0.640932709695633
+"Serratia marcescens","2018 Q4","Post discharge",72,131059,0.549370894024829
+"Serratia marcescens","2019 Q1","Community-onset",226,134984,1.67427250637113
+"Serratia marcescens","2019 Q1","Hospital-onset",72,134984,0.533396550702305
+"Serratia marcescens","2019 Q1","Post discharge",60,134984,0.444497125585255
+"Serratia marcescens","2019 Q2","Community-onset",220,136761,1.608645739648
+"Serratia marcescens","2019 Q2","Hospital-onset",65,136761,0.475281695805091
+"Serratia marcescens","2019 Q2","Post discharge",73,136761,0.533777904519563
+"Serratia marcescens","2019 Q3","Community-onset",242,133801,1.80865613859388
+"Serratia marcescens","2019 Q3","Hospital-onset",81,133801,0.605376641430184
+"Serratia marcescens","2019 Q3","Post discharge",68,133801,0.508217427373488
+"Serratia marcescens","2019 Q4","Community-onset",261,129551,2.01465060092164
+"Serratia marcescens","2019 Q4","Hospital-onset",73,129551,0.563484650832491
+"Serratia marcescens","2019 Q4","Post discharge",58,129551,0.447700133538143
+"Serratia marcescens","2020 Q1","Community-onset",224,124192,1.80365885081165
+"Serratia marcescens","2020 Q1","Hospital-onset",75,124192,0.603903633084257
+"Serratia marcescens","2020 Q1","Post discharge",55,124192,0.442862664261788
+"Serratia marcescens","2020 Q2","Community-onset",162,93235,1.73754491339089
+"Serratia marcescens","2020 Q2","Hospital-onset",64,93235,0.686437496648254
+"Serratia marcescens","2020 Q2","Post discharge",42,93235,0.450474607175417
+"Serratia marcescens","2020 Q3","Community-onset",243,113339,2.1440104465365
+"Serratia marcescens","2020 Q3","Hospital-onset",83,113339,0.732316325360203
+"Serratia marcescens","2020 Q3","Post discharge",59,113339,0.520562207183758
+"Serratia marcescens","2020 Q4","Community-onset",205,113705,1.80291104173079
+"Serratia marcescens","2020 Q4","Hospital-onset",105,113705,0.923442240886505
+"Serratia marcescens","2020 Q4","Post discharge",48,113705,0.422145024405259
+"Serratia marcescens","2021 Q1","Community-onset",185,112708,1.64140966036129
+"Serratia marcescens","2021 Q1","Hospital-onset",110,112708,0.975973311566171
+"Serratia marcescens","2021 Q1","Post discharge",41,112708,0.363771870674664
+"Serratia marcescens","2021 Q2","Community-onset",191,122643,1.55736568740165
+"Serratia marcescens","2021 Q2","Hospital-onset",89,122643,0.72568348784684
+"Serratia marcescens","2021 Q2","Post discharge",57,122643,0.464763582104156
+"Serratia marcescens","2021 Q3","Community-onset",232,121660,1.90695380568798
+"Serratia marcescens","2021 Q3","Hospital-onset",100,121660,0.821962847279303
+"Serratia marcescens","2021 Q3","Post discharge",49,121660,0.402761795166858
+"Serratia marcescens","2021 Q4","Community-onset",223,114060,1.95511134490619
+"Serratia marcescens","2021 Q4","Hospital-onset",107,114060,0.938102752937051
+"Serratia marcescens","2021 Q4","Post discharge",57,114060,0.49973698053656
+"Serratia marcescens","2022 Q1","Community-onset",200,110418,1.81129888242859
+"Serratia marcescens","2022 Q1","Hospital-onset",93,110418,0.842253980329294
+"Serratia marcescens","2022 Q1","Post discharge",30,110418,0.271694832364288
+"Staphylococcus aureus","2007 Q1","Community-onset",3173,127336,24.9183263177734
+"Staphylococcus aureus","2007 Q1","Hospital-onset",1227,127336,9.6359238549978
+"Staphylococcus aureus","2007 Q1","Post discharge",463,127336,3.63604950681661
+"Staphylococcus aureus","2007 Q2","Community-onset",3110,127771,24.3404215354032
+"Staphylococcus aureus","2007 Q2","Hospital-onset",1253,127771,9.80660713307402
+"Staphylococcus aureus","2007 Q2","Post discharge",667,127771,5.22027690164435
+"Staphylococcus aureus","2007 Q3","Community-onset",3342,127765,26.1573983485305
+"Staphylococcus aureus","2007 Q3","Hospital-onset",1287,127765,10.0731812311666
+"Staphylococcus aureus","2007 Q3","Post discharge",750,127765,5.87015223261457
+"Staphylococcus aureus","2007 Q4","Community-onset",3335,125063,26.6665600537329
+"Staphylococcus aureus","2007 Q4","Hospital-onset",1290,125063,10.3148013401246
+"Staphylococcus aureus","2007 Q4","Post discharge",687,125063,5.49323141136867
+"Staphylococcus aureus","2008 Q1","Community-onset",3318,131960,25.1439830251591
+"Staphylococcus aureus","2008 Q1","Hospital-onset",1224,131960,9.27553804183086
+"Staphylococcus aureus","2008 Q1","Post discharge",647,131960,4.90300090936648
+"Staphylococcus aureus","2008 Q2","Community-onset",3226,132154,24.4109145390983
+"Staphylococcus aureus","2008 Q2","Hospital-onset",1185,132154,8.96681144725093
+"Staphylococcus aureus","2008 Q2","Post discharge",660,132154,4.99417346429166
+"Staphylococcus aureus","2008 Q3","Community-onset",3232,131853,24.5121461020985
+"Staphylococcus aureus","2008 Q3","Hospital-onset",1197,131853,9.07829173397647
+"Staphylococcus aureus","2008 Q3","Post discharge",667,131853,5.05866381500611
+"Staphylococcus aureus","2008 Q4","Community-onset",3235,127920,25.2892432770482
+"Staphylococcus aureus","2008 Q4","Hospital-onset",1156,127920,9.0368980612883
+"Staphylococcus aureus","2008 Q4","Post discharge",700,127920,5.47217010631645
+"Staphylococcus aureus","2009 Q1","Community-onset",3073,134338,22.87513585136
+"Staphylococcus aureus","2009 Q1","Hospital-onset",1211,134338,9.01457517604847
+"Staphylococcus aureus","2009 Q1","Post discharge",661,134338,4.92042460063422
+"Staphylococcus aureus","2009 Q2","Community-onset",3210,138175,23.231409444545
+"Staphylococcus aureus","2009 Q2","Hospital-onset",1014,138175,7.3385199927628
+"Staphylococcus aureus","2009 Q2","Post discharge",635,138175,4.59562149448164
+"Staphylococcus aureus","2009 Q3","Community-onset",3363,138183,24.3372918521092
+"Staphylococcus aureus","2009 Q3","Hospital-onset",1149,138183,8.31506046329867
+"Staphylococcus aureus","2009 Q3","Post discharge",669,138183,4.84140596165954
+"Staphylococcus aureus","2009 Q4","Community-onset",3098,132778,23.3321785235506
+"Staphylococcus aureus","2009 Q4","Hospital-onset",1041,132778,7.84015424241968
+"Staphylococcus aureus","2009 Q4","Post discharge",618,132778,4.65438551567278
+"Staphylococcus aureus","2010 Q1","Community-onset",3037,138694,21.8971260472695
+"Staphylococcus aureus","2010 Q1","Hospital-onset",1026,138694,7.39758028465543
+"Staphylococcus aureus","2010 Q1","Post discharge",625,138694,4.50632327281642
+"Staphylococcus aureus","2010 Q2","Community-onset",3072,141169,21.7611515276017
+"Staphylococcus aureus","2010 Q2","Hospital-onset",987,141169,6.99161997322358
+"Staphylococcus aureus","2010 Q2","Post discharge",669,141169,4.73900077212419
+"Staphylococcus aureus","2010 Q3","Community-onset",3185,140257,22.7083140235425
+"Staphylococcus aureus","2010 Q3","Hospital-onset",1022,140257,7.28662384052133
+"Staphylococcus aureus","2010 Q3","Post discharge",708,140257,5.04787639832593
+"Staphylococcus aureus","2010 Q4","Community-onset",3169,134637,23.5373634290722
+"Staphylococcus aureus","2010 Q4","Hospital-onset",1061,134637,7.8804489107749
+"Staphylococcus aureus","2010 Q4","Post discharge",583,134637,4.33016184258413
+"Staphylococcus aureus","2011 Q1","Community-onset",2929,139539,20.990547445517
+"Staphylococcus aureus","2011 Q1","Hospital-onset",1001,139539,7.17362171149284
+"Staphylococcus aureus","2011 Q1","Post discharge",584,139539,4.18520986964218
+"Staphylococcus aureus","2011 Q2","Community-onset",3194,141372,22.592875534052
+"Staphylococcus aureus","2011 Q2","Hospital-onset",890,141372,6.29544747191806
+"Staphylococcus aureus","2011 Q2","Post discharge",605,141372,4.27948957360722
+"Staphylococcus aureus","2011 Q3","Community-onset",3098,139364,22.2295571309664
+"Staphylococcus aureus","2011 Q3","Hospital-onset",939,139364,6.73775149966993
+"Staphylococcus aureus","2011 Q3","Post discharge",611,139364,4.38420252001952
+"Staphylococcus aureus","2011 Q4","Community-onset",2920,135771,21.5068018943662
+"Staphylococcus aureus","2011 Q4","Hospital-onset",972,135771,7.15911350730274
+"Staphylococcus aureus","2011 Q4","Post discharge",592,135771,4.36028312378932
+"Staphylococcus aureus","2012 Q1","Community-onset",2999,140774,21.3036498217
+"Staphylococcus aureus","2012 Q1","Hospital-onset",918,140774,6.52109054228764
+"Staphylococcus aureus","2012 Q1","Post discharge",597,140774,4.24083992782758
+"Staphylococcus aureus","2012 Q2","Community-onset",3013,140781,21.4020357860791
+"Staphylococcus aureus","2012 Q2","Hospital-onset",871,140781,6.18691442737301
+"Staphylococcus aureus","2012 Q2","Post discharge",610,140781,4.33297106853908
+"Staphylococcus aureus","2012 Q3","Community-onset",3065,138247,22.1704630118556
+"Staphylococcus aureus","2012 Q3","Hospital-onset",867,138247,6.27138382749716
+"Staphylococcus aureus","2012 Q3","Post discharge",671,138247,4.85363154354163
+"Staphylococcus aureus","2012 Q4","Community-onset",2933,133753,21.9284801088574
+"Staphylococcus aureus","2012 Q4","Hospital-onset",866,133753,6.47462112999335
+"Staphylococcus aureus","2012 Q4","Post discharge",537,133753,4.01486321802128
+"Staphylococcus aureus","2013 Q1","Community-onset",2895,136643,21.1865957275528
+"Staphylococcus aureus","2013 Q1","Hospital-onset",804,136643,5.88394575646026
+"Staphylococcus aureus","2013 Q1","Post discharge",544,136643,3.98117722825172
+"Staphylococcus aureus","2013 Q2","Community-onset",2785,138223,20.1486004499975
+"Staphylococcus aureus","2013 Q2","Hospital-onset",786,138223,5.68646317906571
+"Staphylococcus aureus","2013 Q2","Post discharge",535,138223,3.87055699847348
+"Staphylococcus aureus","2013 Q3","Community-onset",2981,137496,21.680630709257
+"Staphylococcus aureus","2013 Q3","Hospital-onset",731,137496,5.31651829871414
+"Staphylococcus aureus","2013 Q3","Post discharge",559,137496,4.06557281666376
+"Staphylococcus aureus","2013 Q4","Community-onset",2810,134299,20.9234618277128
+"Staphylococcus aureus","2013 Q4","Hospital-onset",759,134299,5.6515685150299
+"Staphylococcus aureus","2013 Q4","Post discharge",564,134299,4.19958450919218
+"Staphylococcus aureus","2014 Q1","Community-onset",2821,136466,20.6718156903551
+"Staphylococcus aureus","2014 Q1","Hospital-onset",732,136466,5.36397344393475
+"Staphylococcus aureus","2014 Q1","Post discharge",520,136466,3.81047293831431
+"Staphylococcus aureus","2014 Q2","Community-onset",2808,141215,19.8845731685727
+"Staphylococcus aureus","2014 Q2","Hospital-onset",731,141215,5.17650391247389
+"Staphylococcus aureus","2014 Q2","Post discharge",550,141215,3.89477038558227
+"Staphylococcus aureus","2014 Q3","Community-onset",2771,139658,19.8413266694353
+"Staphylococcus aureus","2014 Q3","Hospital-onset",718,139658,5.14113047587678
+"Staphylococcus aureus","2014 Q3","Post discharge",537,139658,3.84510733362929
+"Staphylococcus aureus","2014 Q4","Community-onset",2758,134458,20.5119814365824
+"Staphylococcus aureus","2014 Q4","Hospital-onset",656,134458,4.87884692617769
+"Staphylococcus aureus","2014 Q4","Post discharge",499,134458,3.71119606122358
+"Staphylococcus aureus","2015 Q1","Community-onset",2653,135886,19.523718411021
+"Staphylococcus aureus","2015 Q1","Hospital-onset",732,135886,5.3868684043978
+"Staphylococcus aureus","2015 Q1","Post discharge",433,135886,3.18649456161783
+"Staphylococcus aureus","2015 Q2","Community-onset",2627,138705,18.9394758660466
+"Staphylococcus aureus","2015 Q2","Hospital-onset",645,138705,4.65015680761328
+"Staphylococcus aureus","2015 Q2","Post discharge",446,138705,3.21545726541942
+"Staphylococcus aureus","2015 Q3","Community-onset",2753,137203,20.0651589250964
+"Staphylococcus aureus","2015 Q3","Hospital-onset",644,137203,4.69377491745807
+"Staphylococcus aureus","2015 Q3","Post discharge",511,137203,3.72440835841782
+"Staphylococcus aureus","2015 Q4","Community-onset",2605,132219,19.7021608089609
+"Staphylococcus aureus","2015 Q4","Hospital-onset",649,132219,4.90852298081214
+"Staphylococcus aureus","2015 Q4","Post discharge",476,132219,3.60008773323047
+"Staphylococcus aureus","2016 Q1","Community-onset",2558,138117,18.5205296958376
+"Staphylococcus aureus","2016 Q1","Hospital-onset",661,138117,4.7857975484553
+"Staphylococcus aureus","2016 Q1","Post discharge",425,138117,3.07710129817474
+"Staphylococcus aureus","2016 Q2","Community-onset",2607,137059,19.0210055523534
+"Staphylococcus aureus","2016 Q2","Hospital-onset",600,137059,4.37767676693978
+"Staphylococcus aureus","2016 Q2","Post discharge",468,137059,3.41458787821303
+"Staphylococcus aureus","2016 Q3","Community-onset",2638,135157,19.5180419808075
+"Staphylococcus aureus","2016 Q3","Hospital-onset",639,135157,4.72783503629113
+"Staphylococcus aureus","2016 Q3","Post discharge",443,135157,3.2776696730469
+"Staphylococcus aureus","2016 Q4","Community-onset",2482,130683,18.992523893697
+"Staphylococcus aureus","2016 Q4","Hospital-onset",596,130683,4.56065440799492
+"Staphylococcus aureus","2016 Q4","Post discharge",442,130683,3.38223028243918
+"Staphylococcus aureus","2017 Q1","Community-onset",2554,136477,18.7137759475956
+"Staphylococcus aureus","2017 Q1","Hospital-onset",620,136477,4.54289001077105
+"Staphylococcus aureus","2017 Q1","Post discharge",453,136477,3.31924060464401
+"Staphylococcus aureus","2017 Q2","Community-onset",2504,136124,18.3949928006817
+"Staphylococcus aureus","2017 Q2","Hospital-onset",608,136124,4.4665158238077
+"Staphylococcus aureus","2017 Q2","Post discharge",459,136124,3.37192559724957
+"Staphylococcus aureus","2017 Q3","Community-onset",2526,133818,18.8763843429135
+"Staphylococcus aureus","2017 Q3","Hospital-onset",582,133818,4.34919069183518
+"Staphylococcus aureus","2017 Q3","Post discharge",477,133818,3.56454288660718
+"Staphylococcus aureus","2017 Q4","Community-onset",2579,132108,19.5219063190723
+"Staphylococcus aureus","2017 Q4","Hospital-onset",564,132108,4.26923426287583
+"Staphylococcus aureus","2017 Q4","Post discharge",399,132108,3.02025615405577
+"Staphylococcus aureus","2018 Q1","Community-onset",2639,136697,19.3054712246794
+"Staphylococcus aureus","2018 Q1","Hospital-onset",590,136697,4.31611520369869
+"Staphylococcus aureus","2018 Q1","Post discharge",394,136697,2.88228710213099
+"Staphylococcus aureus","2018 Q2","Community-onset",2583,136870,18.8719222620004
+"Staphylococcus aureus","2018 Q2","Hospital-onset",535,136870,3.90881858698035
+"Staphylococcus aureus","2018 Q2","Post discharge",387,136870,2.82750054796522
+"Staphylococcus aureus","2018 Q3","Community-onset",2564,133799,19.1630729676604
+"Staphylococcus aureus","2018 Q3","Hospital-onset",464,133799,3.46788839976383
+"Staphylococcus aureus","2018 Q3","Post discharge",413,133799,3.08671963168634
+"Staphylococcus aureus","2018 Q4","Community-onset",2480,131059,18.922775238633
+"Staphylococcus aureus","2018 Q4","Hospital-onset",538,131059,4.10502140257441
+"Staphylococcus aureus","2018 Q4","Post discharge",397,131059,3.02917006844246
+"Staphylococcus aureus","2019 Q1","Community-onset",2458,134984,18.2095655781426
+"Staphylococcus aureus","2019 Q1","Hospital-onset",494,134984,3.65969300065193
+"Staphylococcus aureus","2019 Q1","Post discharge",388,134984,2.87441474545131
+"Staphylococcus aureus","2019 Q2","Community-onset",2387,136761,17.4538062751808
+"Staphylococcus aureus","2019 Q2","Hospital-onset",510,136761,3.72913330554763
+"Staphylococcus aureus","2019 Q2","Post discharge",392,136761,2.86631422700916
+"Staphylococcus aureus","2019 Q3","Community-onset",2479,133801,18.5275147420423
+"Staphylococcus aureus","2019 Q3","Hospital-onset",516,133801,3.85647341948117
+"Staphylococcus aureus","2019 Q3","Post discharge",381,133801,2.84751235043086
+"Staphylococcus aureus","2019 Q4","Community-onset",2386,129551,18.4174572176209
+"Staphylococcus aureus","2019 Q4","Hospital-onset",518,129551,3.9984253305648
+"Staphylococcus aureus","2019 Q4","Post discharge",348,129551,2.68620080122886
+"Staphylococcus aureus","2020 Q1","Community-onset",2327,124192,18.7371167224942
+"Staphylococcus aureus","2020 Q1","Hospital-onset",516,124192,4.15485699561969
+"Staphylococcus aureus","2020 Q1","Post discharge",339,124192,2.72964442154084
+"Staphylococcus aureus","2020 Q2","Community-onset",2048,93235,21.9659998927441
+"Staphylococcus aureus","2020 Q2","Hospital-onset",502,93235,5.38424411433475
+"Staphylococcus aureus","2020 Q2","Post discharge",206,93235,2.20947069233657
+"Staphylococcus aureus","2020 Q3","Community-onset",2236,113339,19.7284253434387
+"Staphylococcus aureus","2020 Q3","Hospital-onset",601,113339,5.30267604266845
+"Staphylococcus aureus","2020 Q3","Post discharge",250,113339,2.20577206433796
+"Staphylococcus aureus","2020 Q4","Community-onset",2136,113705,18.785453586034
+"Staphylococcus aureus","2020 Q4","Hospital-onset",769,113705,6.76311507849259
+"Staphylococcus aureus","2020 Q4","Post discharge",244,113705,2.14590387406007
+"Staphylococcus aureus","2021 Q1","Community-onset",2078,112708,18.43702310395
+"Staphylococcus aureus","2021 Q1","Hospital-onset",753,112708,6.68098094190297
+"Staphylococcus aureus","2021 Q1","Post discharge",256,112708,2.271356070554
+"Staphylococcus aureus","2021 Q2","Community-onset",2102,122643,17.1391763084726
+"Staphylococcus aureus","2021 Q2","Hospital-onset",573,122643,4.67209706220494
+"Staphylococcus aureus","2021 Q2","Post discharge",307,122643,2.50320034571887
+"Staphylococcus aureus","2021 Q3","Community-onset",2034,121660,16.718724313661
+"Staphylococcus aureus","2021 Q3","Hospital-onset",679,121660,5.58112773302647
+"Staphylococcus aureus","2021 Q3","Post discharge",316,121660,2.5974025974026
+"Staphylococcus aureus","2021 Q4","Community-onset",1975,114060,17.3154480098194
+"Staphylococcus aureus","2021 Q4","Hospital-onset",650,114060,5.69875504120638
+"Staphylococcus aureus","2021 Q4","Post discharge",289,114060,2.53375416447484
+"Staphylococcus aureus","2022 Q1","Community-onset",1840,110418,16.663949718343
+"Staphylococcus aureus","2022 Q1","Hospital-onset",650,110418,5.88672136789292
+"Staphylococcus aureus","2022 Q1","Post discharge",300,110418,2.71694832364288
