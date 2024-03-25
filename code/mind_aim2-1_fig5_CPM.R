@@ -2,12 +2,10 @@
 # Carbapenem resistance
 # Figure 4 in descriptive paper
 # ============================================================================ #
-setwd("/Users/tm-pham/academia/hsph/mind/")
-source("code/mind_colors.R")
-source("code/tmp_mind_res_prop_inc_comb_plot_function.R")
+setwd("/Users/tm-pham/academia/hsph/mind/publications/aim1/")
+source("code/plotting_template.R")
 
 # Load data 
-load("data/bugs_drugs.RData")
 df_CPM_res_prop_yr <- read.csv("data/mind_aim2-1_CPM_res_prop_yr.csv")
 df_CPM_inc_yr <- read.csv("data/mind_aim2-1_CPM_phenotypic_inc_yr.csv")
 
@@ -166,8 +164,6 @@ scale_sec_axis_vec <- c(23.5, 14.5, 4.6, 2.53, 13.5, 1.87)
                        sec.axis = sec_axis( trans=~.*scale_sec_axis_vec[4])) +
     theme_template_time() + 
     theme(legend.position = "none", 
-          axis.text.x = element_blank(), 
-          axis.ticks.x = element_blank(), 
           axis.text.y.left = element_text(size=16), 
           axis.text.y.right = element_text(size=16), 
           axis.title = element_blank(), 
@@ -180,16 +176,16 @@ scale_sec_axis_vec <- c(23.5, 14.5, 4.6, 2.53, 13.5, 1.87)
     facet_grid(.~organismofinterest) + 
     geom_vline(xintercept=as.numeric(as.Date("2019-10-30", format="%Y-%m-%d")), 
                linetype="dashed", color="black", linewidth=1.2) + 
-    geom_bar(data = df_CPM_res_prop_yr %>% filter(organismofinterest==bugs[7]), 
+    geom_bar(data = df_CPM_res_prop_yr %>% filter(organismofinterest=="Pseudomonas aeruginosa"), 
              aes(x = ymd(date_year, truncated=2), 
                  y =  prop_wNA), 
              stat="identity", color="black", fill=fill_color, alpha=1.5) + 
-    geom_point(data = df_CPM_inc_yr %>% filter(organismofinterest==bugs[7]), 
+    geom_point(data = df_CPM_inc_yr %>% filter(organismofinterest=="Pseudomonas aeruginosa"), 
                aes(x = ymd(date_year, truncated=2), 
                    y =  inc/scale_sec_axis_vec[5], 
                    color = eval(parse(text=drug))), 
                size=4.5) + 
-    geom_smooth(data = df_CPM_inc_yr %>% filter(organismofinterest==bugs[7]), 
+    geom_smooth(data = df_CPM_inc_yr %>% filter(organismofinterest=="Pseudomonas aeruginosa"), 
                 aes(x = ymd(date_year, truncated=2), 
                     y =  inc/scale_sec_axis_vec[5], 
                     color = eval(parse(text=drug))), 
@@ -205,8 +201,6 @@ scale_sec_axis_vec <- c(23.5, 14.5, 4.6, 2.53, 13.5, 1.87)
                        sec.axis = sec_axis( trans=~.*scale_sec_axis_vec[5])) +
     theme_template_time() + 
     theme(legend.position = "none", 
-          axis.text.x = element_blank(), 
-          axis.ticks.x = element_blank(), 
           axis.text.y.left = element_text(size=16), 
           axis.text.y.right = element_text(size=16), 
           axis.title = element_blank(), 
@@ -219,16 +213,16 @@ scale_sec_axis_vec <- c(23.5, 14.5, 4.6, 2.53, 13.5, 1.87)
     facet_grid(.~organismofinterest) + 
     geom_vline(xintercept=as.numeric(as.Date("2019-10-30", format="%Y-%m-%d")), 
                linetype="dashed", color="black", linewidth=1.2) + 
-    geom_bar(data = df_CPM_res_prop_yr %>% filter(organismofinterest==bugs[1]), 
+    geom_bar(data = df_CPM_res_prop_yr %>% filter(organismofinterest=="Acinetobacter Sp."), 
              aes(x = ymd(date_year, truncated=2), 
                  y = prop_wNA), 
              stat="identity", color="black", fill=fill_color, alpha=1.5) + 
-    geom_point(data = df_CPM_inc_yr %>% filter(organismofinterest==bugs[1]), 
+    geom_point(data = df_CPM_inc_yr %>% filter(organismofinterest=="Acinetobacter Sp."), 
                aes(x = ymd(date_year, truncated=2), 
                    y =  inc/scale_sec_axis_vec[6], 
                    color = eval(parse(text=drug))), 
                size=4.5) + 
-    geom_smooth(data = df_CPM_inc_yr %>% filter(organismofinterest==bugs[1]), 
+    geom_smooth(data = df_CPM_inc_yr %>% filter(organismofinterest=="Acinetobacter Sp."), 
                 aes(x = ymd(date_year, truncated=2), 
                     y =  inc/scale_sec_axis_vec[6], 
                     color = eval(parse(text=drug))), 
@@ -244,8 +238,6 @@ scale_sec_axis_vec <- c(23.5, 14.5, 4.6, 2.53, 13.5, 1.87)
                        sec.axis = sec_axis( trans=~.*scale_sec_axis_vec[6])) +
     theme_template_time() + 
     theme(legend.position = "none", 
-          axis.text.x = element_blank(), 
-          axis.ticks.x = element_blank(), 
           axis.text.y.left = element_text(size=16), 
           axis.text.y.right = element_text(size=16), 
           axis.title = element_blank(), 
@@ -267,7 +259,7 @@ figure5 <- ggpubr::annotate_figure(together,
           plot.background = element_rect(fill='transparent', color=NA), 
           legend.background = element_rect(fill='transparent', color=NA))
 
-ggsave(figure5, file="figures/mind_aim1_fig5_CPM.pdf", 
+ggsave(figure5, file="figures/mind_aim2-1_fig5_CPM.pdf", 
        bg='transparent',
        width=20, height=10)
 
