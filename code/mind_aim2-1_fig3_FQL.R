@@ -441,7 +441,7 @@ FQL_use_overall_yr <- FQL_use$overall %>%
           plot.margin = margin(1.5,0,0,0, 'cm')))
 
 # ---------------------------------------------------------------------------- #
-# Panel C: FQL use
+# Panel C: FQL GEE results
 # ---------------------------------------------------------------------------- #
 FQL_results <- list()
 FQL_results[["R"]] <- read.xlsx("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
