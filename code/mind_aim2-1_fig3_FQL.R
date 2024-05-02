@@ -4,22 +4,27 @@
 # Title: Figure 3
 # Fluoroquinolone resistance and utilization
 # ============================================================================ #
-setwd("/Users/tm-pham/academia/hsph/mind/publications/aim1")
-source("code/mind_colors.R")
+setwd("/Users/tm-pham/academia/hsph/mind/publications/aim2-1")
 source("code/packages.R")
+source("code/plotting_template.R")
+source("code/mind_global_variables.R")
 
 # Load data 
-load("data/bugs_drugs.RData")
+load("data/bug_drugs.RData")
 df_FQL_res_prop_yr <- read.csv("data/mind_aim2-1_FQL_res_prop_yr.csv")
 df_FQL_inc_yr <- read.csv("data/mind_aim2-1_FQL_phenotypic_inc_yr.csv")
 
-# Global variables 
-susc_colors = c("#35978F", "#800000", "#888888")
-fill_color ="#eda361"
-
+# Variables for tis script
 comb_plot <- NULL
 scale_sec_axis_vec <- c(1.59, 5.4, 11.8, 3.95, 18.38, 15.7, 15.2, 2.95, 17.1)
 drug <- "FQL_class"
+
+# Set levels/labels for antibiotic susceptibility test results
+df_FQL_inc_yr$FQL_class <- factor(df_FQL_inc_yr$FQL_class, levels = c("S", "R", NA))
+
+# ---------------------------------------------------------------------------- #
+# Panel A
+# ---------------------------------------------------------------------------- #
 
 # ---------------------------------------------------------------------------- #
 # Acinetobacter sp.
@@ -407,7 +412,7 @@ final_plot <- ggpubr::annotate_figure(combined_plot,
 #        width=18, height=10)
 
 # ---------------------------------------------------------------------------- #
-# FQL use
+# Panel B: FQL use
 # ---------------------------------------------------------------------------- #
 # load("/Users/tm-pham/academia/hsph/mind/data/mind_drug_use_df/mind_FQL_drug_use_qrt_df.rdata") # FQL_use
 load("/Users/tm-pham/academia/hsph/mind/data/mind_drug_use_df/mind_FQL_drug_use_year_df.rdata") # FQL_use
@@ -432,13 +437,67 @@ FQL_use_overall_yr <- FQL_use$overall %>%
           axis.text.x = element_text(size=24), 
           axis.text.y = element_text(size=24), 
           axis.title.y = element_text(size=24, face="plain"), 
-          strip.text = element_text(size=28, face="bold")))
+          strip.text = element_text(size=28, face="bold"), 
+          plot.margin = margin(1.5,0,0,0, 'cm')))
 
+# ---------------------------------------------------------------------------- #
+# Panel C: FQL use
+# ---------------------------------------------------------------------------- #
+FQL_results <- list()
+FQL_results[["R"]] <- read.xlsx("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                sheetName = "FQL_class_R")
+FQL_results[["S"]] <- read.xlsx("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                sheetName = "FQL_class_S")
+FQL_results[["Rp"]] <- read.xlsx("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/results/mind_aim2-1_gee_AAPC_results_resistance_proportions.xlsx", 
+                                 sheetName = "FQL_class")
+
+FQL_results$R <- FQL_results$R %>% 
+  mutate(type = "Resistant phenotype")
+FQL_results$S <- FQL_results$S %>% 
+  mutate(type = "Susceptible phenotype")
+FQL_results$Rp <- FQL_results$Rp %>% 
+  mutate(type = "Resistance proportion")
+
+# Data frame for plotting
+df_FQL_gee <- do.call("rbind", FQL_results) %>% 
+  mutate(time_period = factor(time_period, 
+                              levels = c("pre-pandemic", "pandemic"), 
+                              labels = c("2007-2019", "2020-2022")), 
+         organismofinterest = factor(organismofinterest, levels = bugs_ordered))
+
+# Plot 
+(FQL_GEE_results_plot <- ggplot(df_FQL_gee %>% filter(variable == "overall"), aes(x=time.trend, y=rev(time_period))) +
+    facet_grid(rows=vars(organismofinterest), cols = vars(type), switch="y", scales = "free") + 
+    geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, linetype=time_period, color=time_period), width=0., linewidth=2.5) +
+    geom_point(aes(shape=time_period, fill=time_period, color = time_period), stroke=1, size=3.5) + 
+    labs(x = "Average annual percentage change (%)", 
+         linetype="Time period", 
+         shape = "Time period", 
+         color = "Time period", 
+         fill = "Time period") + 
+    scale_x_continuous(breaks = seq(-25, 100, by=10)) +
+    scale_shape_manual(values=c(19, 19)) +
+    scale_fill_manual(values=c("black", "#696969")) + 
+    scale_color_manual(values=c("black", "#696969")) + 
+    theme_template() + 
+    theme(legend.position = "right", 
+          axis.title.y = element_blank(), 
+          axis.ticks.y = element_blank(), 
+          strip.text.y.left = element_text(angle = 0),
+          axis.text.y = element_blank(),
+          axis.text.x = element_text(size=18), 
+          axis.title.x = element_text(size=26, face="plain"),
+          panel.grid.minor = element_blank(), 
+          panel.grid.major = element_blank(), 
+          plot.margin = margin(0.5,0,0,0, 'cm')))
 
 # ---------------------------------------------------------------------------- #
 # Combined plot for manuscript
 # ---------------------------------------------------------------------------- #
-figure3 <- ggpubr::ggarrange(final_plot, FQL_overall_yr_barplot, nrow=2, align="v",
-                             heights = c(1.8, 0.9),
+figure3 <- ggpubr::ggarrange(final_plot, FQL_GEE_results_plot, FQL_overall_yr_barplot, 
+                             nrow=3, align="v", vjust = 1.3, 
+                             heights = c(1.8, 1.5, 0.9),
                              labels="AUTO", font.label=list(size=30))
-ggsave(figure3, file="figures/mind_aim2-1_fig3_FQL.pdf", width=19, height=17)
+ggsave(figure3, file="figures/mind_aim2-1_fig3ABC_FQL.pdf", width=20, height=30)
+ggsave(figure3, file="figures/mind_aim2-1_fig3ABC_FQL.png", width=20, height=30)
