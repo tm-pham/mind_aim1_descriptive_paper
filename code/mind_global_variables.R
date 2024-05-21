@@ -6,6 +6,7 @@
 # Global variables 
 susc_colors = c("#35978F", "#800000", "#888888")
 fill_color ="#eda361"
+onset_colors = c("#033c64", "#99004c")
 
 # Organisms of interest
 bugs_ordered <- c("Staphylococcus aureus", 
