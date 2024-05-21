@@ -17,11 +17,44 @@ Thi Mui Pham, PhD<sup>1,2,5</sup>, Yue Zhang, PhD<sup>3</sup>, McKenna Nevers, M
 </sub>
 <br>
 
-
-
-Individual-level patient data cannot be provided due to VA Privacy Practices. A data dictionary that represents the original data will be provided along with supporting documentation (statistical/analytic code). Specifically, we provide the code for
+We provide the code for
 
 - Main figures of the manuscript
 - reproducing the GEE analysis. 
 
-The corresponding data and scripts can be found in the folders `data` and `code`, respectively. 
+Individual-level patient data cannot be provided due to VA Privacy Practices. A data dictionary that represents the original data will be provided along with supporting documentation (statistical/analytic code) for the generalized estimating equations (GEE) analysis). The corresponding data and scripts can be found in the folders `data` and `code`, respectively. 
+
+## Code for reproducing figures
+### Main figures
+The files to reproduce the main figures 1-5 are located in the folder `code`. These files can be run with the data provided in the repository. 
+
+`mind_aim2-1_fig1.R`<br>
+`mind_aim2-1_fig2_MRSA_ENTFAES_ENTFAEM.R`<br>
+`mind_aim2-1_fig3_FQL.R`<br>
+`mind_aim2-1_fig4_CPH03.R`<br>
+`mind_aim2-1_fig5_CPM.R`<br>
+
+### Figures for in appendix
+The remaining files are to reproduce the results in the appendix. 
+
+### Helper functions
+`plotting_template.R`: This file defines a template (theme) for plotting in R. <br>
+`mind_global_variables.R`: This file defines the colors and the order of the pathogens. Mainly used for plotting. <br>
+
+## Code for the GEE analysis
+The files that were used for the GEE analysis are located in the folder `code`:
+
+`mind_aim2-1_function_inc_gee`: This function is used to run a GEE analysis for infection incidence and phenotypic incidence. <br>
+`mind_aim2-1_function_res_prop_gee`: This function is used to run a GEE analysis for resistance proportion. <br>
+`mind_aim2-1_runfile_inc_gee`: This script produces the GEE time trend results for infection incidence for each pathogen. <br>
+`mind_aim2-1_runfile_res_inc_gee`: This script produces the GEE time trend results for phenotypic incidence for each pathogen-drug combination. <br>
+`mind_aim2-1_runfile_res_prop_gee`: This script produces the GEE time trend results for resistance proportion for each pathogen-drug combination. <br>
+
+### Helper functions
+`mind_aim2-1_function_df_inc.R`: This function is a helper function to compute the incidence of a pre-specified outcome. <br>
+`mind_aim2-1_function_aapc.R`: This function is a helper function to compute the AAPC based on the output of the GEE analysis. <br>
+`packages.R`: This file loads all necessary packages. <br>
+
+
+
+
