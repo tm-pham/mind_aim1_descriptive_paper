@@ -4,7 +4,7 @@ Corresponding author: Thi Mui Pham (tmpham@hsph.harvard.edu)
 
 This repository accompanies the manuscript "Trends in Infection Incidence and Antimicrobial Resistance in the US Veterans Affairs Healthcare System: A Nationwide Study (2007-2022)". 
 
-Thi Mui Pham, PhD^1,2,5^, Yue Zhang, PhD^3^, McKenna Nevers, MS^3,4, Haojia Li, MS^3, Karim Khader, PhD^3,4, Yonatan H. Grad, MD^2,5, Marc Lipsitch, DPhil^1,2, Matthew Samore, MD^3,4
+Thi Mui Pham, PhD^1,2,5^, Yue Zhang, PhD^3^, McKenna Nevers, MS^3,4, Haojia Li, MS^3^, Karim Khader, PhD^3,4^, Yonatan H. Grad, MD^2,5^, Marc Lipsitch, DPhil^1,2^, Matthew Samore, MD^3,4^
 
 1 Department of Epidemiology, Harvard T.H. Chan School of Public Health
 2 Center for Communicable Disease Dynamics, Harvard T.H. Chan School of Public Health
