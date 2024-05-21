@@ -3,16 +3,14 @@
 # Figure 2 of descriptive paper
 # S. aureus and E. faecalis, zE. faecium
 # ============================================================================ #
-setwd("/Users/tm-pham/academia/hsph/mind/publications/aim1/")
+setwd("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/")
 source("code/packages.R")
-source("code/mind_colors.R")
+source("code/mind_global_variables.R")
 source("code/plotting_template.R")
 
 # Load data 
 load("data/bugs_drugs.RData")
-load("data/mind_incidence_data.RData")
-load("data/mind_incidence_qrt_data.RData")
-load("data/mind_df_inc_res_prop_yr_data_new.RData")
+load("data/mind_df_inc_res_prop_yr_data.RData")
 
 library(ggh4x) # For facet_nested
 library(ggpubr) # For ggarrange
@@ -191,15 +189,162 @@ scale_sec_axis = 4.1
 # ggsave(ENTFAEM_onset_plot, file = "figures/ENTFAEM/mind_figure2_ENTFAEM_VANC_onset2_res_prop_inc_comb_year_plot.pdf", width=16, height=16)
 
 # ---------------------------------------------------------------------------- #
-# Combine plots
+# GEE results
 # ---------------------------------------------------------------------------- #
 
-figure <- ggpubr::ggarrange(SA_onset_plot, ENTFAES_onset_plot, ENTFAEM_onset_plot,
+Meth_results <- list()
+Meth_results[["R"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                sheetName = "anti_st..._R")
+Meth_results[["S"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                sheetName = "anti_st..._S")
+Meth_results[["Rp"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_resistance_proportions.xlsx", 
+                                 sheetName = "anti_st...")
+
+Meth_results$R <- Meth_results$R %>% 
+  mutate(type = "Resistant phenotype")
+Meth_results$S <- Meth_results$S %>% 
+  mutate(type = "Susceptible phenotype")
+Meth_results$Rp <- Meth_results$Rp %>% 
+  mutate(type = "Resistance proportion")
+
+# Vancomycin
+VANC_results <- list()
+VANC_results[["R"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                 sheetName = "VANC_R")
+VANC_results[["S"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                 sheetName = "VANC_S")
+VANC_results[["Rp"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_resistance_proportions.xlsx", 
+                                  sheetName = "VANC")
+
+VANC_results$R <- VANC_results$R %>% 
+  mutate(type = "Resistant phenotype")
+VANC_results$S <- VANC_results$S %>% 
+  mutate(type = "Susceptible phenotype")
+VANC_results$Rp <- VANC_results$Rp %>% 
+  mutate(type = "Resistance proportion")
+
+# Data frame for plotting
+df_gee <- rbind(do.call("rbind", Meth_results), do.call("rbind", VANC_results))  %>% 
+  mutate(time_period = factor(time_period, 
+                              levels = c("pre-pandemic", "pandemic"), 
+                              labels = c("2007-2019", "2020-2022")), 
+         drug = ifelse(organismofinterest == "Staphylococcus aureus", "Methicillin", "Vancomycin"), 
+         organismofinterest = factor(organismofinterest, levels = bugs_ordered), 
+         org = organismofinterest, 
+         type = factor(type, levels = c("Resistant phenotype", "Susceptible phenotype", "Resistance proportion")))
+
+# Plot 
+(SA_GEE_results_plot <- ggplot(df_gee %>% filter(variable == "overall", organismofinterest == "Staphylococcus aureus"), 
+                            aes(x=time.trend, y=rev(time_period))) +
+    facet_nested( ~ drug + type, scales = "free", switch="y") + 
+    geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, color=time_period), width=0., linewidth=2.5) +
+    geom_point(aes(shape=time_period, fill=time_period, color = time_period), stroke=1, size=5.5) + 
+    labs(x = "Average annual percentage change (%)", 
+         linetype="Time period", 
+         shape = "Time period", 
+         color = "Time period", 
+         fill = "Time period") + 
+    # scale_x_continuous(breaks = seq(-25, 100, by=10)) +
+    scale_shape_manual(values=c(19, 19)) +
+    scale_fill_manual(values=c("black", "#696969")) + 
+    scale_color_manual(values=c("black", "#696969")) + 
+    theme_template() + 
+    theme(legend.position = "none", 
+          axis.title.y = element_blank(), 
+          axis.ticks.y = element_blank(), 
+          strip.text = element_text(face = "bold", size = 28), 
+          strip.text.y.left = element_text(angle = 0),
+          axis.text.y = element_blank(),
+          axis.text.x = element_text(size=26), 
+          axis.title.x = element_text(size=28, face="plain"),
+          panel.grid.minor = element_blank(), 
+          panel.grid.major = element_blank(), 
+          plot.margin = margin(0.5,0,0,0, 'cm')))
+
+(ENTFAES_GEE_results_plot <- ggplot(df_gee %>% filter(variable == "overall", organismofinterest == "Enterococcus faecalis"), 
+                            aes(x=time.trend, y=rev(time_period))) +
+    facet_nested( ~ drug + type, scales = "free", switch="y") + 
+    geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, color=time_period), width=0., linewidth=2.5) +
+    geom_point(aes(shape=time_period, fill=time_period, color = time_period), stroke=1, size=5.5) + 
+    labs(x = "Average annual percentage change (%)", 
+         linetype="Time period", 
+         shape = "Time period", 
+         color = "Time period", 
+         fill = "Time period") + 
+    # scale_x_continuous(breaks = seq(-25, 100, by=10)) +
+    scale_shape_manual(values=c(19, 19)) +
+    scale_fill_manual(values=c("black", "#696969")) + 
+    scale_color_manual(values=c("black", "#696969")) + 
+    theme_template() + 
+    theme(legend.position = "none", 
+          axis.title.y = element_blank(), 
+          axis.ticks.y = element_blank(), 
+          strip.text = element_text(face = "bold", size= 28), 
+          strip.text.y.left = element_text(angle = 0),
+          axis.text.y = element_blank(),
+          axis.text.x = element_text(size=26), 
+          axis.title.x = element_text(size=28, face="plain"),
+          panel.grid.minor = element_blank(), 
+          panel.grid.major = element_blank(), 
+          plot.margin = margin(0.5,0,0,0, 'cm')))
+
+
+(ENTFAEM_GEE_results_plot <- ggplot(df_gee %>% filter(variable == "overall", organismofinterest == "Enterococcus faecium"), 
+                            aes(x=time.trend, y=rev(time_period))) +
+    facet_nested( ~ drug + type, scales = "free", switch="y") + 
+    geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, color=time_period), width=0., linewidth=2.5) +
+    geom_point(aes(shape=time_period, fill=time_period, color = time_period), stroke=1, size=5.5) + 
+    labs(x = "Average annual percentage change (%)", 
+         linetype="Time period", 
+         shape = "Time period", 
+         color = "Time period", 
+         fill = "Time period") + 
+    scale_x_continuous(n.breaks = 8) +
+    scale_shape_manual(values=c(19, 19)) +
+    scale_fill_manual(values=c("black", "#696969")) + 
+    scale_color_manual(values=c("black", "#696969")) + 
+    theme_template() + 
+    theme(legend.position = "bottom", 
+          legend.text = element_text(size=28),
+          axis.title.y = element_blank(), 
+          axis.ticks.y = element_blank(), 
+          strip.text = element_text(face = "bold", size = 28), 
+          strip.text.y.left = element_text(angle = 0),
+          axis.text.y = element_blank(),
+          axis.text.x = element_text(size=26), 
+          axis.title.x = element_text(size=28, face="plain"),
+          panel.grid.minor = element_blank(), 
+          panel.grid.major = element_blank(), 
+          plot.margin = margin(0.5,0,0,0, 'cm')))
+
+# ---------------------------------------------------------------------------- #
+# Combine plots
+# ---------------------------------------------------------------------------- #
+GEE_figure <- ggpubr::ggarrange(SA_GEE_results_plot, ENTFAES_GEE_results_plot, ENTFAEM_GEE_results_plot,
+                                ncol = 1, nrow = 3) + theme(plot.margin = margin(0,0,0,1.6, "cm"))
+
+onset_figure <- ggpubr::ggarrange(SA_onset_plot, ENTFAES_onset_plot, ENTFAEM_onset_plot,
                     ncol = 1, nrow = 3) 
-final_figure <- ggpubr::annotate_figure(figure,
-                                left = ggpubr::text_grob("Resistance proportion", rot = 90, size=32), 
-                                right = ggpubr::text_grob("Incidence per 1,000 admissions", rot=270, size=32, margin(0.5,0,0,0.2,unit="cm"))
+figure <- ggpubr::annotate_figure(onset_figure,
+                                        left = ggpubr::text_grob("Resistance proportion", rot = 90, size=32), 
+                                        right = ggpubr::text_grob("Incidence per 1,000 admissions", rot=270, 
+                                                                  size=32, margin(0.5,0,0,0.2,unit="cm"))
 ) + theme(plot.margin = margin(0,0.6,0,0, "cm"))
 
-ggsave(final_figure, file= "figures/mind_aim1_fig2_SA_ENTFAES_ENTFAEM_onset.pdf", 
-       width = 26, height=28)
+final_figure <- ggpubr::ggarrange(figure, GEE_figure, 
+                                  ncol = 2, 
+                                  labels="AUTO", 
+                                  align="v",
+                                  font.label=list(size=30), 
+                                  widths = c(1.5, 1), 
+                                  heights = c(1.5, 0.2))
+
+ggsave(final_figure, file= "figures/mind_aim1_fig2_SA_ENTFAES_ENTFAEM_onset_AB.pdf", 
+       width = 48, height=26)
+ggsave(final_figure, file= "figures/mind_aim1_fig2_SA_ENTFAES_ENTFAEM_onset_AB.eps", 
+       width = 48, height=26)
+ggsave(final_figure, file= "figures/mind_aim1_fig2_SA_ENTFAES_ENTFAEM_onset_AB.png", 
+       width = 48, height=26)

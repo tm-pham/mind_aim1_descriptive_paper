@@ -3,9 +3,24 @@
 # MInD Aim 2.1 manuscript
 # Title: Figure 4
 # 3rd gen CPH resistance
+# ---------------------------------------------------------------------------- #
+# Panel A: lines 41
+# Combined plot of resistance proportion and phenotypic incidence
+# 
+# Panel B: lines 292
+# Combined plot of resistance proportion and phenotypic incidence for 
+# E. coli stratified by onset
+# 
+# Panel C: lines 338
+# GEE AAPC results for resistance proportion and phenotypic incidence
+# 
+# Panel D: lines 365
+# CPH03 antibiotic use barplot
+# 
+# Combined plot: lines lines 416
 # ============================================================================ #
 setwd("/Users/tm-pham/academia/hsph/mind/publications/aim2-1")
-source("code/mind_global_variables.R.R")
+source("code/mind_global_variables.R")
 source("code/packages.R")
 
 # Load data 
@@ -53,7 +68,7 @@ df_CPH03_inc_yr$CPH_03_class <- factor(df_CPH03_inc_yr$CPH_03_class, levels = c(
                        expand = c(0, 0), 
                        labels = scales::percent, breaks = seq(0, 1, 0.2), 
                        sec.axis = sec_axis( trans=~.*scale_sec_axis_vec[1])) +
-    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2008-01-01")), 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
                                                        to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
     theme_template_time() + 
@@ -87,7 +102,8 @@ df_CPH03_inc_yr$CPH_03_class <- factor(df_CPH03_inc_yr$CPH_03_class, levels = c(
                     color = eval(parse(text=drug))), 
                 linewidth=2) + 
     labs(color = "3rd generation cephalosporin susceptibility test result") + 
-    scale_x_date(date_labels = "%Y", breaks="2 years") + 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
+                                                       to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
     scale_y_continuous(name = "", 
                        limits = c(0, 1), 
@@ -125,7 +141,8 @@ df_CPH03_inc_yr$CPH_03_class <- factor(df_CPH03_inc_yr$CPH_03_class, levels = c(
                     color = eval(parse(text=drug))), 
                 linewidth=2) + 
     labs(color = "3rd generation cephalosporin susceptibility test result") + 
-    scale_x_date(date_labels = "%Y", breaks="2 years") + 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
+                                                       to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
     scale_y_continuous(name = "", 
                        limits = c(0, 1), 
@@ -278,7 +295,7 @@ final_plot <- ggpubr::annotate_figure(together,
 # E. coli onset plot
 scale_sec_axis <- 15
 (EC_comb_plot <- ggplot() + 
-    facet_nested(~ organismofinterest + onset) + 
+    ggh4x::facet_nested(~ organismofinterest + onset) + 
     # facet_grid(cols=vars(onset), rows = vars(organismofinterest), scales = "free", switch="y") +
     # facet_wrap(.~onset) +
     geom_vline(xintercept=as.numeric(as.Date("2019-08-30", format="%Y-%m-%d")), linetype="dashed", color="black",
@@ -309,14 +326,13 @@ scale_sec_axis <- 15
                                                        to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
     theme_template_time() + 
-    theme(axis.title.y = element_text(size=25), 
+    theme(axis.title.y = element_text(size=24, face = "plain"), 
           axis.text.y = element_text(size=22),
           axis.text.x = element_text(size=22),
           strip.text.x = element_text(face="bold", size=26),
           strip.text.x.top = element_text(face="bold.italic", size=26, margin = margin(0.4,0,0.4,0, "cm")), 
           legend.text = element_text(size=24), 
           legend.title = element_text(size=24)))
-
 
 
 # ---------------------------------------------------------------------------- #
@@ -369,21 +385,20 @@ df_CPH03_gee <- do.call("rbind", CPH03_results) %>%
   mutate(time_period = factor(time_period, 
                               levels = c("pre-pandemic", "pandemic"), 
                               labels = c("2007-2019", "2020-2022")), 
-         organismofinterest = factor(organismofinterest, levels = bugs_ordered))
+         organismofinterest = factor(organismofinterest, levels = bugs_ordered),
+         type = factor(type, levels = c("Resistant phenotype", "Susceptible phenotype", "Resistance proportion")))
 
 # Plot 
 (CPH03_GEE_results_plot <- ggplot(df_CPH03_gee %>% filter(variable == "overall"), aes(x=time.trend, y=rev(time_period))) +
     facet_grid(rows=vars(organismofinterest), cols = vars(type), switch="y", scales = "free") + 
     geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
-    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, linetype=time_period, color=time_period), width=0., linewidth=2.5) +
-    geom_point(aes(shape=time_period, fill=time_period, color = time_period), stroke=1, size=3.5) + 
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, color=time_period), width=0., linewidth=2) +
+    geom_point(aes(fill=time_period, color = time_period), stroke=1, size=3.5) + 
     labs(x = "Average annual percentage change (%)", 
-         linetype="Time period", 
          shape = "Time period", 
          color = "Time period", 
          fill = "Time period") + 
     # scale_x_continuous(breaks = seq(-25, 100, by=10)) +
-    scale_shape_manual(values=c(19, 19)) +
     scale_fill_manual(values=c("black", "#696969")) + 
     scale_color_manual(values=c("black", "#696969")) + 
     theme_template() + 
@@ -398,8 +413,7 @@ df_CPH03_gee <- do.call("rbind", CPH03_results) %>%
           panel.grid.major = element_blank(), 
           plot.margin = margin(0.5,0,0,0, 'cm')))
 
-
-
+# ---------------------------------------------------------------------------- #
 # Combined plot for manuscript
 figure4 <- ggpubr::ggarrange(final_plot, # Panel A
                              EC_comb_plot, # Panel B
@@ -408,8 +422,11 @@ figure4 <- ggpubr::ggarrange(final_plot, # Panel A
                              nrow=4, align="v", vjust = 1.3, 
                              heights = c(1.8, 1.1, 1.5, 1),
                              labels="AUTO", font.label=list(size=30))
+
 ggsave(figure4, file="figures/mind_aim2-1_fig4_CPH03ABCD.pdf", 
-       width=20, height=36)
+       width=20, height=32)
+ggsave(figure4, file="figures/mind_aim2-1_fig4_CPH03ABCD.eps", 
+       width=20, height=32)
 ggsave(figure4, file="figures/mind_aim2-1_fig4_CPH03ABCD.png", 
-       width=20, height=36)
+       width=20, height=32)
 

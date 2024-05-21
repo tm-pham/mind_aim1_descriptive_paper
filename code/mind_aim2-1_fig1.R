@@ -8,10 +8,12 @@
 # Figure 1A: Lines 38-78
 # Figure 1B: Lines 80-138
 # Figure 1C: Lines 142-200
+# Figures 1A-C are assembled to Figure 1 in Powerpoint or Photoshop
 # ============================================================================ #
-setwd("/Users/tm-pham/academia/hsph/mind/publications/aim1")
+setwd("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/")
 source("code/packages.R")
 source("code/plotting_template.R")
+source("code/mind_global_variables.R")
 
 # Organisms of interest
 bugs_ordered <- c("Staphylococcus aureus", 
@@ -49,11 +51,11 @@ df_inc_year_overall <- df_inc_qrt_overall %>%
   summarize(n_inc = sum(n_inc), 
             n_adm = sum(n_adm), 
             inc = 1000*n_inc/(n_adm)) %>% 
-  mutate(organismofinterest = factor(organismofinterest, levels = rev(bugs_order)))
+  mutate(organismofinterest = factor(organismofinterest, levels = rev(bugs_ordered)))
 
 # Minimum and maximum year, used for figures 1B and C as well
-min_date <- min(df_inc_year_total$date_year)
-max_date <- max(df_inc_year_total$date_year)
+min_date <- min(df_inc_year_overall$date_year)
+max_date <- max(df_inc_year_overall$date_year)
 
 # Plot
 figure1A <- ggplot(df_inc_year_overall %>% 
@@ -62,12 +64,13 @@ figure1A <- ggplot(df_inc_year_overall %>%
   geom_bar(stat="identity", position = "stack") + 
   scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0(min_date, "-01-01")), 
                                                      to = as.Date(paste0(max_date, "-01-01")), by = "year")) + 
-  labs(y = "Total number of incident isolates per 1,000 admissions", subtitle="A") + 
+  labs(y = "Total number of incident isolates per 1,000 admissions")+
+       # , subtitle="A") + 
   scale_fill_manual(values = rev(colors_vector)) + 
   theme_template_time() + 
   theme(legend.title = element_blank(), 
         legend.position = "none", 
-        plot.subtitle = element_text(hjust = -0.1),
+        # plot.subtitle = element_text(hjust = -0.1),
         legend.text = element_text(size=24),
         axis.text.x = element_text(size=25), 
         axis.text.y = element_text(size=25), 
@@ -88,7 +91,7 @@ ggsave(figure1A, file = "figures/mind_aim2-1_figure1A.pdf", width=18, height=9.2
 # time.trend: time trend coefficient from GEE analysis
 # lower95: lower bound of 95% confidence interval
 # upper95: upper bound of 95% confidence interval
-inc_gee_results_org_onset <-readxl::read_excel("data/mind_aim2-1_inc_gee_results_by_org.xlsx")
+inc_gee_results_org_onset <-readxl::read_excel("results/mind_aim2-1_gee_AAPC_results_infection_incidence.xlsx")
 
 # Create data frame for plotting 
 df_gee_results <- inc_gee_results_org_onset %>% filter(onset=="overall") %>% 
@@ -105,12 +108,11 @@ df_gee_results <- inc_gee_results_org_onset %>% filter(onset=="overall") %>%
 gee_results_plot <- ggplot(df_gee_results, aes(x=time.trend, y=rev(pandemic_flag))) +
   facet_grid(rows=vars(organismofinterest), switch="y") + 
   geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
-  geom_errorbar(aes(xmin=lower95, xmax=upper95, linetype=pandemic_flag, color=pandemic_flag), width=0., linewidth=1.5) +
-  geom_point(aes(shape=pandemic_flag, fill=pandemic_flag, color = pandemic_flag), stroke=2, size=5) + 
+  geom_errorbar(aes(xmin=lower95, xmax=upper95, color=pandemic_flag), width=0., linewidth=1.5) +
+  geom_point(aes(fill=pandemic_flag, color = pandemic_flag), stroke=2, size=5) + 
   labs(x = "Average annual percentage change (%)", 
-       linetype="Time period", shape = "Time period", color = "Time period", fill = "Time period") + 
+       linetype="Time period", color = "Time period", fill = "Time period") + 
   scale_x_continuous(limits = c(-11, 40), breaks = seq(-11, 60, by=5)) +
-  scale_shape_manual(values=c(19, 19)) +
   scale_fill_manual(values=c("black", "#696969")) + 
   scale_color_manual(values=c("black", "#696969")) + 
   theme_template() + 
@@ -128,12 +130,12 @@ gee_results_plot <- ggplot(df_gee_results, aes(x=time.trend, y=rev(pandemic_flag
 
 # Make colored facets
 figure1B <- ggplot_gtable(ggplot_build(gee_results_plot))
-strips <- which(grepl('strip-', g$layout$name))
+strips <- which(grepl('strip-', figure1B$layout$name))
 pal <- rev(colors_vector)
 for (i in seq_along(strips)) {
-  k <- which(grepl('rect', g$grobs[[strips[i]]]$grobs[[1]]$childrenOrder))
-  l <- which(grepl('titleGrob', g$grobs[[strips[i]]]$grobs[[1]]$childrenOrder))
-  g$grobs[[strips[i]]]$grobs[[1]]$children[[k]]$gp$fill <- pal[i]
+  k <- which(grepl('rect', figure1B$grobs[[strips[i]]]$grobs[[1]]$childrenOrder))
+  l <- which(grepl('titleGrob', figure1B$grobs[[strips[i]]]$grobs[[1]]$childrenOrder))
+  figure1B$grobs[[strips[i]]]$grobs[[1]]$children[[k]]$gp$fill <- pal[i]
 }
 
 # Save plot
@@ -147,7 +149,8 @@ df_inc_qrt_onset <- read.csv("data/mind_aim2-1_incidence_by_onset_org_quarterly.
 
 # Create yearly incidence data
 df_inc_year_onset <- df_inc_qrt_onset %>% 
-  mutate(date_year = year(yq(date_qrt))) %>% 
+  mutate(onset = ifelse(onset%in%c("Hospital-onset", "Post discharge"), "Hospital-associated", "Community-onset"),
+         date_year = year(yq(date_qrt))) %>% 
   group_by(organismofinterest, date_year, onset) %>%
   summarize(n_inc = sum(n_inc), 
             n_adm = sum(n_adm), 
@@ -160,10 +163,18 @@ df_inc_year_onset_total <- df_inc_year_onset %>%
          n_adm = n_adm[1], 
          inc = 1000*n_inc/n_adm) %>% 
   unique() %>% 
-  mutate(organismofinterest = factor(organismofinterest, levels = c(bugs_sorted, "Total")))
+  mutate(organismofinterest = factor(organismofinterest, levels = c(bugs_ordered, "Total")))
 
 # Load data on number of isolates resistant to one or more drugs
-df_res_total <-read.csv("data/mind_aim2-1_n_resistance_one_more_drugs.csv")
+df_res_total <- read.csv("data/mind_aim2-1_n_resistance_one_more_drugs.csv") %>% 
+  mutate(onset = ifelse(onset%in%c("Hospital-onset", "Post discharge"), "Hospital-associated", "Community-onset")) %>% 
+  ungroup() %>% 
+  group_by(year, onset) %>% 
+  summarize(n_total = sum(n_total), 
+            n_1R = sum(n_1R), 
+            n_MR = sum(n_MR), 
+            perc_1R = n_1R/n_total, 
+            perc_MR=n_MR/n_total)
 
 df_inc_stack_yr_onset <- df_inc_year_onset_total %>% filter(date_year <2023, date_year>=2007) %>% 
   left_join(df_res_total, by =c("date_year"="year", "onset")) %>% 
@@ -181,7 +192,7 @@ df_inc_stack_yr_onset <- df_inc_year_onset_total %>% filter(date_year <2023, dat
 figure1C <- ggplot(df_inc_stack_yr_onset, 
                    aes(x = ymd(date_year, truncated=2),
                        y = value, group=variable, fill=onset, alpha=variable)) + 
-  facet_grid(rows = vars(onset)) + 
+  facet_grid(rows = vars(onset), scales="free_y") + 
   geom_bar(stat="identity", position = "stack") + 
   scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0(min_date, "-01-01")), 
                                                      to = as.Date(paste0(max_date, "-01-01")), by = "year")) + 
@@ -191,10 +202,25 @@ figure1C <- ggplot(df_inc_stack_yr_onset,
   guides(fill="none") + 
   theme_template_time() + 
   theme(legend.position = "bottom", 
+        strip.text = element_text(size=28, face="bold"),
         legend.title = element_blank(), 
-        legend.text = element_text(size=22),
-        axis.text.x = element_text(size=22), 
-        axis.text.y = element_text(size=22), 
-        axis.title.y = element_text(size=24))
+        legend.text = element_text(size=26),
+        legend.key.size = unit(1, "cm"),
+        axis.text.x = element_text(size=26), 
+        axis.text.y = element_text(size=26), 
+        axis.title.y = element_text(size=26, face="plain"), 
+        panel.grid.minor = element_blank(), 
+        panel.grid.major = element_blank())
 
-ggsave(figure1C, file = "figures/mind_aim2-1_figure1C.pdf", width = 17, height=12)
+ggsave(figure1C, file = "figures/mind_aim2-1_figure1C.pdf", width = 19, height=12)
+
+
+# Save final plot
+# design <- "AAAA
+#            #BB#"
+# figure1 <- (figure1A | as.ggplot(figure1B))/(figure1C) +
+#   plot_layout(design = design) + 
+#   plot_annotation(tag_levels = 'A')& 
+#   theme(plot.tag = element_text(size = 30)) & 
+#   theme(plot.margin = unit(c(1,1,1,1), "cm"))
+# ggsave(figure1, file = "figures/mind_aim2-1_figure1ABC.pdf", width = 40, height=20)

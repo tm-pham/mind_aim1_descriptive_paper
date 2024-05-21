@@ -1,22 +1,40 @@
+# Thi Mui Pham, t.m.pham@hsph.harvard.edu
 # ============================================================================ #
+# MInD Aim 2.1 manuscript
+# Title: Figure 4 
 # Carbapenem resistance
-# Figure 4 in descriptive paper
+# Panel A: lines 35ff.
+# Combined plot of resistance proportion and phenotypic incidence
+# 
+# Panel B: lines 280ff.
+# GEE AAPC results for resistance proportion and phenotypic incidence
+# 
+# Panel C: lines 332ff.
+# Carbapenem use barplot
+# 
+# Combined plot: lines 360ff.
 # ============================================================================ #
-setwd("/Users/tm-pham/academia/hsph/mind/publications/aim1/")
+setwd("/Users/tm-pham/academia/hsph/mind/publications/aim2-1/")
+source("code/mind_global_variables.R")
+source("code/packages.R")
 source("code/plotting_template.R")
 
 # Load data 
+load("data/mind_CPM_drug_use_year_df.RData") 
 df_CPM_res_prop_yr <- read.csv("data/mind_aim2-1_CPM_res_prop_yr.csv")
 df_CPM_inc_yr <- read.csv("data/mind_aim2-1_CPM_phenotypic_inc_yr.csv")
-
-# Global variables
-susc_colors = c("#35978F", "#800000", "#888888")
-fill_color ="#eda361"
 
 comb_plot <- NULL
 drug = "CPM_class"
 scale_sec_axis_vec <- c(23.5, 14.5, 4.6, 2.53, 13.5, 1.87)
 
+# Set levels and labels
+df_CPM_inc_yr$CPM_class <- factor(df_CPM_inc_yr$CPM_class, levels = c("S", "R", NA))
+
+
+# ---------------------------------------------------------------------------- #
+# Panel A
+# ---------------------------------------------------------------------------- #
 # ---------------------------------------------------------------------------- #
 # E. coli
 # ---------------------------------------------------------------------------- #
@@ -252,14 +270,102 @@ together <- ggpubr::ggarrange(comb_plot_1, comb_plot_2, comb_plot_3,
                               nrow = 2, # 3 rows in the final figure
                               align = 'hv', common.legend = T, legend="bottom")
 
-figure5 <- ggpubr::annotate_figure(together,
+final_plot <- ggpubr::annotate_figure(together,
                                       left = ggpubr::text_grob("Resistance proportion", rot = 90, size=24), 
                                       right = ggpubr::text_grob("Incidence per 1,000 admissions", rot=270, size=24, margin(0.5,0,0,0.2,unit="cm"))
 ) + theme(plot.margin = margin(0,0.6,1,0, "cm"), 
           plot.background = element_rect(fill='transparent', color=NA), 
           legend.background = element_rect(fill='transparent', color=NA))
 
-ggsave(figure5, file="figures/mind_aim2-1_fig5_CPM.pdf", 
-       bg='transparent',
-       width=20, height=10)
+# ---------------------------------------------------------------------------- #
+# Panel B: AAPC results
+# ---------------------------------------------------------------------------- #
+CPM_results <- list()
+CPM_results[["R"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                  sheetName = "CPM_class_R")
+CPM_results[["S"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_phenotypic_incidence.xlsx", 
+                                  sheetName = "CPM_class_S")
+CPM_results[["Rp"]] <- read.xlsx("results/mind_aim2-1_gee_AAPC_results_resistance_proportions.xlsx", 
+                                   sheetName = "CPM_class")
+
+CPM_results$R <- CPM_results$R %>% 
+  mutate(type = "Resistant phenotype")
+CPM_results$S <- CPM_results$S %>% 
+  mutate(type = "Susceptible phenotype")
+CPM_results$Rp <- CPM_results$Rp %>% 
+  mutate(type = "Resistance proportion")
+
+# Data frame for plotting
+df_CPM_gee <- do.call("rbind", CPM_results) %>% 
+  mutate(time_period = factor(time_period, 
+                              levels = c("pre-pandemic", "pandemic"), 
+                              labels = c("2007-2019", "2020-2022")), 
+         organismofinterest = factor(organismofinterest, levels = bugs_ordered),
+         type = factor(type, levels = c("Resistant phenotype", "Susceptible phenotype", "Resistance proportion")))
+
+# Plot 
+(CPM_GEE_results_plot <- ggplot(df_CPM_gee %>% filter(variable == "overall", organismofinterest != "Escherichia coli"), aes(x=time.trend, y=rev(time_period))) +
+    facet_grid(rows=vars(organismofinterest), cols = vars(type), switch="y", scales = "free") + 
+    geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, color=time_period), width=0., linewidth=2) +
+    geom_point(aes(fill=time_period, color = time_period), stroke=1, size=3.5) + 
+    labs(x = "Average annual percentage change (%)", 
+         shape = "Time period", 
+         color = "Time period", 
+         fill = "Time period") + 
+    scale_x_continuous(n.breaks=6) +
+    scale_fill_manual(values=c("black", "#696969")) + 
+    scale_color_manual(values=c("black", "#696969")) + 
+    theme_template() + 
+    theme(legend.position = "right", 
+          axis.title.y = element_blank(), 
+          axis.ticks.y = element_blank(), 
+          strip.text.y.left = element_text(angle = 0),
+          axis.text.y = element_blank(),
+          axis.text.x = element_text(size=18), 
+          axis.title.x = element_text(size=26, face="plain"),
+          panel.grid.minor = element_blank(), 
+          panel.grid.major = element_blank(), 
+          plot.margin = margin(0.5,0,0,0, 'cm')))
+
+
+# ---------------------------------------------------------------------------- #
+# Panel C: CPM antibiotic use
+# ---------------------------------------------------------------------------- #
+CPM_use_overall_yr <- CPM_use$overall %>% 
+  rename(antibiotic=variable) %>% 
+  mutate(variable = "Carbapenem antibiotic use") %>% 
+  ungroup() %>% 
+  group_by(date_year, variable) %>% 
+  reframe(DOT = sum(n)*1000/n_pat) %>% 
+  unique()
+
+(CPM_overall_yr_barplot <- ggplot(CPM_use_overall_yr, aes(x=ymd(date_year, truncated=2), y = DOT)) + 
+    facet_wrap(.~variable) + 
+    geom_bar(stat="identity", color="black") + 
+    labs(y="Days of therapy\n(per 1,000 patient days)") + 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
+                                                       to = as.Date(paste0("2022-12-31")), by = "year")) + 
+    # scale_y_continuous(limits = c(0, 20))+
+    theme_template_time() + 
+    theme(plot.background = element_rect(fill='transparent', color=NA), 
+          legend.background = element_rect(fill='transparent', color=NA), #transparent legend bg
+          axis.text.x = element_text(size=24), 
+          axis.text.y = element_text(size=24), 
+          axis.title.y = element_text(size=24, face="plain"), 
+          strip.text = element_text(size=28, face="bold"), 
+          plot.margin = margin(1.5,0,0,0, 'cm')))
+
+
+# ---------------------------------------------------------------------------- #
+# Combined plot for manuscript
+figure5 <- ggpubr::ggarrange(final_plot, # Panel A
+                             CPM_GEE_results_plot, # Panel B
+                             CPM_overall_yr_barplot, # Panel C
+                             nrow=3, align="v", vjust = 1.3, 
+                             heights = c(1.5, 1.5, 1.),
+                             labels="AUTO", font.label=list(size=30))
+ggsave(figure5, file="figures/mind_aim2-1_fig5_CPM_ABC.pdf", width=20, height=26)
+ggsave(figure5, file="figures/mind_aim2-1_fig5_CPM_ABC.pdf", width=20, height=26)
+ggsave(figure5, file="figures/mind_aim2-1_fig5_CPM_ABC.png", width=20, height=26)
 

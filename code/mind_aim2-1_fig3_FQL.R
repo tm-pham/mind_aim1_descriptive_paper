@@ -3,6 +3,17 @@
 # MInD Aim 2.1 manuscript
 # Title: Figure 3
 # Fluoroquinolone resistance and utilization
+# ---------------------------------------------------------------------------- #
+# Panel A: lines 36ff.
+# Combined plot of resistance proportion and phenotypic incidence
+# 
+# Panel B: lines 425ff.
+# GEE AAPC results for resistance proportion and phenotypic incidence
+# 
+# Panel C: lines 445ff.
+# Fluoroquinolone use barplot
+# 
+# Combination of all plots: lines 509ff. 
 # ============================================================================ #
 setwd("/Users/tm-pham/academia/hsph/mind/publications/aim2-1")
 source("code/packages.R")
@@ -25,7 +36,6 @@ df_FQL_inc_yr$FQL_class <- factor(df_FQL_inc_yr$FQL_class, levels = c("S", "R", 
 # ---------------------------------------------------------------------------- #
 # Panel A
 # ---------------------------------------------------------------------------- #
-
 # ---------------------------------------------------------------------------- #
 # Acinetobacter sp.
 # ---------------------------------------------------------------------------- #
@@ -53,7 +63,7 @@ df_FQL_inc_yr$FQL_class <- factor(df_FQL_inc_yr$FQL_class, levels = c("S", "R", 
                        expand = c(0, 0), 
                        labels = scales::percent, breaks = seq(0, 1, 0.2), 
                        sec.axis = sec_axis( trans=~.*scale_sec_axis_vec[1])) +
-    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2008-01-01")), 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
                                                        to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
     theme_template_time() + 
@@ -289,7 +299,8 @@ df_FQL_inc_yr$FQL_class <- factor(df_FQL_inc_yr$FQL_class, levels = c("S", "R", 
                 linewidth=2) + 
     labs(color = "Fluoroquinolone susceptibility test result") + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
-    scale_x_date(date_labels = "%Y", breaks="2 years") + 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
+                                                       to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_y_continuous(name = "", 
                        limits = c(0, 1), 
                        expand = c(0, 0), 
@@ -329,7 +340,8 @@ df_FQL_inc_yr$FQL_class <- factor(df_FQL_inc_yr$FQL_class, levels = c("S", "R", 
                 linewidth=2) + 
     labs(color = "Fluoroquinolone susceptibility test result") + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
-    scale_x_date(date_labels = "%Y", breaks="2 years") + 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
+                                                       to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_y_continuous(name = "", 
                        limits = c(0, 1), 
                        expand = c(0, 0), 
@@ -369,7 +381,8 @@ df_FQL_inc_yr$FQL_class <- factor(df_FQL_inc_yr$FQL_class, levels = c("S", "R", 
                 linewidth=2) + 
     labs(color = "Fluoroquinolone susceptibility test result") + 
     scale_color_manual(values=susc_colors, labels = c("S", "R", "Missing")) + 
-    scale_x_date(date_labels = "%Y", breaks="2 years") + 
+    scale_x_date(date_labels = "%Y", breaks = seq.Date(from = as.Date(paste0("2007-01-01")), 
+                                                       to = as.Date(paste0("2022-12-31")), by = "2 years")) + 
     scale_y_continuous(name = "", 
                        limits = c(0, 1), 
                        expand = c(0, 0), 
@@ -407,10 +420,6 @@ final_plot <- ggpubr::annotate_figure(combined_plot,
           plot.background = element_rect(fill='transparent', color=NA), 
           legend.background = element_rect(fill='transparent', color=NA))
 
-# ggsave(final_plot, file="figures/mind_epidemics_figure3_FQL_res_prop_comb_plot.pdf", 
-#        bg='transparent',
-#        width=18, height=10)
-
 # ---------------------------------------------------------------------------- #
 # Panel B: FQL use
 # ---------------------------------------------------------------------------- #
@@ -440,6 +449,7 @@ FQL_use_overall_yr <- FQL_use$overall %>%
           strip.text = element_text(size=28, face="bold"), 
           plot.margin = margin(1.5,0,0,0, 'cm')))
 
+
 # ---------------------------------------------------------------------------- #
 # Panel C: FQL GEE results
 # ---------------------------------------------------------------------------- #
@@ -463,13 +473,14 @@ df_FQL_gee <- do.call("rbind", FQL_results) %>%
   mutate(time_period = factor(time_period, 
                               levels = c("pre-pandemic", "pandemic"), 
                               labels = c("2007-2019", "2020-2022")), 
-         organismofinterest = factor(organismofinterest, levels = bugs_ordered))
+         organismofinterest = factor(organismofinterest, levels = bugs_ordered),
+         type = factor(type, levels = c("Resistant phenotype", "Susceptible phenotype", "Resistance proportion")))
 
 # Plot 
 (FQL_GEE_results_plot <- ggplot(df_FQL_gee %>% filter(variable == "overall"), aes(x=time.trend, y=rev(time_period))) +
     facet_grid(rows=vars(organismofinterest), cols = vars(type), switch="y", scales = "free") + 
     geom_vline(xintercept = 0, linetype=2, linewidth=2., color="darkred")+ 
-    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, linetype=time_period, color=time_period), width=0., linewidth=2.5) +
+    geom_errorbar(aes(xmin=asymp.LCL, xmax=asymp.UCL, color=time_period), width=0., linewidth=2) +
     geom_point(aes(shape=time_period, fill=time_period, color = time_period), stroke=1, size=3.5) + 
     labs(x = "Average annual percentage change (%)", 
          linetype="Time period", 
@@ -492,6 +503,7 @@ df_FQL_gee <- do.call("rbind", FQL_results) %>%
           panel.grid.major = element_blank(), 
           plot.margin = margin(0.5,0,0,0, 'cm')))
 
+
 # ---------------------------------------------------------------------------- #
 # Combined plot for manuscript
 # ---------------------------------------------------------------------------- #
@@ -500,4 +512,5 @@ figure3 <- ggpubr::ggarrange(final_plot, FQL_GEE_results_plot, FQL_overall_yr_ba
                              heights = c(1.8, 1.5, 0.9),
                              labels="AUTO", font.label=list(size=30))
 ggsave(figure3, file="figures/mind_aim2-1_fig3ABC_FQL.pdf", width=20, height=30)
+ggsave(figure3, file="figures/mind_aim2-1_fig3ABC_FQL.eps", width=20, height=30)
 ggsave(figure3, file="figures/mind_aim2-1_fig3ABC_FQL.png", width=20, height=30)
