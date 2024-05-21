@@ -1,0 +1,7 @@
+"organismofinterest","time_period","variable","time.trend","asymp.LCL","asymp.UCL","gee_corstr","text","text.star"
+"Pseudomonas aeruginosa","pre-pandemic","overall",-10.1,-12.9,-7.1,"ar1","-10.1 (-12.9, -7.1)","-10.1 (-12.9, -7.1)*"
+"Pseudomonas aeruginosa","pandemic","overall",-13,-27.6,4.6,"ar1","-13 (-27.6, 4.6)","-13 (-27.6, 4.6)"
+"Pseudomonas aeruginosa","pre-pandemic","Community-onset",-10.5,-13.7,-7.1,"ar1","-10.5 (-13.7, -7.1)","-10.5 (-13.7, -7.1)*"
+"Pseudomonas aeruginosa","pandemic","Community-onset",-13.1,-29.9,7.9,"ar1","-13.1 (-29.9, 7.9)","-13.1 (-29.9, 7.9)"
+"Pseudomonas aeruginosa","pre-pandemic","Hospital-associated",-9.7,-12.3,-6.9,"ar1","-9.7 (-12.3, -6.9)","-9.7 (-12.3, -6.9)*"
+"Pseudomonas aeruginosa","pandemic","Hospital-associated",-12.9,-27.2,4.2,"ar1","-12.9 (-27.2, 4.2)","-12.9 (-27.2, 4.2)"

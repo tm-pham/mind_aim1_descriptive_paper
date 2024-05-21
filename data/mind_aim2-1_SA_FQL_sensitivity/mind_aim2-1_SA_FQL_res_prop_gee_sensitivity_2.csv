@@ -1,0 +1,7 @@
+"organismofinterest","time_period","variable","time.trend","asymp.LCL","asymp.UCL","gee_corstr","text","text.star"
+"Staphylococcus aureus","pre-pandemic","overall",-2.6,-4.6,-0.5,"ar1","-2.6 (-4.6, -0.5)","-2.6 (-4.6, -0.5)*"
+"Staphylococcus aureus","pandemic","overall",-11.6,-19,-3.6,"ar1","-11.6 (-19, -3.6)","-11.6 (-19, -3.6)*"
+"Staphylococcus aureus","pre-pandemic","Community-onset",-2.6,-4.8,-0.5,"ar1","-2.6 (-4.8, -0.5)","-2.6 (-4.8, -0.5)*"
+"Staphylococcus aureus","pandemic","Community-onset",-8.5,-16,-0.3,"ar1","-8.5 (-16, -0.3)","-8.5 (-16, -0.3)*"
+"Staphylococcus aureus","pre-pandemic","Hospital-associated",-2.5,-4.7,-0.3,"ar1","-2.5 (-4.7, -0.3)","-2.5 (-4.7, -0.3)*"
+"Staphylococcus aureus","pandemic","Hospital-associated",-14.6,-23.4,-4.9,"ar1","-14.6 (-23.4, -4.9)","-14.6 (-23.4, -4.9)*"
