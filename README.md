@@ -56,7 +56,7 @@ The files that were used for the GEE analysis are located in the folder `code`:
 `packages.R`: This file loads all necessary packages. <br>
 
 ## Data for GEE analysis
-Individual-level patient and facility data cannot be provided due to VA Privacy Practices. Data scaffolds, i.e., empty dataset with the column names present for the GEE analysis are provided in `data/data_scaffolds/`. They represent how the data used in the above runfile have to look like to run the analysis. Corresponding data dictionaries are provided in `data/data_dictionaries/`. 
+Individual-level patient and facility data cannot be provided due to VA Privacy Practices. Data scaffolds, i.e., empty dataset with the column names present for the GEE analysis are provided in `data/data_scaffolds/`. They represent the expected data structure for the previously described scripts for running the GEE analyses. Corresponding data dictionaries are provided in `data/data_dictionaries/`. 
 
 
 
