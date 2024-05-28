@@ -34,7 +34,7 @@ The files to reproduce the main figures 1-5 are located in the folder `code`. Th
 `mind_aim2-1_fig4_CPH03.R`<br>
 `mind_aim2-1_fig5_CPM.R`<br>
 
-### Figures for in appendix
+### Figures in appendix
 The remaining files are to reproduce the results in the appendix. 
 
 ### Helper functions
@@ -54,6 +54,9 @@ The files that were used for the GEE analysis are located in the folder `code`:
 `mind_aim2-1_function_df_inc.R`: This function is a helper function to compute the incidence of a pre-specified outcome. <br>
 `mind_aim2-1_function_aapc.R`: This function is a helper function to compute the AAPC based on the output of the GEE analysis. <br>
 `packages.R`: This file loads all necessary packages. <br>
+
+## Data for GEE analysis
+Individual-level patient and facility data cannot be provided due to VA Privacy Practices. Data scaffolds, i.e., empty dataset with the column names present for the GEE analysis are provided in `data/data_scaffolds/`. They represent how the data used in the above runfile have to look like to run the analysis. Corresponding data dictionaries are provided in `data/data_dictionaries/`. 
 
 
 
