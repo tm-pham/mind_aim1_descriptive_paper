@@ -22,7 +22,7 @@ We provide the code for
 - Main figures of the manuscript
 - reproducing the GEE analysis. 
 
-Individual-level patient data cannot be provided due to VA Privacy Practices. A data dictionary that represents the original data will be provided along with supporting documentation (statistical/analytic code) for the generalized estimating equations (GEE) analysis). The corresponding data and scripts can be found in the folders `data` and `code`, respectively. 
+Individual-level patient facility-level data cannot be provided due to VA Privacy Practices. A data dictionary that represents the original data will be provided along with supporting documentation (statistical/analytic code) for the generalized estimating equations (GEE) analysis). The corresponding data and scripts can be found in the folders `data` and `code`, respectively. 
 
 ## Code for reproducing figures
 ### Main figures
